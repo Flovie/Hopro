@@ -1,0 +1,500 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title>Horizon - Galaxie</title>
+		<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+		<meta name="DC.Format" content="text/html">
+		<meta name="DC.Language" content="de">
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="../pix/skins/default/cnt/shared.css">
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="../pix/skins/default/cnt/main.css">
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="../pix/skins/default/cnt/navigation/format.css">
+		<script src="../pix/skins/default/javascript/mainshared.js" type="text/javascript"></script>
+		<script src="../pix/skins/default/javascript/overlib/overlib.js" type="text/javascript"></script>
+		<meta name="viewport" content="width=800" />
+        
+  		<script type="text/javascript">
+  		var devices = new Array(); var mainVolumeSumDeliver=0; var mainVolumeSumSend=0;
+        var doc_load_called_first_time = true;
+        function doc_load() { // userexit. called by docloaded.
+            if (!doc_load_called_first_time) return;
+            doc_load_called_first_time = false;
+            
+            
+        }
+        </script>
+
+      </head>
+
+	<body onload="docloaded()">
+		<div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div>
+		
+		<div style="position: absolute; padding: 0px; margin: 0px; top: 2px; width: 100%; height: 100px; background-image: url(../pix/skins/default/top/background_kachel.gif); background-repeat: repeat-x; " ></div>
+		
+		<div style="padding: 0px; margin: 0px; width: 128px; position: absolute; background-image: url(../pix/skins/default/cnt/navigation/background.jpg); background-repeat: no-repeat; ">
+			<div class="ContainerActPlanet"><a href='#' class='mainswitch' onclick="javascript:jump_popup('planetTypeDetails', '&Mc8cd0c5d5a7aba86683dcc16063c8088=Mcbd60c44');lh_popup.focus();"><img src="../pix/skins/default/planets/STPL/pl_m_59.png" border="0" width="53" height="51" alt="Europa" title="Europa"></a></div>
+			<div class="ContainerNav">
+				<div id="gitter">
+					<div class="NavItem"><a href="../main/main.php?cmd=start" title="Übersicht" class="NavLink">Übersicht</a></div>
+					<div class="NavItem"><a href="../main/main.php?cmd=building" title="Gebäude" class="NavLink">Gebäude</a></div>
+					<div class="NavItem"><a href="../main/main.php?cmd=research" title="Forschung" class="NavLink">Forschung</a></div>
+					<div class="NavItem"><a href="../main/main.php?cmd=defence" title="Verteidigung" class="NavLink">Verteidigung</a></div>
+					<div class="NavItem"><a href="../main/main.php?cmd=shipyard" title="Raumschiffwerft" class="NavLink">Schiffswerft</a></div>
+					<div class="NavItem"><a href="../main/main.php?cmd=bunker" title="Bunker" class="NavLink">Bunker</a></div>
+					<div class="NavItem"><a href="../main/main.php?cmd=fleet" title="Flotte" class="NavLink">Flotte</a></div>
+					<div class="NavItem"><a href="../main/main.php?cmd=shrine" title="Schrein" class="NavLink">Schrein</a></div>
+					<div class="NavItem"><a href="../main/main.php?cmd=alliances" title="Allianzen" class="NavLink">Allianz</a></div>
+					<div class="NavItem"><a href="../main/main.php?cmd=trade" title="Handel" class="NavLink">Handel</a></div>
+					<div class="NavItem"><a href="../main/main.php?cmd=galaxy" title="Galaxieansicht" class="NavLinkActive">Galaxie</a></div>
+					<div class="NavItemEmpty">&nbsp;</div>
+					<div class="NavItem"><a href="../stat/index.php" target="lh_statnew" title="Statistik-Monitor" class="NavLink" onclick="javascript:jump_stat();lh_statnew.focus();">Statistik</a></div>
+					<div class="NavItem"><a href="http://stan.goetterheimat.de/index/statistics" target="lh_stan" title="Statistik" class="NavLink">Stan</a></div>
+					
+					<div class="NavItem"><a href="../main/main.php?cmd=message" title="Nachrichten" class="NavLink">Nachrichten</a></div>
+					<div class="NavItem"><a href="../../homepage/newspaper/index.php" title="Galaxy Magazin" target="lh_galamag" class="NavLink">Galaxy Mag.</a></div>
+					<div class="NavItemEmpty">&nbsp;</div>
+					<div class="NavItem"><a href="http://forum.horiversum.org/" target="_blank" title="Horizon-Forum" class="NavLink">Forum</a></div>
+					<div class="NavItem"><a href="http://wiki.horiversum.org/" target="_blank" title="Horizon-Wiki" class="NavLink">Wiki</a></div>
+					<div class="NavItem"><a href="irc://irc.horiversum.org:6667/#Horiversum" target="_blank" title="IRC: //irc.horiversum.org:6667/#Horiversum" class="NavLink">IRC</a></div>
+					<div class="NavItemEmpty">&nbsp;</div>
+					
+					<div class="NavItem"><a href="../main/main.php?cmd=account" title="Einstellungen" class="NavLink">Einstellungen</a></div>
+					<div class="NavItem"><a href="../main/main.php?cmd=impressum" title="Impressum" class="NavLink">Impressum</a></div>
+					<div class="NavItem"><a href="../main/main.php?cmd=logout" title="Logout" class="NavLink">Logout</a></div>
+				</div>
+			</div>
+			<div class="NavEnd"><div class="NavEndText"><a href="http://forum.horiversum.org/viewtopic.php?f=2&t=6" target="_new" title="Changelog"><font color="#FFFFFF">Version 0.72</font></a></div></div>
+
+		</div>
+
+		<div style="position: absolute; left: 128px; top: 0px; height: 160px; right: 0px; background-image: url(../pix/skins/default/cnt/top.jpg); background-repeat: no-repeat;">		
+			 <div style="min-width:671px;">
+				<div style="width:190px; height:90px; float:left;">
+	<select name="target" class="PlanetSelectBox" onChange="javascript:choosePlanet(this, 'galaxy', 'Mc8ce1d464f51a982683dce07');">
+		
+	<option value="M8c914e111015f0d239669350" SELECTED>Europa</option>
+
+	<option value="M8c914f191015f0d239669357" >Ganymed</option>
+
+	<option value="M8c914f1a1015f0d239669354" >Kallisto</option>
+
+	<option value="M8c914f1c1015f0d23966935360" >Amalthea</option>
+
+	<option value="M8c914e1f1015f0d23967935362" >Phobos</option>
+
+	<option value="M8c91481e1015f0d23964935361" >Charon</option>
+
+	</select>
+</div>
+				<div style="width:481px; height:90px; float:left;">
+					<table border="0" height="90" cellspacing="0" cellpadding="0" style="padding: 0px; margin: 0px; border: 0px;">
+						<tr>
+							<td height="34">
+								<div class="AccDescr">
+									<a href="#" class="ResName" onClick="javascript:jump_popup('userProfile', '&Mc8cd0c5d5a7abf996c21e006=M8c9049');lh_popup.focus();">Flovie</a> <span onmouseover="return overlib('Du wirst zur Zeit in den Strafregistern noch bis 11.06.2016, 22:54 als vorbestraft gef&uuml;hrt.<br>Solltest Du in dieser Zeit bei einer weiteren Straftat ertappt werden, so wirst Du kriminell.')" onmouseout="return nd();">(Bew&auml;hrung)</span> Platz 164 mit 372'863'475 Punkten
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td height="29" valign="top" align="left" style="padding: 0px; margin: 0px">
+								<img src="../pix/skins/default/top/ressources.gif" class="ResPics" height="24" width="290" border="0" >
+							</td>
+						</tr>
+						<tr>
+							<td height="30" valign="top" style="padding: 0px; margin: 0px">
+								<table border="0" width="481" height="30" cellspacing="0" cellpadding="0" style="padding: 0px; margin: 0px">
+									<tr height="16">
+										<td width="45"></td>
+										<td width="67" valign="top" style="padding: 0px; margin: 0px"><div class="ResName" onmouseover="return over_metal()" onmouseout="return nd();">Eisenerz</div></td>
+										<td width="67" valign="top" style="padding: 0px; margin: 0px"><div class="ResName" onmouseover="return over_crystal()" onmouseout="return nd();">Minerale</div></td>
+										<td width="67" valign="top" style="padding: 0px; margin: 0px"><div class="ResName" onmouseover="return over_fuel()" onmouseout="return nd();">Treibstoff</div></td>
+										<td width="67" valign="top" style="padding: 0px; margin: 0px"><div class="ResName" onmouseover="return over_population()" onmouseout="return nd();">Population</div></td>
+										<td width="67" valign="top" style="padding: 0px; margin: 0px"><div class="ResName" onmouseover="return over_energy()" onmouseout="return nd();">Energie</div></td>
+										<td width="99" valign="top" style="padding: 0px; margin: 0px"></td>
+									</tr>
+									<tr>
+										<td width="38"></td>
+										<td width="67" valign="top" style="padding: 0px; margin: 0px"><div class="ResMountSafe">795'402<br>(14'519/h)</div></td>
+										<td width="67" valign="top" style="padding: 0px; margin: 0px"><div class="ResMountSafe">205'688<br>(13'145/h)</div></td>
+										<td width="67" valign="top" style="padding: 0px; margin: 0px"><div class="ResMountSafe">269'881<br>(3'012/h)</div></td>
+										<td width="67" valign="top" style="padding: 0px; margin: 0px"><div class="ResMountWarn">4'509,9K<br>(320,2K)</div></td>
+										<td width="67" valign="top" style="padding: 0px; margin: 0px"><div class="ResMountNorm">17'518K<br>(6'092K)</div></td>
+										<td width="99" valign="top" style="padding: 0px; margin: 0px"></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div style="height:90px; margin:0px; "><div class="TickPlanetList">
+    <div class="TickPlanetEntry" onmouseover="return overlib('<table><tr><td>Eisen:</td><td align=\'right\'>795\'152</td></tr><tr><td>Mineral:</td><td align=\'right\'>205\'462</td></tr><tr><td>Treibstoff:</td><td align=\'right\'>269\'829</td></tr><tr><td colspan=\'2\'></td></tr></table>', CAPTION, '1:805:3 - Europa', STICKY, WIDTH, 210, VAUTO, CLOSETEXT, ' X ');" >
+        <div class="TickPlanetDiv">
+        	<a onClick="javascript:choosePlanetDirect(this, 'galaxy', 'Mc8ce1d464f51a982683dce07', 'M8c914e111015f0d239669350');" class="TickPlanetLink"  >
+        		<img src="../pix/skins/default/top/../planets/STPL/pl_btn_59.png" class="TickPlanetImage" />
+        	</a>
+        </div>
+        <div class="TickPlanetInfoBox">
+            <img src="../pix/skins/default/top/planet_weapon.gif" class="TickPlanetInfoInactive" style="left:0px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_shipyard.gif" class="TickPlanetInfoInactive" style="left:6px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_building.gif" class="TickPlanetInfoInactive" style="left:12px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_resources.gif" class="TickPlanetInfoInactive" style="left:0px; top:6px;" />
+            <img src="../pix/skins/default/top/planet_attack.gif" class="TickPlanetInfoInactive" style="left:6px; top:6px;" />
+            <img src="../pix/skins/default/top/planet_fleet.gif" class="TickPlanetInfoInactive" style="left:12px; top:6px;" />
+        </div>
+    </div>
+
+    <div class="TickPlanetEntry" onmouseover="return overlib('<table><tr><td>Eisen:</td><td align=\'right\'>639\'935</td></tr><tr><td>Mineral:</td><td align=\'right\'>459\'009</td></tr><tr><td>Treibstoff:</td><td align=\'right\'>254\'667</td></tr><tr><td colspan=\'2\'>B: Bauhof nicht ausgelastet.</td></tr></table>', CAPTION, '1:805:6 - Ganymed', STICKY, WIDTH, 210, VAUTO, CLOSETEXT, ' X ');" >
+        <div class="TickPlanetDiv">
+        	<a onClick="javascript:choosePlanetDirect(this, 'galaxy', 'Mc8ce1d464f51a982683dce07', 'M8c914f191015f0d239669357');" class="TickPlanetLink"  >
+        		<img src="../pix/skins/default/top/../planets/FOPL/pl_btn_15.png" class="TickPlanetImage" />
+        	</a>
+        </div>
+        <div class="TickPlanetInfoBox">
+            <img src="../pix/skins/default/top/planet_weapon.gif" class="TickPlanetInfoInactive" style="left:0px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_shipyard.gif" class="TickPlanetInfoInactive" style="left:6px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_building.gif" class="TickPlanetInfoActive" style="left:12px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_resources.gif" class="TickPlanetInfoInactive" style="left:0px; top:6px;" />
+            <img src="../pix/skins/default/top/planet_attack.gif" class="TickPlanetInfoInactive" style="left:6px; top:6px;" />
+            <img src="../pix/skins/default/top/planet_fleet.gif" class="TickPlanetInfoInactive" style="left:12px; top:6px;" />
+        </div>
+    </div>
+
+    <div class="TickPlanetEntry" onmouseover="return overlib('<table><tr><td>Eisen:</td><td align=\'right\'>700\'947</td></tr><tr><td>Mineral:</td><td align=\'right\'>447\'969</td></tr><tr><td>Treibstoff:</td><td align=\'right\'>145\'281</td></tr><tr><td colspan=\'2\'>S: Schiffswerft nicht ausgelastet.</td></tr><tr><td colspan=\'2\'>B: Bauhof nicht ausgelastet.</td></tr></table>', CAPTION, '1:805:7 - Kallisto', STICKY, WIDTH, 210, VAUTO, CLOSETEXT, ' X ');" >
+        <div class="TickPlanetDiv">
+        	<a onClick="javascript:choosePlanetDirect(this, 'galaxy', 'Mc8ce1d464f51a982683dce07', 'M8c914f1a1015f0d239669354');" class="TickPlanetLink"  >
+        		<img src="../pix/skins/default/top/../planets/FOPL/pl_btn_7.png" class="TickPlanetImage" />
+        	</a>
+        </div>
+        <div class="TickPlanetInfoBox">
+            <img src="../pix/skins/default/top/planet_weapon.gif" class="TickPlanetInfoInactive" style="left:0px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_shipyard.gif" class="TickPlanetInfoActive" style="left:6px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_building.gif" class="TickPlanetInfoActive" style="left:12px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_resources.gif" class="TickPlanetInfoInactive" style="left:0px; top:6px;" />
+            <img src="../pix/skins/default/top/planet_attack.gif" class="TickPlanetInfoInactive" style="left:6px; top:6px;" />
+            <img src="../pix/skins/default/top/planet_fleet.gif" class="TickPlanetInfoInactive" style="left:12px; top:6px;" />
+        </div>
+    </div>
+
+    <div class="TickPlanetEntry" onmouseover="return overlib('<table><tr><td>Eisen:</td><td align=\'right\'>20\'521</td></tr><tr><td>Mineral:</td><td align=\'right\'>11\'876</td></tr><tr><td>Treibstoff:</td><td align=\'right\'>10\'582</td></tr><tr><td colspan=\'2\'> W: Waffenfabrik nicht ausgelastet.</td></tr><tr><td colspan=\'2\'>S: Schiffswerft nicht ausgelastet.</td></tr><tr><td colspan=\'2\'>B: Bauhof nicht ausgelastet.</td></tr></table>', CAPTION, '1:805:13 - Amalthea', STICKY, WIDTH, 210, VAUTO, CLOSETEXT, ' X ');" >
+        <div class="TickPlanetDiv">
+        	<a onClick="javascript:choosePlanetDirect(this, 'galaxy', 'Mc8ce1d464f51a982683dce07', 'M8c914f1c1015f0d23966935360');" class="TickPlanetLink"  >
+        		<img src="../pix/skins/default/top/../planets/EOPL/pl_btn_29.png" class="TickPlanetImage" />
+        	</a>
+        </div>
+        <div class="TickPlanetInfoBox">
+            <img src="../pix/skins/default/top/planet_weapon.gif" class="TickPlanetInfoActive" style="left:0px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_shipyard.gif" class="TickPlanetInfoActive" style="left:6px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_building.gif" class="TickPlanetInfoActive" style="left:12px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_resources.gif" class="TickPlanetInfoInactive" style="left:0px; top:6px;" />
+            <img src="../pix/skins/default/top/planet_attack.gif" class="TickPlanetInfoInactive" style="left:6px; top:6px;" />
+            <img src="../pix/skins/default/top/planet_fleet.gif" class="TickPlanetInfoInactive" style="left:12px; top:6px;" />
+        </div>
+    </div>
+
+    <div class="TickPlanetEntry" onmouseover="return overlib('<table><tr><td>Eisen:</td><td align=\'right\'>272\'673</td></tr><tr><td>Mineral:</td><td align=\'right\'>389\'809</td></tr><tr><td>Treibstoff:</td><td align=\'right\'>187\'423</td></tr><tr><td colspan=\'2\'>B: Bauhof nicht ausgelastet.</td></tr></table>', CAPTION, '1:804:11 - Phobos', STICKY, WIDTH, 210, VAUTO, CLOSETEXT, ' X ');" >
+        <div class="TickPlanetDiv">
+        	<a onClick="javascript:choosePlanetDirect(this, 'galaxy', 'Mc8ce1d464f51a982683dce07', 'M8c914e1f1015f0d23967935362');" class="TickPlanetLink"  >
+        		<img src="../pix/skins/default/top/../planets/VUPL/pl_btn_31.png" class="TickPlanetImage" />
+        	</a>
+        </div>
+        <div class="TickPlanetInfoBox">
+            <img src="../pix/skins/default/top/planet_weapon.gif" class="TickPlanetInfoInactive" style="left:0px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_shipyard.gif" class="TickPlanetInfoInactive" style="left:6px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_building.gif" class="TickPlanetInfoActive" style="left:12px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_resources.gif" class="TickPlanetInfoInactive" style="left:0px; top:6px;" />
+            <img src="../pix/skins/default/top/planet_attack.gif" class="TickPlanetInfoInactive" style="left:6px; top:6px;" />
+            <img src="../pix/skins/default/top/planet_fleet.gif" class="TickPlanetInfoInactive" style="left:12px; top:6px;" />
+        </div>
+    </div>
+
+    <div class="TickPlanetEntry" onmouseover="return overlib('<table><tr><td>Eisen:</td><td align=\'right\'>143\'886</td></tr><tr><td>Mineral:</td><td align=\'right\'>104\'172</td></tr><tr><td>Treibstoff:</td><td align=\'right\'>127\'239</td></tr><tr><td colspan=\'2\'> W: Waffenfabrik nicht ausgelastet.</td></tr><tr><td colspan=\'2\'>S: Schiffswerft nicht ausgelastet.</td></tr></table>', CAPTION, '1:807:14 - Charon', STICKY, WIDTH, 210, VAUTO, CLOSETEXT, ' X ');" >
+        <div class="TickPlanetDiv">
+        	<a onClick="javascript:choosePlanetDirect(this, 'galaxy', 'Mc8ce1d464f51a982683dce07', 'M8c91481e1015f0d23964935361');" class="TickPlanetLink"  >
+        		<img src="../pix/skins/default/top/../planets/HYPL/pl_btn_50.png" class="TickPlanetImage" />
+        	</a>
+        </div>
+        <div class="TickPlanetInfoBox">
+            <img src="../pix/skins/default/top/planet_weapon.gif" class="TickPlanetInfoActive" style="left:0px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_shipyard.gif" class="TickPlanetInfoActive" style="left:6px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_building.gif" class="TickPlanetInfoInactive" style="left:12px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_resources.gif" class="TickPlanetInfoInactive" style="left:0px; top:6px;" />
+            <img src="../pix/skins/default/top/planet_attack.gif" class="TickPlanetInfoInactive" style="left:6px; top:6px;" />
+            <img src="../pix/skins/default/top/planet_fleet.gif" class="TickPlanetInfoInactive" style="left:12px; top:6px;" />
+        </div>
+    </div>
+</div></div>
+			</div>
+			<table cellspacing="0" cellpadding="0" border="0" width="672" height="45" style="padding:14px 0px 0px 0px;">
+				
+	<tr>
+		<td height="45" width="29"></td>
+		<td height="45" width="191" class="Monitor" valign="top">
+	<table cellspacing="0" cellpadding="0" border="0" width="191" height="45" onmouseover="return over_message_mon()" onmouseout="return nd();">
+		<tr>
+			<td width="20"></td>
+			<td width="146" class="Monitor_text" align="center"><b><a href="main.php?cmd=message&subcmd=Mcac70c475851b9" onFocus="this.blur()">Berichte</a>: 17/0/0<br><a href="main.php?cmd=message&subcmd=Md6c70b5b" onFocus="this.blur()">Nachrichten</a>: 17/0</b></td>
+			<td width="25"></td>
+		</tr>
+	</table>
+</td>
+		<td height="45" width="20"></td>
+		<td height="45" width="191" class="Monitor" valign="top">
+	<table cellspacing="0" cellpadding="0" border="0" width="191" height="45" onmouseover="return over_fleet_mon()" onmouseout="return nd();">
+		<tr>
+			<td width="20"></td>
+			<td width="146" class="Monitor_text" align="center"><b>Eigene Flotten: 12/1/6/0</b></td>
+			<td width="25"></td>
+		</tr>
+	</table>
+</td>
+		<td height="45" width="20"></td>
+		<td height="45" width="191" class="Monitor" valign="top">
+	<table cellspacing="0" cellpadding="0" border="0" width="191" height="45" onmouseover="return over_alliance_mon()" onmouseout="return nd();">
+		<tr>
+			<td width="20"></td>
+			<td width="146" class="Monitor_text" align="center"><b><a href="main.php?cmd=message&subcmd=Mdec4" onFocus="this.blur()">Buddies</a>: 2/0/0/0<br><a href="main.php?cmd=alliances" onFocus="this.blur()">Allianz</a>: 8/0/2/0</b></td>
+			<td width="25"></td>
+		</tr>
+	</table>
+</td>
+		<td height="45" width="30"></td>
+	</tr>
+
+			</table>
+		
+		
+		</div>
+
+
+
+		<div class="MainContainer">
+			
+	<form action="main.php" method="POST" enctype="multipart/form-data" class="GalForm">
+		<div class="GalaxyContainer2" align="center">
+			<table cellpadding="0" cellspacing="0" border="0" class="OrbitTable2">
+				<tr>
+					<td height="37" width="253" class="GalaxyNavBackground_left">
+						<table cellpadding="0" cellspacing="0" border="0" height="37" >
+							<tr>
+								<td>
+									<input type="image" src="../pix/skins/default/galaxy/galaxy_arrow_back.jpg" name="Mdfc310497547a981" tabindex="6" style="padding-left: 5px; padding-top: 1px;">
+										<select name="galaxy" tabindex="5" class="GalaxyInput" onChange="javascript:this.form.submit();">
+											
+	<option value="1" SELECTED="SELECTED">Green heart</option>
+
+	<option value="2" >Blue heaven</option>
+
+	<option value="3" >Ghost island</option>
+
+	<option value="4" >Deep water</option>
+
+	<option value="5" >Fire starter</option>
+
+	<option value="6" >Pantheon!</option>
+
+										</select>
+									<input type="image" src="../pix/skins/default/galaxy/galaxy_arrow_fwd.jpg" name="Mdfc310497543bd8e" tabindex="4">
+								</td>
+								<td>
+									<div style="width: 27px; height: 19px; margin-left: 16px; margin-top: -1px;">
+										<a href="main.php?cmd=galaxy&send=sent&subcmd=home" title="Zum aktuellen Planeten">
+											<img src="../pix/skins/default/galaxy/galaxy_home.gif"  border="0">
+										</a>
+									</div>
+								</td>
+								<td>
+									<div style="width: 27px; height: 16px; margin-left: 5px; margin-top: -1px;">
+										<a href="main.php?cmd=galaxy&send=sent&subcmd=map" title="Zur Kartendarstellung">
+											<img src="../pix/skins/default/galaxy/galaxy_map.gif" width="27" height="16" border="0">
+										</a>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</td>
+					
+	<td height="37" width="20">
+	<div style="position: absolute; top: 0px;">
+		<a href="main.php?cmd=galaxy&send=sent&subcmd=slot_add">
+			<img src="../pix/skins/default/galaxy/galaxy_bookmark_slot_empty.gif" width="20" height="36" align="top" border="0" onmouseover="return overlib('Klick fügt aktuelles System zu deinen Favoriten hinzu');" onmouseout="return nd();">
+		</a>
+		</div>
+	</td>
+
+					<td height="37" width="140" class="GalaxyNavBackground_right">
+						<table cellpadding="0" cellspacing="0" border="0" height="37">
+							<tr>
+								<td height="17" width="11"></td>
+								<td height="17"><input type="image" src="../pix/skins/default/galaxy/galaxy_arrow_back.jpg" name="Mcbdb0f5c7547a981"  tabindex="1"></td>
+								<td height="17" width="80"><div class="GalaNavGalaxy"><input type="text" name="system" value="784" class="SystemInput" maxlength="3" tabindex="2"></div></td>
+								<td height="17"><input type="image" src="../pix/skins/default/galaxy/galaxy_arrow_fwd.jpg" name="Mcbdb0f5c7543bd8e" tabindex="3"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<input type="hidden" name="cmd" value="galaxy">
+		<input type="hidden" name="send" value="sent">
+		<input type="hidden" name="subcmd" value="galaxy">
+		<input type="hidden" name="via" value="M">
+	</form>
+
+	<div class="GalaxyContainer">
+		<div class="GalaxyContainerHead">
+			<div class="GalaxyContainerHeadText">Gutuxos (System 1:784 entdeckt durch hille70)</div>
+		</div>
+		<div class="GalaxyContainerBodyBox">
+			<table cellpadding="0" cellspacing="0" border="0" class="OrbitTable">
+				
+	<tr class="OrbitTableHead">
+		<td width="20" height="23" valign="middle" align="center" class="OrbitHead">
+			<a onclick="javascript:openHelpWindow('../help/help.php?cmd=help&type=galaxy&class=Mffc31049525c&level=Mf9cc0f41494dbe');" target="lh_stat" href="../help/help.php?cmd=help&type=galaxy&class=Mffc31049525c&level=Mf9cc0f41494dbe">
+			?</a></td>
+		<td width="20" height="23" valign="middle" align="center" class="OrbitHead">&nbsp;</td>
+		<td width="130" height="23" valign="middle" align="center" class="OrbitHead">Planet</td>
+		<td width="140" height="23" valign="middle" align="center" class="OrbitHead">Herrscher</td>
+		<td width="70" height="23" valign="middle" align="center" class="OrbitHead">Allianz</td>
+		<td width="60" height="23" valign="middle" align="center" class="OrbitHead">Status</td>
+		<td width="170" height="23" valign="middle" align="center" class="OrbitHead">Aktionen</td>
+	</tr>
+
+	<tr>
+		<td width="20" height="23" valign="middle" align="center" class="OrbitCell">1</td>
+		<td width="40" height="23" valign="middle" align="left" class="OrbitCell" nowrap="nowrap"><a href='#' class='mainswitch' onclick="javascript:jump_popup('planetTypeDetails', '&Mc8cd0c5d5a7aba86683dcc16063c8088=Mf2f72c64');lh_popup.focus();"><img src="../pix/skins/default/planets/JUPL/pl_btn_45.png" border="0" width="18" height="18" alt="Dschungelplanet" title="Dschungelplanet"></a><img src="../pix/skins/default/galaxy/galaxy_debris_m.gif" border="0" width="21" height="23" alt=" ( Eisenerz: 67'153 Minerale: 5'470 )" title=" ( Eisenerz: 67'153 Minerale: 5'470 )"></td>
+		<td width="130" height="23" valign="middle" align="center" class="OrbitCell"><a href="../info/info.php?cmd=view_planet&main_p_id=4219&top_p_name=DSie&both_p_type=JUPL&frame=yes&top_coords=1:784:1" title="Über DSie" class="Galaxy_Link" target="lh_stat" onclick="javascript:window.open('../info/info.php?cmd=view_planet&main_p_id=4219&top_p_name=DSie&both_p_type=JUPL&frame=yes&top_coords=1:784:1', 'lh_stat', 'width=600, height=446, toolbar=no, location=no, directories=no, status=no, copyhistory=no');">DSie</a></td>
+		<td width="140" height="23" valign="middle" align="center" class="OrbitCell" onmouseover="return overlib('<b>153 </b> Gesetzestreu');" onmouseout="return nd();">Momentum<img src="../pix/skins/default/galaxy/galaxy_rank_5.png"></td>
+		<td width="70" height="23" valign="middle" align="left" class="OrbitCell" onmouseover="return overlib('Keiner Allianz zugehürig.');" onmouseout="return nd();"><table border="0" cellpadding="0" cellspacing="0"><tr><td class="" valign="middle"></td><td style="font: normal 11px Verdana" valign="middle" height="23">&nbsp;&nbsp;</td></tr></table></td>
+		<td width="60" height="23" valign="middle" align="center" class="OrbitCell">inactive</td>
+		<td width="150" height="23" valign="middle" align="right" class="OrbitCell"><a href="main.php?cmd=galaxy&send=sent&subcmd=view_spy&p_id=0" title="Planet erkunden oder ausspionieren"><img src="../pix/skins/default/galaxy/galaxy_spy.gif" border="0" width="19" height="19" alt="Planet erkunden oder ausspionieren" title="Planet erkunden oder ausspionieren" class="SystemGfxFormButton gw19 White OrbitActions "></a><a href="main.php?cmd=message&send=sent&subcmd=news&action=from_galaxy&user_id=23" title="Nachricht schreiben"><img src="../pix/skins/default/galaxy/galaxy_message.gif" border="0" width="19" height="19" alt="Nachricht schreiben" title="Nachricht schreiben" class="SystemGfxFormButton gw19 White OrbitActions "></a></td>
+	</tr>
+
+	<tr>
+		<td width="20" height="23" valign="middle" align="center" class="OrbitCell">2</td>
+		<td width="40" height="23" valign="middle" align="left" class="OrbitCell" nowrap="nowrap"><a href='#' class='mainswitch' onclick="javascript:jump_popup('planetTypeDetails', '&Mc8cd0c5d5a7aba86683dcc16063c8088=Mefe32c64');lh_popup.focus();"><img src="../pix/skins/default/planets/WAPL/pl_btn_29.png" border="0" width="18" height="18" alt="Wasserplanet" title="Wasserplanet"></a><img src="../pix/skins/default/galaxy/galaxy_debris_s.gif" border="0" width="21" height="23" alt=" ( Eisenerz: 4'233 Minerale: 224 )" title=" ( Eisenerz: 4'233 Minerale: 224 )"></td>
+		<td width="130" height="23" valign="middle" align="center" class="OrbitCell"><a href="../info/info.php?cmd=view_planet&main_p_id=4220&top_p_name=Gutuxos+II&both_p_type=WAPL&frame=yes&top_coords=1:784:2" title="Über Gutuxos II" class="Galaxy_Link" target="lh_stat" onclick="javascript:window.open('../info/info.php?cmd=view_planet&main_p_id=4220&top_p_name=Gutuxos+II&both_p_type=WAPL&frame=yes&top_coords=1:784:2', 'lh_stat', 'width=600, height=446, toolbar=no, location=no, directories=no, status=no, copyhistory=no');">Gutuxos II</a></td>
+		<td width="140" height="23" valign="middle" align="center" class="OrbitCell" onmouseover="return overlib('<b>212 </b> Gesetzestreu');" onmouseout="return nd();">hille70<img src="../pix/skins/default/galaxy/galaxy_rank_5.png"></td>
+		<td width="70" height="23" valign="middle" align="left" class="OrbitCell" onmouseover="return overlib('Keiner Allianz zugehürig.');" onmouseout="return nd();"><table border="0" cellpadding="0" cellspacing="0"><tr><td class="" valign="middle"></td><td style="font: normal 11px Verdana" valign="middle" height="23">&nbsp;&nbsp;</td></tr></table></td>
+		<td width="60" height="23" valign="middle" align="center" class="OrbitCell">active</td>
+		<td width="150" height="23" valign="middle" align="right" class="OrbitCell"><a href="main.php?cmd=galaxy&send=sent&subcmd=view_spy&p_id=1" title="Planet erkunden oder ausspionieren"><img src="../pix/skins/default/galaxy/galaxy_spy.gif" border="0" width="19" height="19" alt="Planet erkunden oder ausspionieren" title="Planet erkunden oder ausspionieren" class="SystemGfxFormButton gw19 White OrbitActions "></a><a href="main.php?cmd=message&send=sent&subcmd=news&action=from_galaxy&user_id=87" title="Nachricht schreiben"><img src="../pix/skins/default/galaxy/galaxy_message.gif" border="0" width="19" height="19" alt="Nachricht schreiben" title="Nachricht schreiben" class="SystemGfxFormButton gw19 White OrbitActions "></a></td>
+	</tr>
+
+	<tr>
+		<td width="20" height="23" valign="middle" align="center" class="OrbitCell">3</td>
+		<td width="40" height="23" valign="middle" align="left" class="OrbitCell" nowrap="nowrap">&nbsp;</td>
+		<td width="130" height="23" valign="middle" align="center" class="OrbitCell">&nbsp;</td>
+		<td width="270" height="23" valign="middle" align="center" colspan="3" class="OrbitCell">&nbsp;</td>
+		<td width="150" height="23" valign="middle" align="right" class="OrbitCell">&nbsp;</td>
+	</tr>
+
+	<tr>
+		<td width="20" height="23" valign="middle" align="center" class="OrbitCell">4</td>
+		<td width="40" height="23" valign="middle" align="left" class="OrbitCell" nowrap="nowrap"><a href='#' class='mainswitch' onclick="javascript:jump_popup('planetTypeDetails', '&Mc8cd0c5d5a7aba86683dcc16063c8088=Meae92c64');lh_popup.focus();"><img src="../pix/skins/default/planets/RKPL/pl_btn_0.png" border="0" width="18" height="18" alt="Felsenplanet" title="Felsenplanet"></a></td>
+		<td width="130" height="23" valign="middle" align="center" class="OrbitCell">GutuxosXI</td>
+		<td width="270" height="23" valign="middle" align="center" colspan="3" class="OrbitCell">&nbsp;</td>
+		<td width="150" height="23" valign="middle" align="right" class="OrbitCell"><img src="../pix/skins/default/galaxy/galaxy_empty.gif" border="0" width="19" height="19" alt="" title="" class="OrbitActions"><img src="../pix/skins/default/galaxy/galaxy_empty.gif" border="0" width="19" height="19" alt="" title="" class="OrbitActions"></td>
+	</tr>
+
+	<tr>
+		<td width="20" height="23" valign="middle" align="center" class="OrbitCell">5</td>
+		<td width="40" height="23" valign="middle" align="left" class="OrbitCell" nowrap="nowrap">&nbsp;</td>
+		<td width="130" height="23" valign="middle" align="center" class="OrbitCell">&nbsp;</td>
+		<td width="270" height="23" valign="middle" align="center" colspan="3" class="OrbitCell">&nbsp;</td>
+		<td width="150" height="23" valign="middle" align="right" class="OrbitCell">&nbsp;</td>
+	</tr>
+
+	<tr>
+		<td width="20" height="23" valign="middle" align="center" class="OrbitCell">6</td>
+		<td width="40" height="23" valign="middle" align="left" class="OrbitCell" nowrap="nowrap"><a href='#' class='mainswitch' onclick="javascript:jump_popup('planetTypeDetails', '&Mc8cd0c5d5a7aba86683dcc16063c8088=Mf2f72c64');lh_popup.focus();"><img src="../pix/skins/default/planets/JUPL/pl_btn_18.png" border="0" width="18" height="18" alt="Dschungelplanet" title="Dschungelplanet"></a></td>
+		<td width="130" height="23" valign="middle" align="center" class="OrbitCell"><a href="../info/info.php?cmd=view_planet&main_p_id=4221&top_p_name=Gutuxos+IV&both_p_type=JUPL&frame=yes&top_coords=1:784:6" title="Über Gutuxos IV" class="Galaxy_Link" target="lh_stat" onclick="javascript:window.open('../info/info.php?cmd=view_planet&main_p_id=4221&top_p_name=Gutuxos+IV&both_p_type=JUPL&frame=yes&top_coords=1:784:6', 'lh_stat', 'width=600, height=446, toolbar=no, location=no, directories=no, status=no, copyhistory=no');">Gutuxos IV</a></td>
+		<td width="140" height="23" valign="middle" align="center" class="OrbitCell" onmouseover="return overlib('<b>212 </b> Gesetzestreu');" onmouseout="return nd();">hille70<img src="../pix/skins/default/galaxy/galaxy_rank_5.png"></td>
+		<td width="70" height="23" valign="middle" align="left" class="OrbitCell" onmouseover="return overlib('Keiner Allianz zugehürig.');" onmouseout="return nd();"><table border="0" cellpadding="0" cellspacing="0"><tr><td class="" valign="middle"></td><td style="font: normal 11px Verdana" valign="middle" height="23">&nbsp;&nbsp;</td></tr></table></td>
+		<td width="60" height="23" valign="middle" align="center" class="OrbitCell">active</td>
+		<td width="150" height="23" valign="middle" align="right" class="OrbitCell"><a href="main.php?cmd=galaxy&send=sent&subcmd=view_spy&p_id=5" title="Planet erkunden oder ausspionieren"><img src="../pix/skins/default/galaxy/galaxy_spy.gif" border="0" width="19" height="19" alt="Planet erkunden oder ausspionieren" title="Planet erkunden oder ausspionieren" class="SystemGfxFormButton gw19 White OrbitActions "></a><a href="main.php?cmd=message&send=sent&subcmd=news&action=from_galaxy&user_id=87" title="Nachricht schreiben"><img src="../pix/skins/default/galaxy/galaxy_message.gif" border="0" width="19" height="19" alt="Nachricht schreiben" title="Nachricht schreiben" class="SystemGfxFormButton gw19 White OrbitActions "></a></td>
+	</tr>
+
+	<tr>
+		<td width="20" height="23" valign="middle" align="center" class="OrbitCell">7</td>
+		<td width="40" height="23" valign="middle" align="left" class="OrbitCell" nowrap="nowrap"><a href='#' class='mainswitch' onclick="javascript:jump_popup('planetTypeDetails', '&Mc8cd0c5d5a7aba86683dcc16063c8088=Mf1e12c64');lh_popup.focus();"><img src="../pix/skins/default/planets/ICPL/pl_btn_0.png" border="0" width="18" height="18" alt="Eisplanet" title="Eisplanet"></a><img src="../pix/skins/default/galaxy/galaxy_debris_m.gif" border="0" width="21" height="23" alt=" ( Eisenerz: 7'799 Minerale: 11'698 Treibstoff: 11'698 )" title=" ( Eisenerz: 7'799 Minerale: 11'698 Treibstoff: 11'698 )"></td>
+		<td width="130" height="23" valign="middle" align="center" class="OrbitCell">Gutuxos VII</td>
+		<td width="270" height="23" valign="middle" align="center" colspan="3" class="OrbitCell">&nbsp;</td>
+		<td width="150" height="23" valign="middle" align="right" class="OrbitCell"><img src="../pix/skins/default/galaxy/galaxy_empty.gif" border="0" width="19" height="19" alt="" title="" class="OrbitActions"><img src="../pix/skins/default/galaxy/galaxy_empty.gif" border="0" width="19" height="19" alt="" title="" class="OrbitActions"></td>
+	</tr>
+
+	<tr>
+		<td width="20" height="23" valign="middle" align="center" class="OrbitCell">8</td>
+		<td width="40" height="23" valign="middle" align="left" class="OrbitCell" nowrap="nowrap">&nbsp;</td>
+		<td width="130" height="23" valign="middle" align="center" class="OrbitCell">&nbsp;</td>
+		<td width="270" height="23" valign="middle" align="center" colspan="3" class="OrbitCell">&nbsp;</td>
+		<td width="150" height="23" valign="middle" align="right" class="OrbitCell">&nbsp;</td>
+	</tr>
+
+	<tr>
+		<td width="20" height="23" valign="middle" align="center" class="OrbitCell">9</td>
+		<td width="40" height="23" valign="middle" align="left" class="OrbitCell" nowrap="nowrap">&nbsp;</td>
+		<td width="130" height="23" valign="middle" align="center" class="OrbitCell">&nbsp;</td>
+		<td width="270" height="23" valign="middle" align="center" colspan="3" class="OrbitCell">&nbsp;</td>
+		<td width="150" height="23" valign="middle" align="right" class="OrbitCell">&nbsp;</td>
+	</tr>
+
+	<tr>
+		<td width="20" height="23" valign="middle" align="center" class="OrbitCell">10</td>
+		<td width="40" height="23" valign="middle" align="left" class="OrbitCell" nowrap="nowrap">&nbsp;</td>
+		<td width="130" height="23" valign="middle" align="center" class="OrbitCell">&nbsp;</td>
+		<td width="270" height="23" valign="middle" align="center" colspan="3" class="OrbitCell">&nbsp;</td>
+		<td width="150" height="23" valign="middle" align="right" class="OrbitCell">&nbsp;</td>
+	</tr>
+
+	<tr>
+		<td width="20" height="23" valign="middle" align="center" class="OrbitCell">11</td>
+		<td width="40" height="23" valign="middle" align="left" class="OrbitCell" nowrap="nowrap"><a href='#' class='mainswitch' onclick="javascript:jump_popup('planetTypeDetails', '&Mc8cd0c5d5a7aba86683dcc16063c8088=Mebf62c64');lh_popup.focus();"><img src="../pix/skins/default/planets/STPL/pl_btn_2.png" border="0" width="18" height="18" alt="Standard Planet" title="Standard Planet"></a></td>
+		<td width="130" height="23" valign="middle" align="center" class="OrbitCell"><a href="../info/info.php?cmd=view_planet&main_p_id=4222&top_p_name=Gutuxos+VI&both_p_type=STPL&frame=yes&top_coords=1:784:11" title="Über Gutuxos VI" class="Galaxy_Link" target="lh_stat" onclick="javascript:window.open('../info/info.php?cmd=view_planet&main_p_id=4222&top_p_name=Gutuxos+VI&both_p_type=STPL&frame=yes&top_coords=1:784:11', 'lh_stat', 'width=600, height=446, toolbar=no, location=no, directories=no, status=no, copyhistory=no');">Gutuxos VI</a></td>
+		<td width="140" height="23" valign="middle" align="center" class="OrbitCell" onmouseover="return overlib('<b>212 </b> Gesetzestreu');" onmouseout="return nd();">hille70<img src="../pix/skins/default/galaxy/galaxy_rank_5.png"></td>
+		<td width="70" height="23" valign="middle" align="left" class="OrbitCell" onmouseover="return overlib('Keiner Allianz zugehürig.');" onmouseout="return nd();"><table border="0" cellpadding="0" cellspacing="0"><tr><td class="" valign="middle"></td><td style="font: normal 11px Verdana" valign="middle" height="23">&nbsp;&nbsp;</td></tr></table></td>
+		<td width="60" height="23" valign="middle" align="center" class="OrbitCell">active</td>
+		<td width="150" height="23" valign="middle" align="right" class="OrbitCell"><a href="main.php?cmd=galaxy&send=sent&subcmd=view_spy&p_id=10" title="Planet erkunden oder ausspionieren"><img src="../pix/skins/default/galaxy/galaxy_spy.gif" border="0" width="19" height="19" alt="Planet erkunden oder ausspionieren" title="Planet erkunden oder ausspionieren" class="SystemGfxFormButton gw19 White OrbitActions "></a><a href="main.php?cmd=message&send=sent&subcmd=news&action=from_galaxy&user_id=87" title="Nachricht schreiben"><img src="../pix/skins/default/galaxy/galaxy_message.gif" border="0" width="19" height="19" alt="Nachricht schreiben" title="Nachricht schreiben" class="SystemGfxFormButton gw19 White OrbitActions "></a></td>
+	</tr>
+
+	<tr>
+		<td width="20" height="23" valign="middle" align="center" class="OrbitCell">12</td>
+		<td width="40" height="23" valign="middle" align="left" class="OrbitCell" nowrap="nowrap">&nbsp;</td>
+		<td width="130" height="23" valign="middle" align="center" class="OrbitCell">&nbsp;</td>
+		<td width="270" height="23" valign="middle" align="center" colspan="3" class="OrbitCell">&nbsp;</td>
+		<td width="150" height="23" valign="middle" align="right" class="OrbitCell">&nbsp;</td>
+	</tr>
+
+	<tr>
+		<td width="20" height="23" valign="middle" align="center" class="OrbitCell">13</td>
+		<td width="40" height="23" valign="middle" align="left" class="OrbitCell" nowrap="nowrap"><a href='#' class='mainswitch' onclick="javascript:jump_popup('planetTypeDetails', '&Mc8cd0c5d5a7aba86683dcc16063c8088=Mf1e12c64');lh_popup.focus();"><img src="../pix/skins/default/planets/ICPL/pl_btn_0.png" border="0" width="18" height="18" alt="Eisplanet" title="Eisplanet"></a><img src="../pix/skins/default/galaxy/galaxy_debris_m.gif" border="0" width="21" height="23" alt=" ( Eisenerz: 69'485 Minerale: 4'902 )" title=" ( Eisenerz: 69'485 Minerale: 4'902 )"></td>
+		<td width="130" height="23" valign="middle" align="center" class="OrbitCell">GutuxosXIII</td>
+		<td width="270" height="23" valign="middle" align="center" colspan="3" class="OrbitCell">&nbsp;</td>
+		<td width="150" height="23" valign="middle" align="right" class="OrbitCell"><img src="../pix/skins/default/galaxy/galaxy_empty.gif" border="0" width="19" height="19" alt="" title="" class="OrbitActions"><img src="../pix/skins/default/galaxy/galaxy_empty.gif" border="0" width="19" height="19" alt="" title="" class="OrbitActions"></td>
+	</tr>
+
+	<tr>
+		<td width="20" height="23" valign="middle" align="center" class="OrbitCell">14</td>
+		<td width="40" height="23" valign="middle" align="left" class="OrbitCell" nowrap="nowrap">&nbsp;</td>
+		<td width="130" height="23" valign="middle" align="center" class="OrbitCell">&nbsp;</td>
+		<td width="270" height="23" valign="middle" align="center" colspan="3" class="OrbitCell">&nbsp;</td>
+		<td width="150" height="23" valign="middle" align="right" class="OrbitCell">&nbsp;</td>
+	</tr>
+
+			</table>
+		</div>
+	</div>
+	
+	<br>
+
+		</div>
+
+        <div class="TickContainer">
+            <div class="TickCell" id="chatTarget" name="chatTarget"></div>
+            <form target="tickerfield" method="post" action="tickerfield.php" class="TickForm">
+                <div class="TickCellTop"><input type="text" name="message" id="message" class="TickInput" maxlength="75" /></div>
+                <div class="TickCellBottom"><input type="submit" value="An Allianz senden" class="TickButton" /></div>
+            </form>
+        </div>
+        <iframe id="tickerfield" name="tickerfield" src="tickerfield.php" style="width: 0px; height: 0px; border: 0px;"></iframe>
+		
+	</body>
+</html>

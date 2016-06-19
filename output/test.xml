@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<planets>
+    <planet id="1:810:10" updated="2016-06-11T15:54:55.430+02:00">
+        <name>test2</name>
+        <type>vulcano</type>
+        <owner>Dumm</owner>
+    </planet>
+    <planet id="1:805:10" updated="2016-06-11T15:54:55.406+02:00">
+        <name>test</name>
+        <type>ice</type>
+        <orbitalRessources updated="2016-06-11T15:54:55.406+02:00">
+            <iron>100</iron>
+        </orbitalRessources>
+    </planet>
+</planets>

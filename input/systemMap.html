@@ -1,0 +1,705 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title>Horizon - Galaxie</title>
+		<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+		<meta name="DC.Format" content="text/html">
+		<meta name="DC.Language" content="de">
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="../pix/skins/default/cnt/shared.css">
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="../pix/skins/default/cnt/main.css">
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="../pix/skins/default/cnt/navigation/format.css">
+		<script src="../pix/skins/default/javascript/mainshared.js" type="text/javascript"></script>
+		<script src="../pix/skins/default/javascript/overlib/overlib.js" type="text/javascript"></script>
+		<meta name="viewport" content="width=800" />
+        
+  		<script type="text/javascript">
+  		var devices = new Array(); var mainVolumeSumDeliver=0; var mainVolumeSumSend=0;
+        var doc_load_called_first_time = true;
+        function doc_load() { // userexit. called by docloaded.
+            if (!doc_load_called_first_time) return;
+            doc_load_called_first_time = false;
+            
+            
+        }
+        </script>
+
+      </head>
+
+	<body onload="docloaded()">
+		<div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div>
+		
+		<div style="position: absolute; padding: 0px; margin: 0px; top: 2px; width: 100%; height: 100px; background-image: url(../pix/skins/default/top/background_kachel.gif); background-repeat: repeat-x; " ></div>
+		
+		<div style="padding: 0px; margin: 0px; width: 128px; position: absolute; background-image: url(../pix/skins/default/cnt/navigation/background.jpg); background-repeat: no-repeat; ">
+			<div class="ContainerActPlanet"><a href='#' class='mainswitch' onclick="javascript:jump_popup('planetTypeDetails', '&Mdd6f21e91b061423aba17d604dcc176c=Mc86f21f0');lh_popup.focus();"><img src="../pix/skins/default/planets/EOPL/pl_m_29.png" border="0" width="53" height="51" alt="Amalthea" title="Amalthea"></a></div>
+			<div class="ContainerNav">
+				<div id="gitter">
+					<div class="NavItem"><a href="../main/main.php?cmd=start" title="Übersicht" class="NavLink">Übersicht</a></div>
+					<div class="NavItem"><a href="../main/main.php?cmd=building" title="Gebäude" class="NavLink">Gebäude</a></div>
+					<div class="NavItem"><a href="../main/main.php?cmd=research" title="Forschung" class="NavLink">Forschung</a></div>
+					<div class="NavItem"><a href="../main/main.php?cmd=defence" title="Verteidigung" class="NavLink">Verteidigung</a></div>
+					<div class="NavItem"><a href="../main/main.php?cmd=shipyard" title="Raumschiffwerft" class="NavLink">Schiffswerft</a></div>
+					<div class="NavItem"><a href="../main/main.php?cmd=bunker" title="Bunker" class="NavLink">Bunker</a></div>
+					<div class="NavItem"><a href="../main/main.php?cmd=fleet" title="Flotte" class="NavLink">Flotte</a></div>
+					<div class="NavItem"><a href="../main/main.php?cmd=shrine" title="Schrein" class="NavLink">Schrein</a></div>
+					<div class="NavItem"><a href="../main/main.php?cmd=alliances" title="Allianzen" class="NavLink">Allianz</a></div>
+					<div class="NavItem"><a href="../main/main.php?cmd=trade" title="Handel" class="NavLink">Handel</a></div>
+					<div class="NavItem"><a href="../main/main.php?cmd=galaxy" title="Galaxieansicht" class="NavLinkActive">Galaxie</a></div>
+					<div class="NavItemEmpty">&nbsp;</div>
+					<div class="NavItem"><a href="../stat/index.php" target="lh_statnew" title="Statistik-Monitor" class="NavLink" onclick="javascript:jump_stat();lh_statnew.focus();">Statistik</a></div>
+					<div class="NavItem"><a href="http://stan.goetterheimat.de/index/statistics" target="lh_stan" title="Statistik" class="NavLink">Stan</a></div>
+					
+					<div class="NavItem"><a href="../main/main.php?cmd=message" title="Nachrichten" class="NavLink">Nachrichten</a></div>
+					<div class="NavItem"><a href="../../homepage/newspaper/index.php" title="Galaxy Magazin" target="lh_galamag" class="NavLink">Galaxy Mag.</a></div>
+					<div class="NavItemEmpty">&nbsp;</div>
+					<div class="NavItem"><a href="http://forum.horiversum.org/" target="_blank" title="Horizon-Forum" class="NavLink">Forum</a></div>
+					<div class="NavItem"><a href="http://wiki.horiversum.org/" target="_blank" title="Horizon-Wiki" class="NavLink">Wiki</a></div>
+					<div class="NavItem"><a href="irc://irc.horiversum.org:6667/#Horiversum" target="_blank" title="IRC: //irc.horiversum.org:6667/#Horiversum" class="NavLink">IRC</a></div>
+					<div class="NavItemEmpty">&nbsp;</div>
+					
+					<div class="NavItem"><a href="../main/main.php?cmd=account" title="Einstellungen" class="NavLink">Einstellungen</a></div>
+					<div class="NavItem"><a href="../main/main.php?cmd=impressum" title="Impressum" class="NavLink">Impressum</a></div>
+					<div class="NavItem"><a href="../main/main.php?cmd=logout" title="Logout" class="NavLink">Logout</a></div>
+				</div>
+			</div>
+			<div class="NavEnd"><div class="NavEndText"><a href="http://forum.horiversum.org/viewtopic.php?f=2&t=6" target="_new" title="Changelog"><font color="#FFFFFF">Version 0.72</font></a></div></div>
+
+		</div>
+
+		<div style="position: absolute; left: 128px; top: 0px; height: 160px; right: 0px; background-image: url(../pix/skins/default/cnt/top.jpg); background-repeat: no-repeat;">		
+			 <div style="min-width:671px;">
+				<div style="width:190px; height:90px; float:left;">
+	<select name="target" class="PlanetSelectBox" onChange="javascript:choosePlanet(this, 'galaxy', 'Mdd6c30f20e2d0727aba17f71');">
+		
+	<option value="M993363a551695e77fafa2226" >Europa</option>
+
+	<option value="M993362ad51695e77fafa2221" >Ganymed</option>
+
+	<option value="M993362ae51695e77fafa2222" >Kallisto</option>
+
+	<option value="M993362a851695e77fafa22252b" SELECTED>Amalthea</option>
+
+	<option value="M993363ab51695e77fafb222529" >Phobos</option>
+
+	<option value="M993365aa51695e77faf822252a" >Charon</option>
+
+	</select>
+</div>
+				<div style="width:481px; height:90px; float:left;">
+					<table border="0" height="90" cellspacing="0" cellpadding="0" style="padding: 0px; margin: 0px; border: 0px;">
+						<tr>
+							<td height="34">
+								<div class="AccDescr">
+									<a href="#" class="ResName" onClick="javascript:jump_popup('userProfile', '&Mdd6f21e91b06113cafbd5170=M993264');lh_popup.focus();">Flovie</a> <span onmouseover="return overlib('Du wirst zur Zeit in den Strafregistern noch bis 15.06.2016, 00:56 als vorbestraft gef&uuml;hrt.<br>Solltest Du in dieser Zeit bei einer weiteren Straftat ertappt werden, so wirst Du kriminell.')" onmouseout="return nd();">(Bew&auml;hrung)</span> Platz 164 mit 394'932'106 Punkten
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td height="29" valign="top" align="left" style="padding: 0px; margin: 0px">
+								<img src="../pix/skins/default/top/ressources.gif" class="ResPics" height="24" width="290" border="0" >
+							</td>
+						</tr>
+						<tr>
+							<td height="30" valign="top" style="padding: 0px; margin: 0px">
+								<table border="0" width="481" height="30" cellspacing="0" cellpadding="0" style="padding: 0px; margin: 0px">
+									<tr height="16">
+										<td width="45"></td>
+										<td width="67" valign="top" style="padding: 0px; margin: 0px"><div class="ResName" onmouseover="return over_metal()" onmouseout="return nd();">Eisenerz</div></td>
+										<td width="67" valign="top" style="padding: 0px; margin: 0px"><div class="ResName" onmouseover="return over_crystal()" onmouseout="return nd();">Minerale</div></td>
+										<td width="67" valign="top" style="padding: 0px; margin: 0px"><div class="ResName" onmouseover="return over_fuel()" onmouseout="return nd();">Treibstoff</div></td>
+										<td width="67" valign="top" style="padding: 0px; margin: 0px"><div class="ResName" onmouseover="return over_population()" onmouseout="return nd();">Population</div></td>
+										<td width="67" valign="top" style="padding: 0px; margin: 0px"><div class="ResName" onmouseover="return over_energy()" onmouseout="return nd();">Energie</div></td>
+										<td width="99" valign="top" style="padding: 0px; margin: 0px"></td>
+									</tr>
+									<tr>
+										<td width="38"></td>
+										<td width="67" valign="top" style="padding: 0px; margin: 0px"><div class="ResMountSafe">80'231<br>(9'460/h)</div></td>
+										<td width="67" valign="top" style="padding: 0px; margin: 0px"><div class="ResMountSafe">46'983<br>(5'540/h)</div></td>
+										<td width="67" valign="top" style="padding: 0px; margin: 0px"><div class="ResMountSafe">46'999<br>(5'542/h)</div></td>
+										<td width="67" valign="top" style="padding: 0px; margin: 0px"><div class="ResMountWarn">1'393,1K<br>(72'290)</div></td>
+										<td width="67" valign="top" style="padding: 0px; margin: 0px"><div class="ResMountWarn">4'164,5K<br>(392,2K)</div></td>
+										<td width="99" valign="top" style="padding: 0px; margin: 0px"></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div style="height:90px; margin:0px; "><div class="TickPlanetList">
+    <div class="TickPlanetEntry" onmouseover="return overlib('<table><tr><td>Eisen:</td><td align=\'right\'>491\'500</td></tr><tr><td>Mineral:</td><td align=\'right\'>384\'977</td></tr><tr><td>Treibstoff:</td><td align=\'right\'>103\'973</td></tr><tr><td colspan=\'2\'></td></tr></table>', CAPTION, '1:805:3 - Europa', STICKY, WIDTH, 210, VAUTO, CLOSETEXT, ' X ');" >
+        <div class="TickPlanetDiv">
+        	<a onClick="javascript:choosePlanetDirect(this, 'galaxy', 'Mdd6c30f20e2d0727aba17f71', 'M993363a551695e77fafa2226');" class="TickPlanetLink"  >
+        		<img src="../pix/skins/default/top/../planets/STPL/pl_btn_59.png" class="TickPlanetImage" />
+        	</a>
+        </div>
+        <div class="TickPlanetInfoBox">
+            <img src="../pix/skins/default/top/planet_weapon.gif" class="TickPlanetInfoInactive" style="left:0px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_shipyard.gif" class="TickPlanetInfoInactive" style="left:6px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_building.gif" class="TickPlanetInfoInactive" style="left:12px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_resources.gif" class="TickPlanetInfoInactive" style="left:0px; top:6px;" />
+            <img src="../pix/skins/default/top/planet_attack.gif" class="TickPlanetInfoInactive" style="left:6px; top:6px;" />
+            <img src="../pix/skins/default/top/planet_fleet.gif" class="TickPlanetInfoInactive" style="left:12px; top:6px;" />
+        </div>
+    </div>
+
+    <div class="TickPlanetEntry" onmouseover="return overlib('<table><tr><td>Eisen:</td><td align=\'right\'>1\'040,8 K</td></tr><tr><td>Mineral:</td><td align=\'right\'>228\'346</td></tr><tr><td>Treibstoff:</td><td align=\'right\'>347\'494</td></tr><tr><td colspan=\'2\'></td></tr></table>', CAPTION, '1:805:6 - Ganymed', STICKY, WIDTH, 210, VAUTO, CLOSETEXT, ' X ');" >
+        <div class="TickPlanetDiv">
+        	<a onClick="javascript:choosePlanetDirect(this, 'galaxy', 'Mdd6c30f20e2d0727aba17f71', 'M993362ad51695e77fafa2221');" class="TickPlanetLink"  >
+        		<img src="../pix/skins/default/top/../planets/FOPL/pl_btn_15.png" class="TickPlanetImage" />
+        	</a>
+        </div>
+        <div class="TickPlanetInfoBox">
+            <img src="../pix/skins/default/top/planet_weapon.gif" class="TickPlanetInfoInactive" style="left:0px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_shipyard.gif" class="TickPlanetInfoInactive" style="left:6px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_building.gif" class="TickPlanetInfoInactive" style="left:12px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_resources.gif" class="TickPlanetInfoInactive" style="left:0px; top:6px;" />
+            <img src="../pix/skins/default/top/planet_attack.gif" class="TickPlanetInfoInactive" style="left:6px; top:6px;" />
+            <img src="../pix/skins/default/top/planet_fleet.gif" class="TickPlanetInfoInactive" style="left:12px; top:6px;" />
+        </div>
+    </div>
+
+    <div class="TickPlanetEntry" onmouseover="return overlib('<table><tr><td>Eisen:</td><td align=\'right\'>612\'473</td></tr><tr><td>Mineral:</td><td align=\'right\'>475\'052</td></tr><tr><td>Treibstoff:</td><td align=\'right\'>47\'245</td></tr><tr><td colspan=\'2\'></td></tr></table>', CAPTION, '1:805:7 - Kallisto', STICKY, WIDTH, 210, VAUTO, CLOSETEXT, ' X ');" >
+        <div class="TickPlanetDiv">
+        	<a onClick="javascript:choosePlanetDirect(this, 'galaxy', 'Mdd6c30f20e2d0727aba17f71', 'M993362ae51695e77fafa2222');" class="TickPlanetLink"  >
+        		<img src="../pix/skins/default/top/../planets/FOPL/pl_btn_7.png" class="TickPlanetImage" />
+        	</a>
+        </div>
+        <div class="TickPlanetInfoBox">
+            <img src="../pix/skins/default/top/planet_weapon.gif" class="TickPlanetInfoInactive" style="left:0px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_shipyard.gif" class="TickPlanetInfoInactive" style="left:6px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_building.gif" class="TickPlanetInfoInactive" style="left:12px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_resources.gif" class="TickPlanetInfoInactive" style="left:0px; top:6px;" />
+            <img src="../pix/skins/default/top/planet_attack.gif" class="TickPlanetInfoInactive" style="left:6px; top:6px;" />
+            <img src="../pix/skins/default/top/planet_fleet.gif" class="TickPlanetInfoInactive" style="left:12px; top:6px;" />
+        </div>
+    </div>
+
+    <div class="TickPlanetEntry" onmouseover="return overlib('<table><tr><td>Eisen:</td><td align=\'right\'>80\'200</td></tr><tr><td>Mineral:</td><td align=\'right\'>46\'965</td></tr><tr><td>Treibstoff:</td><td align=\'right\'>46\'981</td></tr><tr><td colspan=\'2\'> W: Waffenfabrik nicht ausgelastet.</td></tr><tr><td colspan=\'2\'>S: Schiffswerft nicht ausgelastet.</td></tr><tr><td colspan=\'2\'>B: Bauhof nicht ausgelastet.</td></tr></table>', CAPTION, '1:805:13 - Amalthea', STICKY, WIDTH, 210, VAUTO, CLOSETEXT, ' X ');" >
+        <div class="TickPlanetDiv">
+        	<a onClick="javascript:choosePlanetDirect(this, 'galaxy', 'Mdd6c30f20e2d0727aba17f71', 'M993362a851695e77fafa22252b');" class="TickPlanetLink"  >
+        		<img src="../pix/skins/default/top/../planets/EOPL/pl_btn_29.png" class="TickPlanetImage" />
+        	</a>
+        </div>
+        <div class="TickPlanetInfoBox">
+            <img src="../pix/skins/default/top/planet_weapon.gif" class="TickPlanetInfoActive" style="left:0px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_shipyard.gif" class="TickPlanetInfoActive" style="left:6px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_building.gif" class="TickPlanetInfoActive" style="left:12px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_resources.gif" class="TickPlanetInfoInactive" style="left:0px; top:6px;" />
+            <img src="../pix/skins/default/top/planet_attack.gif" class="TickPlanetInfoInactive" style="left:6px; top:6px;" />
+            <img src="../pix/skins/default/top/planet_fleet.gif" class="TickPlanetInfoInactive" style="left:12px; top:6px;" />
+        </div>
+    </div>
+
+    <div class="TickPlanetEntry" onmouseover="return overlib('<table><tr><td>Eisen:</td><td align=\'right\'>178\'729</td></tr><tr><td>Mineral:</td><td align=\'right\'>216\'485</td></tr><tr><td>Treibstoff:</td><td align=\'right\'>146\'261</td></tr><tr><td colspan=\'2\'>B: Bauhof nicht ausgelastet.</td></tr></table>', CAPTION, '1:804:11 - Phobos', STICKY, WIDTH, 210, VAUTO, CLOSETEXT, ' X ');" >
+        <div class="TickPlanetDiv">
+        	<a onClick="javascript:choosePlanetDirect(this, 'galaxy', 'Mdd6c30f20e2d0727aba17f71', 'M993363ab51695e77fafb222529');" class="TickPlanetLink"  >
+        		<img src="../pix/skins/default/top/../planets/VUPL/pl_btn_31.png" class="TickPlanetImage" />
+        	</a>
+        </div>
+        <div class="TickPlanetInfoBox">
+            <img src="../pix/skins/default/top/planet_weapon.gif" class="TickPlanetInfoInactive" style="left:0px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_shipyard.gif" class="TickPlanetInfoInactive" style="left:6px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_building.gif" class="TickPlanetInfoActive" style="left:12px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_resources.gif" class="TickPlanetInfoInactive" style="left:0px; top:6px;" />
+            <img src="../pix/skins/default/top/planet_attack.gif" class="TickPlanetInfoInactive" style="left:6px; top:6px;" />
+            <img src="../pix/skins/default/top/planet_fleet.gif" class="TickPlanetInfoInactive" style="left:12px; top:6px;" />
+        </div>
+    </div>
+
+    <div class="TickPlanetEntry" onmouseover="return overlib('<table><tr><td>Eisen:</td><td align=\'right\'>27\'997</td></tr><tr><td>Mineral:</td><td align=\'right\'>70\'467</td></tr><tr><td>Treibstoff:</td><td align=\'right\'>403\'556</td></tr><tr><td colspan=\'2\'> W: Waffenfabrik nicht ausgelastet.</td></tr><tr><td colspan=\'2\'>S: Schiffswerft nicht ausgelastet.</td></tr></table>', CAPTION, '1:807:14 - Charon', STICKY, WIDTH, 210, VAUTO, CLOSETEXT, ' X ');" >
+        <div class="TickPlanetDiv">
+        	<a onClick="javascript:choosePlanetDirect(this, 'galaxy', 'Mdd6c30f20e2d0727aba17f71', 'M993365aa51695e77faf822252a');" class="TickPlanetLink"  >
+        		<img src="../pix/skins/default/top/../planets/HYPL/pl_btn_50.png" class="TickPlanetImage" />
+        	</a>
+        </div>
+        <div class="TickPlanetInfoBox">
+            <img src="../pix/skins/default/top/planet_weapon.gif" class="TickPlanetInfoActive" style="left:0px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_shipyard.gif" class="TickPlanetInfoActive" style="left:6px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_building.gif" class="TickPlanetInfoInactive" style="left:12px; top:0px;" />
+            <img src="../pix/skins/default/top/planet_resources.gif" class="TickPlanetInfoInactive" style="left:0px; top:6px;" />
+            <img src="../pix/skins/default/top/planet_attack.gif" class="TickPlanetInfoInactive" style="left:6px; top:6px;" />
+            <img src="../pix/skins/default/top/planet_fleet.gif" class="TickPlanetInfoInactive" style="left:12px; top:6px;" />
+        </div>
+    </div>
+</div></div>
+			</div>
+			<table cellspacing="0" cellpadding="0" border="0" width="672" height="45" style="padding:14px 0px 0px 0px;">
+				
+	<tr>
+		<td height="45" width="29"></td>
+		<td height="45" width="191" class="Monitor" valign="top">
+	<table cellspacing="0" cellpadding="0" border="0" width="191" height="45" onmouseover="return over_message_mon()" onmouseout="return nd();">
+		<tr>
+			<td width="20"></td>
+			<td width="146" class="Monitor_text" align="center"><b><a href="main.php?cmd=message&subcmd=Mdf6521f3192d17" onFocus="this.blur()">Berichte</a>: 17/0/0<br><a href="main.php?cmd=message&subcmd=Mc36526ef" onFocus="this.blur()">Nachrichten</a>: 22/0</b></td>
+			<td width="25"></td>
+		</tr>
+	</table>
+</td>
+		<td height="45" width="20"></td>
+		<td height="45" width="191" class="Monitor" valign="top">
+	<table cellspacing="0" cellpadding="0" border="0" width="191" height="45" onmouseover="return over_fleet_mon()" onmouseout="return nd();">
+		<tr>
+			<td width="20"></td>
+			<td width="146" class="Monitor_text" align="center"><b>Eigene Flotten: 14/1/8/0<br>Anfliegende Flotten: 1/0</b></td>
+			<td width="25">
+	<img src="../pix/skins/default/top/res_monitor_lamb_yellow_2.gif" border="0">
+</td>
+		</tr>
+	</table>
+</td>
+		<td height="45" width="20"></td>
+		<td height="45" width="191" class="Monitor" valign="top">
+	<table cellspacing="0" cellpadding="0" border="0" width="191" height="45" onmouseover="return over_alliance_mon()" onmouseout="return nd();">
+		<tr>
+			<td width="20"></td>
+			<td width="146" class="Monitor_text" align="center"><b><a href="main.php?cmd=message&subcmd=Mcb66" onFocus="this.blur()">Buddies</a>: 2/0/0/0<br><a href="main.php?cmd=alliances" onFocus="this.blur()">Allianz</a>: 8/0/1/0</b></td>
+			<td width="25"></td>
+		</tr>
+	</table>
+</td>
+		<td height="45" width="30"></td>
+	</tr>
+
+			</table>
+		
+		
+		</div>
+
+
+
+		<div class="MainContainer">
+			
+	<form action="main.php" method="POST" enctype="multipart/form-data" class="GalForm">
+		<div class="GalaxyContainer2" align="center">
+			<table cellpadding="0" cellspacing="0" border="0" class="OrbitTable2">
+				<tr>
+					<td height="37" width="253" class="GalaxyNavBackground_left">
+						<table cellpadding="0" cellspacing="0" border="0" height="37" >
+							<tr>
+								<td>
+									<input type="image" src="../pix/skins/default/galaxy/galaxy_arrow_back.jpg" name="Mca613dfd343b0724" tabindex="6" style="padding-left: 5px; padding-top: 1px;">
+										<select name="galaxy" tabindex="5" class="GalaxyInput" onChange="javascript:this.form.submit();">
+											
+	<option value="1" SELECTED="SELECTED">Green heart</option>
+
+	<option value="2" >Blue heaven</option>
+
+	<option value="3" >Ghost island</option>
+
+	<option value="4" >Deep water</option>
+
+	<option value="5" >Fire starter</option>
+
+	<option value="6" >Pantheon!</option>
+
+										</select>
+									<input type="image" src="../pix/skins/default/galaxy/galaxy_arrow_fwd.jpg" name="Mca613dfd343f132b" tabindex="4">
+								</td>
+								<td>
+									<div style="width: 27px; height: 19px; margin-left: 16px; margin-top: -1px;">
+										<a href="main.php?cmd=galaxy&send=sent&subcmd=home" title="Zum aktuellen Planeten">
+											<img src="../pix/skins/default/galaxy/galaxy_home.gif"  border="0">
+										</a>
+									</div>
+								</td>
+								<td>
+									<div style="width: 27px; height: 16px; margin-left: 5px; margin-top: -1px;">
+										<a href="main.php?cmd=galaxy&send=sent&subcmd=map" title="Zur Kartendarstellung">
+											<img src="../pix/skins/default/galaxy/galaxy_map.gif" width="27" height="16" border="0">
+										</a>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</td>
+					
+	<td height="37" width="20">
+	<div style="position: absolute; top: 0px;">
+		<a href="main.php?cmd=galaxy&send=sent&subcmd=slot_add">
+			<img src="../pix/skins/default/galaxy/galaxy_bookmark_slot_empty.gif" width="20" height="36" align="top" border="0" onmouseover="return overlib('Klick fügt aktuelles System zu deinen Favoriten hinzu');" onmouseout="return nd();">
+		</a>
+		</div>
+	</td>
+
+					<td height="37" width="140" class="GalaxyNavBackground_right">
+						<table cellpadding="0" cellspacing="0" border="0" height="37">
+							<tr>
+								<td height="17" width="11"></td>
+								<td height="17"><input type="image" src="../pix/skins/default/galaxy/galaxy_arrow_back.jpg" name="Mde7922e8343b0724"  tabindex="1"></td>
+								<td height="17" width="80"><div class="GalaNavGalaxy"><input type="text" name="system" value="805" class="SystemInput" maxlength="3" tabindex="2"></div></td>
+								<td height="17"><input type="image" src="../pix/skins/default/galaxy/galaxy_arrow_fwd.jpg" name="Mde7922e8343f132b" tabindex="3"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<input type="hidden" name="cmd" value="galaxy">
+		<input type="hidden" name="send" value="sent">
+		<input type="hidden" name="subcmd" value="galaxy">
+		<input type="hidden" name="via" value="M">
+	</form>
+
+	<div class="GalaxyContainer">
+		<div class="GalaxyContainerHead">
+			<div class="GalaxyContainerHeadText">Galaktische Karte
+	<select name="filter" class="GalaxyContainerHeadSelect" onChange="javascript:chooseView('galaxy', this);">
+			<option value="Me34f1fd9" SELECTED>Keine Bereichsanzeige</option>
+	<option value="Mee4f1dd32510211c" >Kolonien</option>
+	<option value="Mfe4310d239182a088f" >Observatoriumsreichweite</option>
+	<option value="Mf95210d82e0b25018d8a" >Handelsreichweite</option>
+	<option value="Mec4c1dd52a17270a" >Allianz</option>
+	<option value="Me94103d72e17211d8d96" >Dunkle Energie</option>
+	<option value="Me95902d3250a34078f9d5d" >Dyson Sphäre</option>
+	<option value="Meb4c14d93f100a3bbaa3797a7cc1067bc9393c5d34dbf2422726879b012db31d6615cccbc0" >Flotte : Intplanetarer Transport Amalthea</option>
+
+	</select>
+</div>
+		</div>
+		<div class="GalaxyMapContainerBodyBox" style="overflow:hidden">
+			<div style="position:relative">
+				
+				
+	<div class="GalaxyFleetShadow" style="left:339px; top:187px">X Kallisto Att</div>
+	<div class="GalaxyFleetShadow" style="left:339px; top:189px">X Kallisto Att</div>
+	<div class="GalaxyFleetShadow" style="left:338px; top:187px">X Kallisto Att</div>
+	<div class="GalaxyFleetShadow" style="left:338px; top:188px">X Kallisto Att</div>
+	<div class="GalaxyFleetShadow" style="left:338px; top:189px">X Kallisto Att</div>
+	<div class="GalaxyFleetShadow" style="left:340px; top:187px">X Kallisto Att</div>
+	<div class="GalaxyFleetShadow" style="left:340px; top:188px">X Kallisto Att</div>
+	<div class="GalaxyFleetShadow" style="left:340px; top:189px">X Kallisto Att</div>
+	<div class="GalaxyFleetLink" onmouseover="return overlib('<b>X Kallisto Att</b><br>Heimathafen : 1:805:7<br>Von : 1:822:13<br>Nach : 1:805:7<br>Auftrag : Rückkehr<br>');" onmouseout="return nd();" style="left:339px; top:188px;">X Kallisto Att</div>
+
+	<img class="GalaxySystemStar" src="../pix/skins/default/galaxy/stars/star_0_2_0.png" style="left:-11px; top:115px;" />
+	<div class="GalaxySystemShadow" style="left:0px; top:115px; text-align:left">Yoteirun</div>
+	<div class="GalaxySystemShadow" style="left:0px; top:117px; text-align:left">Yoteirun</div>
+	<div class="GalaxySystemShadow" style="left:-1px; top:115px; text-align:left">Yoteirun</div>
+	<div class="GalaxySystemShadow" style="left:-1px; top:116px; text-align:left">Yoteirun</div>
+	<div class="GalaxySystemShadow" style="left:-1px; top:117px; text-align:left">Yoteirun</div>
+	<div class="GalaxySystemShadow" style="left:1px; top:115px; text-align:left">Yoteirun</div>
+	<div class="GalaxySystemShadow" style="left:1px; top:116px; text-align:left">Yoteirun</div>
+	<div class="GalaxySystemShadow" style="left:1px; top:117px; text-align:left">Yoteirun</div>
+	<a href="main.php?cmd=galaxy&send=sent&subcmd=map&system=M9a3965" class="GalaxySystemLink" onmouseover="return overlib('<table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' style=\'font: normal 9px Verdana; color:#000000\'><tr><td>System<td>&nbsp;:&nbsp;<td>1:794 - Yoteirun<tr><td>Entfernung<td>&nbsp;:&nbsp;<td>332,96 LJ<tr><td>Position<td>&nbsp;:&nbsp;<td>272,20 / -1\'521,97<tr><td>Status<td>&nbsp;:&nbsp;<td>Erforscht<tr><td>Planeten<td>&nbsp;:&nbsp;<td>5<tr><td>Entdecker<td>&nbsp;:&nbsp;<td>Sauron</table>');" onmouseout="return nd();" style="left:0px; top:116px; text-align:left">Yoteirun</a>
+
+	<img class="GalaxySystemStar" src="../pix/skins/default/galaxy/stars/star_0_3_0.png" style="left:19px; top:118px;" />
+	<div class="GalaxySystemShadow" style="left:30px; top:118px; text-align:left">Vumon</div>
+	<div class="GalaxySystemShadow" style="left:30px; top:120px; text-align:left">Vumon</div>
+	<div class="GalaxySystemShadow" style="left:29px; top:118px; text-align:left">Vumon</div>
+	<div class="GalaxySystemShadow" style="left:29px; top:119px; text-align:left">Vumon</div>
+	<div class="GalaxySystemShadow" style="left:29px; top:120px; text-align:left">Vumon</div>
+	<div class="GalaxySystemShadow" style="left:31px; top:118px; text-align:left">Vumon</div>
+	<div class="GalaxySystemShadow" style="left:31px; top:119px; text-align:left">Vumon</div>
+	<div class="GalaxySystemShadow" style="left:31px; top:120px; text-align:left">Vumon</div>
+	<a href="main.php?cmd=galaxy&send=sent&subcmd=map&system=M9a3964" class="GalaxySystemLinkColonized" onmouseover="return overlib('<table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' style=\'font: normal 9px Verdana; color:#000000\'><tr><td>System<td>&nbsp;:&nbsp;<td>1:795 - Vumon<tr><td>Entfernung<td>&nbsp;:&nbsp;<td>302,89 LJ<tr><td>Position<td>&nbsp;:&nbsp;<td>302,19 / -1\'518,79<tr><td>Status<td>&nbsp;:&nbsp;<td>Erforscht<tr><td>Planeten<td>&nbsp;:&nbsp;<td>5<tr><td>Kolonien<td>&nbsp;:&nbsp;<td>1<tr><td>Entdecker<td>&nbsp;:&nbsp;<td>Sauron<tr><td>Herrscher<td>&nbsp;:&nbsp;<td>balou</table>');" onmouseout="return nd();" style="left:30px; top:119px; text-align:left">Vumon</a>
+
+	<img class="GalaxySystemStar" src="../pix/skins/default/galaxy/stars/star_0_4_0.png" style="left:47px; top:127px;" />
+	<div class="GalaxySystemShadow" style="left:58px; top:127px; text-align:left">Pecot</div>
+	<div class="GalaxySystemShadow" style="left:58px; top:129px; text-align:left">Pecot</div>
+	<div class="GalaxySystemShadow" style="left:57px; top:127px; text-align:left">Pecot</div>
+	<div class="GalaxySystemShadow" style="left:57px; top:128px; text-align:left">Pecot</div>
+	<div class="GalaxySystemShadow" style="left:57px; top:129px; text-align:left">Pecot</div>
+	<div class="GalaxySystemShadow" style="left:59px; top:127px; text-align:left">Pecot</div>
+	<div class="GalaxySystemShadow" style="left:59px; top:128px; text-align:left">Pecot</div>
+	<div class="GalaxySystemShadow" style="left:59px; top:129px; text-align:left">Pecot</div>
+	<a href="main.php?cmd=galaxy&send=sent&subcmd=map&system=M9a3967" class="GalaxySystemLinkColonized" onmouseover="return overlib('<table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' style=\'font: normal 9px Verdana; color:#000000\'><tr><td>System<td>&nbsp;:&nbsp;<td>1:796 - Pecot<tr><td>Entfernung<td>&nbsp;:&nbsp;<td>272,99 LJ<tr><td>Position<td>&nbsp;:&nbsp;<td>330,91 / -1\'509,52<tr><td>Status<td>&nbsp;:&nbsp;<td>Erforscht<tr><td>Planeten<td>&nbsp;:&nbsp;<td>7<tr><td>Kolonien<td>&nbsp;:&nbsp;<td>1<tr><td>Entdecker<td>&nbsp;:&nbsp;<td>Sauron<tr><td>Herrscher<td>&nbsp;:&nbsp;<td>killmeplease</table>');" onmouseout="return nd();" style="left:58px; top:128px; text-align:left">Pecot</a>
+
+	<img class="GalaxySystemStar" src="../pix/skins/default/galaxy/stars/star_0_5_0.png" style="left:78px; top:126px;" />
+	<div class="GalaxySystemShadow" style="left:89px; top:126px; text-align:left">Biloides</div>
+	<div class="GalaxySystemShadow" style="left:89px; top:128px; text-align:left">Biloides</div>
+	<div class="GalaxySystemShadow" style="left:88px; top:126px; text-align:left">Biloides</div>
+	<div class="GalaxySystemShadow" style="left:88px; top:127px; text-align:left">Biloides</div>
+	<div class="GalaxySystemShadow" style="left:88px; top:128px; text-align:left">Biloides</div>
+	<div class="GalaxySystemShadow" style="left:90px; top:126px; text-align:left">Biloides</div>
+	<div class="GalaxySystemShadow" style="left:90px; top:127px; text-align:left">Biloides</div>
+	<div class="GalaxySystemShadow" style="left:90px; top:128px; text-align:left">Biloides</div>
+	<a href="main.php?cmd=galaxy&send=sent&subcmd=map&system=M9a3966" class="GalaxySystemLinkColonized" onmouseover="return overlib('<table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' style=\'font: normal 9px Verdana; color:#000000\'><tr><td>System<td>&nbsp;:&nbsp;<td>1:797 - Biloides<tr><td>Entfernung<td>&nbsp;:&nbsp;<td>242,68 LJ<tr><td>Position<td>&nbsp;:&nbsp;<td>361,85 / -1\'510,20<tr><td>Status<td>&nbsp;:&nbsp;<td>Erforscht<tr><td>Planeten<td>&nbsp;:&nbsp;<td>6<tr><td>Kolonien<td>&nbsp;:&nbsp;<td>2<tr><td>Entdecker<td>&nbsp;:&nbsp;<td>Sauron<tr><td>Herrscher<td>&nbsp;:&nbsp;<td>Aldo the Apache</table>');" onmouseout="return nd();" style="left:89px; top:127px; text-align:left">Biloides</a>
+
+	<img class="GalaxySystemStar" src="../pix/skins/default/galaxy/stars/star_0_6_0.png" style="left:109px; top:129px;" />
+	<div class="GalaxySystemShadow" style="left:20px; top:139px; text-align:right">41% Junge!</div>
+	<div class="GalaxySystemShadow" style="left:20px; top:141px; text-align:right">41% Junge!</div>
+	<div class="GalaxySystemShadow" style="left:19px; top:139px; text-align:right">41% Junge!</div>
+	<div class="GalaxySystemShadow" style="left:19px; top:140px; text-align:right">41% Junge!</div>
+	<div class="GalaxySystemShadow" style="left:19px; top:141px; text-align:right">41% Junge!</div>
+	<div class="GalaxySystemShadow" style="left:21px; top:139px; text-align:right">41% Junge!</div>
+	<div class="GalaxySystemShadow" style="left:21px; top:140px; text-align:right">41% Junge!</div>
+	<div class="GalaxySystemShadow" style="left:21px; top:141px; text-align:right">41% Junge!</div>
+	<a href="main.php?cmd=galaxy&send=sent&subcmd=map&system=M9a3969" class="GalaxySystemLink" onmouseover="return overlib('<table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' style=\'font: normal 9px Verdana; color:#000000\'><tr><td>System<td>&nbsp;:&nbsp;<td>1:798 - 41% Junge!<tr><td>Entfernung<td>&nbsp;:&nbsp;<td>212,45 LJ<tr><td>Position<td>&nbsp;:&nbsp;<td>392,08 / -1\'507,12<tr><td>Status<td>&nbsp;:&nbsp;<td>Erforscht<tr><td>Planeten<td>&nbsp;:&nbsp;<td>5<tr><td>Entdecker<td>&nbsp;:&nbsp;<td>Sauron</table>');" onmouseout="return nd();" style="left:20px; top:140px; text-align:right">41% Junge!</a>
+
+	<img class="GalaxySystemStar" src="../pix/skins/default/galaxy/stars/star_0_7_0.png" style="left:137px; top:138px;" />
+	<div class="GalaxySystemShadow" style="left:148px; top:138px; text-align:left">Ziorora</div>
+	<div class="GalaxySystemShadow" style="left:148px; top:140px; text-align:left">Ziorora</div>
+	<div class="GalaxySystemShadow" style="left:147px; top:138px; text-align:left">Ziorora</div>
+	<div class="GalaxySystemShadow" style="left:147px; top:139px; text-align:left">Ziorora</div>
+	<div class="GalaxySystemShadow" style="left:147px; top:140px; text-align:left">Ziorora</div>
+	<div class="GalaxySystemShadow" style="left:149px; top:138px; text-align:left">Ziorora</div>
+	<div class="GalaxySystemShadow" style="left:149px; top:139px; text-align:left">Ziorora</div>
+	<div class="GalaxySystemShadow" style="left:149px; top:140px; text-align:left">Ziorora</div>
+	<a href="main.php?cmd=galaxy&send=sent&subcmd=map&system=M9a3968" class="GalaxySystemLink" onmouseover="return overlib('<table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' style=\'font: normal 9px Verdana; color:#000000\'><tr><td>System<td>&nbsp;:&nbsp;<td>1:799 - Ziorora<tr><td>Entfernung<td>&nbsp;:&nbsp;<td>182,46 LJ<tr><td>Position<td>&nbsp;:&nbsp;<td>420,97 / -1\'498,76<tr><td>Status<td>&nbsp;:&nbsp;<td>Erforscht<tr><td>Planeten<td>&nbsp;:&nbsp;<td>5<tr><td>Entdecker<td>&nbsp;:&nbsp;<td>Sauron</table>');" onmouseout="return nd();" style="left:148px; top:139px; text-align:left">Ziorora</a>
+
+	<img class="GalaxySystemStar" src="../pix/skins/default/galaxy/stars/star_0_0_0.png" style="left:169px; top:137px;" />
+	<div class="GalaxySystemShadow" style="left:80px; top:147px; text-align:right">Terra</div>
+	<div class="GalaxySystemShadow" style="left:80px; top:149px; text-align:right">Terra</div>
+	<div class="GalaxySystemShadow" style="left:79px; top:147px; text-align:right">Terra</div>
+	<div class="GalaxySystemShadow" style="left:79px; top:148px; text-align:right">Terra</div>
+	<div class="GalaxySystemShadow" style="left:79px; top:149px; text-align:right">Terra</div>
+	<div class="GalaxySystemShadow" style="left:81px; top:147px; text-align:right">Terra</div>
+	<div class="GalaxySystemShadow" style="left:81px; top:148px; text-align:right">Terra</div>
+	<div class="GalaxySystemShadow" style="left:81px; top:149px; text-align:right">Terra</div>
+	<a href="main.php?cmd=galaxy&send=sent&subcmd=map&system=M953061" class="GalaxySystemLinkColonized" onmouseover="return overlib('<table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' style=\'font: normal 9px Verdana; color:#000000\'><tr><td>System<td>&nbsp;:&nbsp;<td>1:800 - Terra<tr><td>Entfernung<td>&nbsp;:&nbsp;<td>151,80 LJ<tr><td>Position<td>&nbsp;:&nbsp;<td>452,54 / -1\'499,45<tr><td>Status<td>&nbsp;:&nbsp;<td>Erforscht<tr><td>Planeten<td>&nbsp;:&nbsp;<td>6<tr><td>Kolonien<td>&nbsp;:&nbsp;<td>3<tr><td>Entdecker<td>&nbsp;:&nbsp;<td>Sauron<tr><td>Herrscher<td>&nbsp;:&nbsp;<td>Kaiser von Terra</table>');" onmouseout="return nd();" style="left:80px; top:148px; text-align:right">Terra</a>
+
+	<img class="GalaxySystemStar" src="../pix/skins/default/galaxy/stars/star_0_1_0.png" style="left:199px; top:144px;" />
+	<div class="GalaxySystemShadow" style="left:210px; top:144px; text-align:left">Cantina Band</div>
+	<div class="GalaxySystemShadow" style="left:210px; top:146px; text-align:left">Cantina Band</div>
+	<div class="GalaxySystemShadow" style="left:209px; top:144px; text-align:left">Cantina Band</div>
+	<div class="GalaxySystemShadow" style="left:209px; top:145px; text-align:left">Cantina Band</div>
+	<div class="GalaxySystemShadow" style="left:209px; top:146px; text-align:left">Cantina Band</div>
+	<div class="GalaxySystemShadow" style="left:211px; top:144px; text-align:left">Cantina Band</div>
+	<div class="GalaxySystemShadow" style="left:211px; top:145px; text-align:left">Cantina Band</div>
+	<div class="GalaxySystemShadow" style="left:211px; top:146px; text-align:left">Cantina Band</div>
+	<a href="main.php?cmd=galaxy&send=sent&subcmd=map&system=M953060" class="GalaxySystemLinkColonized" onmouseover="return overlib('<table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' style=\'font: normal 9px Verdana; color:#000000\'><tr><td>System<td>&nbsp;:&nbsp;<td>1:801 - Cantina Band<tr><td>Entfernung<td>&nbsp;:&nbsp;<td>121,51 LJ<tr><td>Position<td>&nbsp;:&nbsp;<td>482,14 / -1\'492,97<tr><td>Status<td>&nbsp;:&nbsp;<td>Erforscht<tr><td>Planeten<td>&nbsp;:&nbsp;<td>7<tr><td>Kolonien<td>&nbsp;:&nbsp;<td>3<tr><td>Entdecker<td>&nbsp;:&nbsp;<td>Momentum<tr><td>Herrscher<td>&nbsp;:&nbsp;<td>Momentum<tr><td>Dyson Sphäre<td>&nbsp;:&nbsp;<td>0,0000 / 0,0142</table>');" onmouseout="return nd();" style="left:210px; top:145px; text-align:left">Cantina Band</a>
+
+	<img class="GalaxySystemStar" src="../pix/skins/default/galaxy/stars/star_0_2_0.png" style="left:226px; top:157px;" />
+	<div class="GalaxySystemShadow" style="left:137px; top:167px; text-align:right">Hira</div>
+	<div class="GalaxySystemShadow" style="left:137px; top:169px; text-align:right">Hira</div>
+	<div class="GalaxySystemShadow" style="left:136px; top:167px; text-align:right">Hira</div>
+	<div class="GalaxySystemShadow" style="left:136px; top:168px; text-align:right">Hira</div>
+	<div class="GalaxySystemShadow" style="left:136px; top:169px; text-align:right">Hira</div>
+	<div class="GalaxySystemShadow" style="left:138px; top:167px; text-align:right">Hira</div>
+	<div class="GalaxySystemShadow" style="left:138px; top:168px; text-align:right">Hira</div>
+	<div class="GalaxySystemShadow" style="left:138px; top:169px; text-align:right">Hira</div>
+	<a href="main.php?cmd=galaxy&send=sent&subcmd=map&system=M953063" class="GalaxySystemLink" onmouseover="return overlib('<table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' style=\'font: normal 9px Verdana; color:#000000\'><tr><td>System<td>&nbsp;:&nbsp;<td>1:802 - Hira<tr><td>Entfernung<td>&nbsp;:&nbsp;<td>92,03 LJ<tr><td>Position<td>&nbsp;:&nbsp;<td>509,32 / -1\'479,23<tr><td>Status<td>&nbsp;:&nbsp;<td>Erforscht<tr><td>Planeten<td>&nbsp;:&nbsp;<td>6<tr><td>Entdecker<td>&nbsp;:&nbsp;<td>Sauron</table>');" onmouseout="return nd();" style="left:137px; top:168px; text-align:right">Hira</a>
+
+	<img class="GalaxySystemStar" src="../pix/skins/default/galaxy/stars/star_0_3_0.png" style="left:256px; top:162px;" />
+	<div class="GalaxySystemShadow" style="left:267px; top:162px; text-align:left">Roimega</div>
+	<div class="GalaxySystemShadow" style="left:267px; top:164px; text-align:left">Roimega</div>
+	<div class="GalaxySystemShadow" style="left:266px; top:162px; text-align:left">Roimega</div>
+	<div class="GalaxySystemShadow" style="left:266px; top:163px; text-align:left">Roimega</div>
+	<div class="GalaxySystemShadow" style="left:266px; top:164px; text-align:left">Roimega</div>
+	<div class="GalaxySystemShadow" style="left:268px; top:162px; text-align:left">Roimega</div>
+	<div class="GalaxySystemShadow" style="left:268px; top:163px; text-align:left">Roimega</div>
+	<div class="GalaxySystemShadow" style="left:268px; top:164px; text-align:left">Roimega</div>
+	<a href="main.php?cmd=galaxy&send=sent&subcmd=map&system=M953062" class="GalaxySystemLinkColonized" onmouseover="return overlib('<table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' style=\'font: normal 9px Verdana; color:#000000\'><tr><td>System<td>&nbsp;:&nbsp;<td>1:803 - Roimega<tr><td>Entfernung<td>&nbsp;:&nbsp;<td>61,48 LJ<tr><td>Position<td>&nbsp;:&nbsp;<td>539,44 / -1\'474,14<tr><td>Status<td>&nbsp;:&nbsp;<td>Erforscht<tr><td>Planeten<td>&nbsp;:&nbsp;<td>6<tr><td>Kolonien<td>&nbsp;:&nbsp;<td>1<tr><td>Entdecker<td>&nbsp;:&nbsp;<td>Sauron<tr><td>Herrscher<td>&nbsp;:&nbsp;<td>alialbakschisch</table>');" onmouseout="return nd();" style="left:267px; top:163px; text-align:left">Roimega</a>
+
+	<img class="GalaxySystemStar" src="../pix/skins/default/galaxy/stars/star_0_4_0.png" style="left:286px; top:168px;" />
+	<div class="GalaxySystemShadow" style="left:197px; top:178px; text-align:right">Yugnus</div>
+	<div class="GalaxySystemShadow" style="left:197px; top:180px; text-align:right">Yugnus</div>
+	<div class="GalaxySystemShadow" style="left:196px; top:178px; text-align:right">Yugnus</div>
+	<div class="GalaxySystemShadow" style="left:196px; top:179px; text-align:right">Yugnus</div>
+	<div class="GalaxySystemShadow" style="left:196px; top:180px; text-align:right">Yugnus</div>
+	<div class="GalaxySystemShadow" style="left:198px; top:178px; text-align:right">Yugnus</div>
+	<div class="GalaxySystemShadow" style="left:198px; top:179px; text-align:right">Yugnus</div>
+	<div class="GalaxySystemShadow" style="left:198px; top:180px; text-align:right">Yugnus</div>
+	<a href="main.php?cmd=galaxy&send=sent&subcmd=map&system=M953065" class="GalaxySystemLinkColonized" onmouseover="return overlib('<table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' style=\'font: normal 9px Verdana; color:#000000\'><tr><td>System<td>&nbsp;:&nbsp;<td>1:804 - Yugnus<tr><td>Entfernung<td>&nbsp;:&nbsp;<td>30,85 LJ<tr><td>Position<td>&nbsp;:&nbsp;<td>569,56 / -1\'468,56<tr><td>Status<td>&nbsp;:&nbsp;<td>Erforscht<tr><td>Planeten<td>&nbsp;:&nbsp;<td>6<tr><td>Kolonien<td>&nbsp;:&nbsp;<td>1<tr><td>Entdecker<td>&nbsp;:&nbsp;<td>Sauron<tr><td>Herrscher<td>&nbsp;:&nbsp;<td>Flovie</table>');" onmouseout="return nd();" style="left:197px; top:179px; text-align:right">Yugnus</a>
+
+	<img class="GalaxySystemStar" src="../pix/skins/default/galaxy/stars/star_0_5_0.png" style="left:316px; top:173px;" />
+	<div class="GalaxySystemShadowCurrent" style="left:327px; top:173px; text-align:left">Neniit</div>
+	<div class="GalaxySystemShadowCurrent" style="left:327px; top:175px; text-align:left">Neniit</div>
+	<div class="GalaxySystemShadowCurrent" style="left:326px; top:173px; text-align:left">Neniit</div>
+	<div class="GalaxySystemShadowCurrent" style="left:326px; top:174px; text-align:left">Neniit</div>
+	<div class="GalaxySystemShadowCurrent" style="left:326px; top:175px; text-align:left">Neniit</div>
+	<div class="GalaxySystemShadowCurrent" style="left:328px; top:173px; text-align:left">Neniit</div>
+	<div class="GalaxySystemShadowCurrent" style="left:328px; top:174px; text-align:left">Neniit</div>
+	<div class="GalaxySystemShadowCurrent" style="left:328px; top:175px; text-align:left">Neniit</div>
+	<a href="main.php?cmd=galaxy&send=sent&subcmd=map&system=M953064" class="GalaxySystemLinkColonized" onmouseover="return overlib('<table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' style=\'font: normal 9px Verdana; color:#000000\'><tr><td>System<td>&nbsp;:&nbsp;<td>1:805 - Neniit<tr><td>Entfernung<td>&nbsp;:&nbsp;<td>0,00 LJ<tr><td>Position<td>&nbsp;:&nbsp;<td>599,93 / -1\'463,13<tr><td>Status<td>&nbsp;:&nbsp;<td>Erforscht<tr><td>Planeten<td>&nbsp;:&nbsp;<td>6<tr><td>Kolonien<td>&nbsp;:&nbsp;<td>4<tr><td>Entdecker<td>&nbsp;:&nbsp;<td>Sauron<tr><td>Herrscher<td>&nbsp;:&nbsp;<td>Flovie<tr><td>Flotte<td>&nbsp;:&nbsp;<td>CNSV 1<tr><td>Flotte<td>&nbsp;:&nbsp;<td>CNSV 2</table>');" onmouseout="return nd();" style="left:327px; top:174px; text-align:left">Neniit</a>
+
+	<img class="GalaxySystemStar" src="../pix/skins/default/galaxy/stars/star_0_6_0.png" style="left:342px; top:191px;" />
+	<div class="GalaxySystemShadow" style="left:253px; top:201px; text-align:right">Cyrophon</div>
+	<div class="GalaxySystemShadow" style="left:253px; top:203px; text-align:right">Cyrophon</div>
+	<div class="GalaxySystemShadow" style="left:252px; top:201px; text-align:right">Cyrophon</div>
+	<div class="GalaxySystemShadow" style="left:252px; top:202px; text-align:right">Cyrophon</div>
+	<div class="GalaxySystemShadow" style="left:252px; top:203px; text-align:right">Cyrophon</div>
+	<div class="GalaxySystemShadow" style="left:254px; top:201px; text-align:right">Cyrophon</div>
+	<div class="GalaxySystemShadow" style="left:254px; top:202px; text-align:right">Cyrophon</div>
+	<div class="GalaxySystemShadow" style="left:254px; top:203px; text-align:right">Cyrophon</div>
+	<a href="main.php?cmd=galaxy&send=sent&subcmd=map&system=M953067" class="GalaxySystemLinkColonized" onmouseover="return overlib('<table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' style=\'font: normal 9px Verdana; color:#000000\'><tr><td>System<td>&nbsp;:&nbsp;<td>1:806 - Cyrophon<tr><td>Entfernung<td>&nbsp;:&nbsp;<td>30,88 LJ<tr><td>Position<td>&nbsp;:&nbsp;<td>625,18 / -1\'445,36<tr><td>Status<td>&nbsp;:&nbsp;<td>Erforscht<tr><td>Planeten<td>&nbsp;:&nbsp;<td>6<tr><td>Kolonien<td>&nbsp;:&nbsp;<td>2<tr><td>Entdecker<td>&nbsp;:&nbsp;<td>Sauron<tr><td>Herrscher<td>&nbsp;:&nbsp;<td>polotano</table>');" onmouseout="return nd();" style="left:253px; top:202px; text-align:right">Cyrophon</a>
+
+	<img class="GalaxySystemStar" src="../pix/skins/default/galaxy/stars/star_0_7_0.png" style="left:372px; top:198px;" />
+	<div class="GalaxySystemShadow" style="left:383px; top:198px; text-align:left">Berarza</div>
+	<div class="GalaxySystemShadow" style="left:383px; top:200px; text-align:left">Berarza</div>
+	<div class="GalaxySystemShadow" style="left:382px; top:198px; text-align:left">Berarza</div>
+	<div class="GalaxySystemShadow" style="left:382px; top:199px; text-align:left">Berarza</div>
+	<div class="GalaxySystemShadow" style="left:382px; top:200px; text-align:left">Berarza</div>
+	<div class="GalaxySystemShadow" style="left:384px; top:198px; text-align:left">Berarza</div>
+	<div class="GalaxySystemShadow" style="left:384px; top:199px; text-align:left">Berarza</div>
+	<div class="GalaxySystemShadow" style="left:384px; top:200px; text-align:left">Berarza</div>
+	<a href="main.php?cmd=galaxy&send=sent&subcmd=map&system=M953066" class="GalaxySystemLinkColonized" onmouseover="return overlib('<table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' style=\'font: normal 9px Verdana; color:#000000\'><tr><td>System<td>&nbsp;:&nbsp;<td>1:807 - Berarza<tr><td>Entfernung<td>&nbsp;:&nbsp;<td>60,42 LJ<tr><td>Position<td>&nbsp;:&nbsp;<td>655,27 / -1\'438,90<tr><td>Status<td>&nbsp;:&nbsp;<td>Erforscht<tr><td>Planeten<td>&nbsp;:&nbsp;<td>7<tr><td>Kolonien<td>&nbsp;:&nbsp;<td>6<tr><td>Entdecker<td>&nbsp;:&nbsp;<td>polotano<tr><td>Herrscher<td>&nbsp;:&nbsp;<td>polotano<tr><td>Dyson Sphäre<td>&nbsp;:&nbsp;<td>0,0000 / 0,0094</table>');" onmouseout="return nd();" style="left:383px; top:199px; text-align:left">Berarza</a>
+
+	<img class="GalaxySystemStar" src="../pix/skins/default/galaxy/stars/star_0_0_0.png" style="left:402px; top:203px;" />
+	<div class="GalaxySystemShadow" style="left:313px; top:213px; text-align:right">Gutair</div>
+	<div class="GalaxySystemShadow" style="left:313px; top:215px; text-align:right">Gutair</div>
+	<div class="GalaxySystemShadow" style="left:312px; top:213px; text-align:right">Gutair</div>
+	<div class="GalaxySystemShadow" style="left:312px; top:214px; text-align:right">Gutair</div>
+	<div class="GalaxySystemShadow" style="left:312px; top:215px; text-align:right">Gutair</div>
+	<div class="GalaxySystemShadow" style="left:314px; top:213px; text-align:right">Gutair</div>
+	<div class="GalaxySystemShadow" style="left:314px; top:214px; text-align:right">Gutair</div>
+	<div class="GalaxySystemShadow" style="left:314px; top:215px; text-align:right">Gutair</div>
+	<a href="main.php?cmd=galaxy&send=sent&subcmd=map&system=M953069" class="GalaxySystemLinkColonized" onmouseover="return overlib('<table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' style=\'font: normal 9px Verdana; color:#000000\'><tr><td>System<td>&nbsp;:&nbsp;<td>1:808 - Gutair<tr><td>Entfernung<td>&nbsp;:&nbsp;<td>91,10 LJ<tr><td>Position<td>&nbsp;:&nbsp;<td>685,99 / -1\'433,26<tr><td>Status<td>&nbsp;:&nbsp;<td>Erforscht<tr><td>Planeten<td>&nbsp;:&nbsp;<td>5<tr><td>Kolonien<td>&nbsp;:&nbsp;<td>1<tr><td>Entdecker<td>&nbsp;:&nbsp;<td>Sauron<tr><td>Herrscher<td>&nbsp;:&nbsp;<td>polotano</table>');" onmouseout="return nd();" style="left:313px; top:214px; text-align:right">Gutair</a>
+
+	<img class="GalaxySystemStar" src="../pix/skins/default/galaxy/stars/star_0_1_0.png" style="left:431px; top:214px;" />
+	<div class="GalaxySystemShadow" style="left:442px; top:214px; text-align:left">Soxognus</div>
+	<div class="GalaxySystemShadow" style="left:442px; top:216px; text-align:left">Soxognus</div>
+	<div class="GalaxySystemShadow" style="left:441px; top:214px; text-align:left">Soxognus</div>
+	<div class="GalaxySystemShadow" style="left:441px; top:215px; text-align:left">Soxognus</div>
+	<div class="GalaxySystemShadow" style="left:441px; top:216px; text-align:left">Soxognus</div>
+	<div class="GalaxySystemShadow" style="left:443px; top:214px; text-align:left">Soxognus</div>
+	<div class="GalaxySystemShadow" style="left:443px; top:215px; text-align:left">Soxognus</div>
+	<div class="GalaxySystemShadow" style="left:443px; top:216px; text-align:left">Soxognus</div>
+	<a href="main.php?cmd=galaxy&send=sent&subcmd=map&system=M953068" class="GalaxySystemLinkColonized" onmouseover="return overlib('<table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' style=\'font: normal 9px Verdana; color:#000000\'><tr><td>System<td>&nbsp;:&nbsp;<td>1:809 - Soxognus<tr><td>Entfernung<td>&nbsp;:&nbsp;<td>121,55 LJ<tr><td>Position<td>&nbsp;:&nbsp;<td>714,60 / -1\'422,83<tr><td>Status<td>&nbsp;:&nbsp;<td>Erforscht<tr><td>Planeten<td>&nbsp;:&nbsp;<td>6<tr><td>Kolonien<td>&nbsp;:&nbsp;<td>2<tr><td>Entdecker<td>&nbsp;:&nbsp;<td>Sauron<tr><td>Herrscher<td>&nbsp;:&nbsp;<td>Adiumy<tr><td>Flotte<td>&nbsp;:&nbsp;<td>MIVE 6</table>');" onmouseout="return nd();" style="left:442px; top:215px; text-align:left">Soxognus</a>
+
+	<img class="GalaxySystemStar" src="../pix/skins/default/galaxy/stars/star_0_2_0.png" style="left:458px; top:227px;" />
+	<div class="GalaxySystemShadow" style="left:369px; top:237px; text-align:right">Sys 810</div>
+	<div class="GalaxySystemShadow" style="left:369px; top:239px; text-align:right">Sys 810</div>
+	<div class="GalaxySystemShadow" style="left:368px; top:237px; text-align:right">Sys 810</div>
+	<div class="GalaxySystemShadow" style="left:368px; top:238px; text-align:right">Sys 810</div>
+	<div class="GalaxySystemShadow" style="left:368px; top:239px; text-align:right">Sys 810</div>
+	<div class="GalaxySystemShadow" style="left:370px; top:237px; text-align:right">Sys 810</div>
+	<div class="GalaxySystemShadow" style="left:370px; top:238px; text-align:right">Sys 810</div>
+	<div class="GalaxySystemShadow" style="left:370px; top:239px; text-align:right">Sys 810</div>
+	<a href="main.php?cmd=galaxy&send=sent&subcmd=map&system=M953161" class="GalaxySystemLinkColonized" onmouseover="return overlib('<table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' style=\'font: normal 9px Verdana; color:#000000\'><tr><td>System<td>&nbsp;:&nbsp;<td>1:810 - Sys 810<tr><td>Entfernung<td>&nbsp;:&nbsp;<td>151,69 LJ<tr><td>Position<td>&nbsp;:&nbsp;<td>741,86 / -1\'409,62<tr><td>Status<td>&nbsp;:&nbsp;<td>Erforscht<tr><td>Planeten<td>&nbsp;:&nbsp;<td>6<tr><td>Kolonien<td>&nbsp;:&nbsp;<td>2<tr><td>Entdecker<td>&nbsp;:&nbsp;<td>Sauron<tr><td>Herrscher<td>&nbsp;:&nbsp;<td>Shinji</table>');" onmouseout="return nd();" style="left:369px; top:238px; text-align:right">Sys 810</a>
+
+	<img class="GalaxySystemStar" src="../pix/skins/default/galaxy/stars/star_0_4_0.png" style="left:513px; top:253px;" />
+	<div class="GalaxySystemShadow" style="left:524px; top:253px; text-align:left">Luniit</div>
+	<div class="GalaxySystemShadow" style="left:524px; top:255px; text-align:left">Luniit</div>
+	<div class="GalaxySystemShadow" style="left:523px; top:253px; text-align:left">Luniit</div>
+	<div class="GalaxySystemShadow" style="left:523px; top:254px; text-align:left">Luniit</div>
+	<div class="GalaxySystemShadow" style="left:523px; top:255px; text-align:left">Luniit</div>
+	<div class="GalaxySystemShadow" style="left:525px; top:253px; text-align:left">Luniit</div>
+	<div class="GalaxySystemShadow" style="left:525px; top:254px; text-align:left">Luniit</div>
+	<div class="GalaxySystemShadow" style="left:525px; top:255px; text-align:left">Luniit</div>
+	<a href="main.php?cmd=galaxy&send=sent&subcmd=map&system=M953163" class="GalaxySystemLinkColonized" onmouseover="return overlib('<table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' style=\'font: normal 9px Verdana; color:#000000\'><tr><td>System<td>&nbsp;:&nbsp;<td>1:812 - Luniit<tr><td>Entfernung<td>&nbsp;:&nbsp;<td>212,07 LJ<tr><td>Position<td>&nbsp;:&nbsp;<td>796,32 / -1\'383,10<tr><td>Status<td>&nbsp;:&nbsp;<td>Erforscht<tr><td>Planeten<td>&nbsp;:&nbsp;<td>9<tr><td>Kolonien<td>&nbsp;:&nbsp;<td>3<tr><td>Entdecker<td>&nbsp;:&nbsp;<td>Chief 311<tr><td>Herrscher<td>&nbsp;:&nbsp;<td>PEKKA</table>');" onmouseout="return nd();" style="left:524px; top:254px; text-align:left">Luniit</a>
+
+	<img class="GalaxySystemStar" src="../pix/skins/default/galaxy/stars/star_0_5_0.png" style="left:537px; top:272px;" />
+	<div class="GalaxySystemShadow" style="left:448px; top:282px; text-align:right">Yuyolit</div>
+	<div class="GalaxySystemShadow" style="left:448px; top:284px; text-align:right">Yuyolit</div>
+	<div class="GalaxySystemShadow" style="left:447px; top:282px; text-align:right">Yuyolit</div>
+	<div class="GalaxySystemShadow" style="left:447px; top:283px; text-align:right">Yuyolit</div>
+	<div class="GalaxySystemShadow" style="left:447px; top:284px; text-align:right">Yuyolit</div>
+	<div class="GalaxySystemShadow" style="left:449px; top:282px; text-align:right">Yuyolit</div>
+	<div class="GalaxySystemShadow" style="left:449px; top:283px; text-align:right">Yuyolit</div>
+	<div class="GalaxySystemShadow" style="left:449px; top:284px; text-align:right">Yuyolit</div>
+	<a href="main.php?cmd=galaxy&send=sent&subcmd=map&system=M953162" class="GalaxySystemLinkColonized" onmouseover="return overlib('<table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' style=\'font: normal 9px Verdana; color:#000000\'><tr><td>System<td>&nbsp;:&nbsp;<td>1:813 - Yuyolit<tr><td>Entfernung<td>&nbsp;:&nbsp;<td>241,55 LJ<tr><td>Position<td>&nbsp;:&nbsp;<td>820,53 / -1\'364,73<tr><td>Status<td>&nbsp;:&nbsp;<td>Erforscht<tr><td>Planeten<td>&nbsp;:&nbsp;<td>7<tr><td>Kolonien<td>&nbsp;:&nbsp;<td>4<tr><td>Entdecker<td>&nbsp;:&nbsp;<td>alialbakschisch<tr><td>Herrscher<td>&nbsp;:&nbsp;<td>alialbakschisch</table>');" onmouseout="return nd();" style="left:448px; top:283px; text-align:right">Yuyolit</a>
+
+	<img class="GalaxySystemStar" src="../pix/skins/default/galaxy/stars/star_0_6_0.png" style="left:567px; top:280px;" />
+	<div class="GalaxySystemShadow" style="left:478px; top:290px; text-align:right">Quliton</div>
+	<div class="GalaxySystemShadow" style="left:478px; top:292px; text-align:right">Quliton</div>
+	<div class="GalaxySystemShadow" style="left:477px; top:290px; text-align:right">Quliton</div>
+	<div class="GalaxySystemShadow" style="left:477px; top:291px; text-align:right">Quliton</div>
+	<div class="GalaxySystemShadow" style="left:477px; top:292px; text-align:right">Quliton</div>
+	<div class="GalaxySystemShadow" style="left:479px; top:290px; text-align:right">Quliton</div>
+	<div class="GalaxySystemShadow" style="left:479px; top:291px; text-align:right">Quliton</div>
+	<div class="GalaxySystemShadow" style="left:479px; top:292px; text-align:right">Quliton</div>
+	<a href="main.php?cmd=galaxy&send=sent&subcmd=map&system=M953165" class="GalaxySystemLinkColonized" onmouseover="return overlib('<table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' style=\'font: normal 9px Verdana; color:#000000\'><tr><td>System<td>&nbsp;:&nbsp;<td>1:814 - Quliton<tr><td>Entfernung<td>&nbsp;:&nbsp;<td>272,67 LJ<tr><td>Position<td>&nbsp;:&nbsp;<td>850,83 / -1\'356,38<tr><td>Status<td>&nbsp;:&nbsp;<td>Erforscht<tr><td>Planeten<td>&nbsp;:&nbsp;<td>6<tr><td>Kolonien<td>&nbsp;:&nbsp;<td>1<tr><td>Entdecker<td>&nbsp;:&nbsp;<td>Sauron<tr><td>Herrscher<td>&nbsp;:&nbsp;<td>alialbakschisch</table>');" onmouseout="return nd();" style="left:478px; top:291px; text-align:right">Quliton</a>
+
+	<img class="GalaxySystemStar" src="../pix/skins/default/galaxy/stars/star_0_7_0.png" style="left:594px; top:295px;" />
+	<div class="GalaxySystemShadow" style="left:505px; top:305px; text-align:right">Joclalio</div>
+	<div class="GalaxySystemShadow" style="left:505px; top:307px; text-align:right">Joclalio</div>
+	<div class="GalaxySystemShadow" style="left:504px; top:305px; text-align:right">Joclalio</div>
+	<div class="GalaxySystemShadow" style="left:504px; top:306px; text-align:right">Joclalio</div>
+	<div class="GalaxySystemShadow" style="left:504px; top:307px; text-align:right">Joclalio</div>
+	<div class="GalaxySystemShadow" style="left:506px; top:305px; text-align:right">Joclalio</div>
+	<div class="GalaxySystemShadow" style="left:506px; top:306px; text-align:right">Joclalio</div>
+	<div class="GalaxySystemShadow" style="left:506px; top:307px; text-align:right">Joclalio</div>
+	<a href="main.php?cmd=galaxy&send=sent&subcmd=map&system=M953164" class="GalaxySystemLink" onmouseover="return overlib('<table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' style=\'font: normal 9px Verdana; color:#000000\'><tr><td>System<td>&nbsp;:&nbsp;<td>1:815 - Joclalio<tr><td>Entfernung<td>&nbsp;:&nbsp;<td>302,80 LJ<tr><td>Position<td>&nbsp;:&nbsp;<td>877,24 / -1\'341,54<tr><td>Status<td>&nbsp;:&nbsp;<td>Erforscht<tr><td>Planeten<td>&nbsp;:&nbsp;<td>5<tr><td>Entdecker<td>&nbsp;:&nbsp;<td>Sauron</table>');" onmouseout="return nd();" style="left:505px; top:306px; text-align:right">Joclalio</a>
+
+				<a href="main.php?cmd=galaxy&send=sent&subcmd=map&direction=u&filter=Me34f1fd9" class="GalaxyMapButton" style="left:297px; top:4px; background-image:url(../pix/skins/default/galaxy/galaxy_map_up.gif)"></a>
+				<a href="main.php?cmd=galaxy&send=sent&subcmd=map&direction=ul&filter=Me34f1fd9" class="GalaxyMapButton" style="left:4px; top:4px; background-image:url(../pix/skins/default/galaxy/galaxy_map_up_left.gif)"></a>
+				<a href="main.php?cmd=galaxy&send=sent&subcmd=map&direction=ur&filter=Me34f1fd9" class="GalaxyMapButton" style="left:590px; top:4px; background-image:url(../pix/skins/default/galaxy/galaxy_map_up_right.gif)"></a>
+				<a href="main.php?cmd=galaxy&send=sent&subcmd=map&direction=l&filter=Me34f1fd9" class="GalaxyMapButton" style="left:4px; top:168px; background-image:url(../pix/skins/default/galaxy/galaxy_map_left.gif)"></a>
+				<a href="main.php?cmd=galaxy&send=sent&subcmd=map&direction=r&filter=Me34f1fd9" class="GalaxyMapButton" style="left:590px; top:168px; background-image:url(../pix/skins/default/galaxy/galaxy_map_right.gif)"></a>
+				<a href="main.php?cmd=galaxy&send=sent&subcmd=map&direction=d&filter=Me34f1fd9" class="GalaxyMapButton" style="left:297px; top:332px; background-image:url(../pix/skins/default/galaxy/galaxy_map_down.gif)"></a>
+				<a href="main.php?cmd=galaxy&send=sent&subcmd=map&direction=dl&filter=Me34f1fd9" class="GalaxyMapButton" style="left:4px; top:332px; background-image:url(../pix/skins/default/galaxy/galaxy_map_down_left.gif)"></a>
+				<a href="main.php?cmd=galaxy&send=sent&subcmd=map&direction=dr&filter=Me34f1fd9" class="GalaxyMapButton" style="left:590px; top:332px; background-image:url(../pix/skins/default/galaxy/galaxy_map_down_right.gif)"></a>
+				<a href="main.php?cmd=galaxy&send=sent&subcmd=map&direction=in&filter=Me34f1fd9" class="GalaxyMapButton2" style="left:590px; top:307px"><img src="../pix/skins/default/galaxy/galaxy_map_in.gif" border="0" width="19" height="19" alt="" title="" class="SystemGfxFormButton gw19"/></a>
+				<a href="main.php?cmd=galaxy&send=sent&subcmd=map&direction=out&filter=Me34f1fd9" class="GalaxyMapButton2" style="left:590px; top:282px"><img src="../pix/skins/default/galaxy/galaxy_map_out.gif" border="0" width="19" height="19" alt="" title="" class="SystemGfxFormButton gw19"/></a>
+				<form action="main.php" method="POST" enctype="multipart/form-data" class="GalaxyMapHawkEye">
+					<div style="position:relative">
+						<div class="GalaxyMapHawkEyeRect" style="left:36px; top:6px; width:9px; height:5px"></div>
+					</div>
+					<input type="image" name="hawkeye" class="GalaxyMapHawkEyeImage" src="../pix/skins/default/galaxy/galaxies/hawkeye_0.gif">
+					<input type="hidden" name="filter" value="Me34f1fd9">
+					<input type="hidden" name="cmd" value="galaxy">
+					<input type="hidden" name="send" value="sent">
+					<input type="hidden" name="subcmd" value="map">
+				</form>
+			</div>
+			<div class="GalaxyMapImageTopLeft" style="background-image:url(../pix/skins/default/galaxy/galaxies/galaxy_0_0/tile_18_3.gif)"></div>
+			<div class="GalaxyMapImageTop" style="background-image:url(../pix/skins/default/galaxy/galaxies/galaxy_0_0/tile_19_3.gif)"></div>
+			<div class="GalaxyMapImageTop" style="background-image:url(../pix/skins/default/galaxy/galaxies/galaxy_0_0/tile_20_3.gif)"></div>
+			<div class="GalaxyMapImageTop" style="background-image:url(../pix/skins/default/galaxy/galaxies/galaxy_0_0/tile_21_3.gif)"></div>
+			<div class="GalaxyMapImageTopRight" style="background-image:url(../pix/skins/default/galaxy/galaxies/galaxy_0_0/tile_22_3.gif)"></div>
+			<div class="GalaxyMapImageLeft" style="background-image:url(../pix/skins/default/galaxy/galaxies/galaxy_0_0/tile_18_4.gif)"></div>
+			<div class="GalaxyMapImage" style="background-image:url(../pix/skins/default/galaxy/galaxies/galaxy_0_0/tile_19_4.gif)"></div>
+			<div class="GalaxyMapImage" style="background-image:url(../pix/skins/default/galaxy/galaxies/galaxy_0_0/tile_20_4.gif)"></div>
+			<div class="GalaxyMapImage" style="background-image:url(../pix/skins/default/galaxy/galaxies/galaxy_0_0/tile_21_4.gif)"></div>
+			<div class="GalaxyMapImageRight" style="background-image:url(../pix/skins/default/galaxy/galaxies/galaxy_0_0/tile_22_4.gif)"></div>
+			<div class="GalaxyMapImageBottomLeft" style="background-image:url(../pix/skins/default/galaxy/galaxies/galaxy_0_0/tile_18_5.gif)"></div>
+			<div class="GalaxyMapImageBottom" style="background-image:url(../pix/skins/default/galaxy/galaxies/galaxy_0_0/tile_19_5.gif)"></div>
+			<div class="GalaxyMapImageBottom" style="background-image:url(../pix/skins/default/galaxy/galaxies/galaxy_0_0/tile_20_5.gif)"></div>
+			<div class="GalaxyMapImageBottom" style="background-image:url(../pix/skins/default/galaxy/galaxies/galaxy_0_0/tile_21_5.gif)"></div>
+			<div class="GalaxyMapImageBottomRight" style="background-image:url(../pix/skins/default/galaxy/galaxies/galaxy_0_0/tile_22_5.gif)"></div>
+		</div>
+	</div>
+	
+	<br>
+
+		</div>
+
+        <div class="TickContainer">
+            <div class="TickCell" id="chatTarget" name="chatTarget"></div>
+            <form target="tickerfield" method="post" action="tickerfield.php" class="TickForm">
+                <div class="TickCellTop"><input type="text" name="message" id="message" class="TickInput" maxlength="75" /></div>
+                <div class="TickCellBottom"><input type="submit" value="An Allianz senden" class="TickButton" /></div>
+            </form>
+        </div>
+        <iframe id="tickerfield" name="tickerfield" src="tickerfield.php" style="width: 0px; height: 0px; border: 0px;"></iframe>
+		
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
