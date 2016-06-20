@@ -5,6 +5,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import horiversumObjects.GalaxySystem;
+import listener.HtmlReader;
 import misc.GlobalObjects;
 
 public class SystemMapListener extends HtmlListener {
@@ -33,14 +34,42 @@ public class SystemMapListener extends HtmlListener {
 					int system = Integer.parseInt(id[1].trim());
 					GalaxySystem s = GalaxySystem.getInstance(galaxy, system);
 					GlobalObjects.logger.addLog("Discovered data for " + s.toString());
-					// Find name
 					if (!noName){
+						// Name
 						startIndex = nextIndex + 3;
-						nextIndex = entry.indexOf("<tr>",startIndex);						
+						nextIndex = entry.indexOf("<",startIndex);
 						s.setName(entry.substring(startIndex,nextIndex));
+						// Position
+						startIndex = entry.indexOf("Position", nextIndex)+19;
+						nextIndex = entry.indexOf("/",startIndex)-1;
+						s.setPositionX(Float.parseFloat(HtmlReader.cleanUpForParsingNumber(entry.substring(startIndex,nextIndex))));
+						startIndex = nextIndex + 3;
+						nextIndex = entry.indexOf("<", startIndex);
+						s.setPositionY(Float.parseFloat(HtmlReader.cleanUpForParsingNumber(entry.substring(startIndex, nextIndex))));
+						// Planets
+						if (entry.contains("Planeten")){
+							startIndex = entry.indexOf("Planeten",nextIndex) +19;
+							nextIndex = entry.indexOf("<",startIndex);
+							s.setNumberOfPlanets(Integer.parseInt(HtmlReader.cleanUpForParsingNumber(entry.substring(startIndex, nextIndex))));						
+						}						
+						// Colonies
+						if (entry.contains("Kolonien")){
+							startIndex = entry.indexOf("Kolonien",nextIndex) + 19;
+							nextIndex = entry.indexOf("<", startIndex);
+							s.setNumberOfColonies(Integer.parseInt(HtmlReader.cleanUpForParsingNumber(entry.substring(startIndex, nextIndex))));							
+						}
+						if (entry.contains("Entdecker")){
+							startIndex = entry.indexOf("Entdecker",nextIndex) + 20;
+							nextIndex = entry.indexOf("<", startIndex);
+							s.setDiscoverer(entry.substring(startIndex, nextIndex));													
+						}
+						if (entry.contains("Herrscher")){
+							startIndex = entry.indexOf("Herrscher", nextIndex) + 20;
+							nextIndex = entry.indexOf("<", startIndex);
+							s.setOwner(entry.substring(startIndex, nextIndex));							
+						}												
 					}
-				}
-				
+				}				
 			}
 		}
 		

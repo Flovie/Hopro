@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 import listener.HtmlReader;
+import listener.htmlListeners.GalaxyListener;
 import listener.htmlListeners.SystemMapListener;
 
 public class SystemMapListenerTester {
@@ -20,7 +21,8 @@ public class SystemMapListenerTester {
 		}
 		br.close();
 		HtmlReader htmlReader = new HtmlReader(sb.toString());
-		htmlReader.addListener(new SystemMapListener());
+		htmlReader.addListener(new GalaxyListener());
+		htmlReader.addListener(new SystemMapListener());		
 		Thread readerThread = new Thread(htmlReader,htmlReader.toString());
     	readerThread.start();		
 	}

@@ -50,7 +50,7 @@ public class HtmlReader implements Runnable{
 	}
 	
 	public static String cleanUpForParsingNumber(String s){
-		String result = s.trim().replace("'", "");
+		String result = s.trim().replace("\\'", "").replace("'","").replace(",", ".");
 		return result;
 	}
 	
