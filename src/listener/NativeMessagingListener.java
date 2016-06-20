@@ -8,6 +8,7 @@ import java.nio.charset.StandardCharsets;
 import horiversumObjects.Universe;
 import listener.gui.LogScreen;
 import listener.htmlListeners.GalaxyListener;
+import listener.htmlListeners.SystemMapListener;
 import misc.GlobalObjects;
 import misc.Settings;
 
@@ -59,6 +60,7 @@ public class NativeMessagingListener {
 //		        	System.err.println(input);
 		        	HtmlReader htmlReader = new HtmlReader(in);
 		        	htmlReader.addListener(new GalaxyListener());
+		        	htmlReader.addListener(new SystemMapListener());
 		        	Thread readerThread = new Thread(htmlReader,htmlReader.toString());
 		        	readerThread.start();		        	
 		        }
