@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
+import horiversumObjects.Universe;
 import listener.HtmlReader;
 import listener.htmlListeners.GalaxyListener;
 
@@ -21,8 +22,8 @@ public class GalaxyListenerTester {
 		br.close();
 		HtmlReader htmlReader = new HtmlReader(sb.toString());
     	htmlReader.addListener(new GalaxyListener());
-    	Thread readerThread = new Thread(htmlReader,htmlReader.toString());
-    	readerThread.start();		   
+    	htmlReader.run();  
+    	Universe.saveAll();
 	}
 
 }

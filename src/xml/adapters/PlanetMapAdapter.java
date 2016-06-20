@@ -11,24 +11,24 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 import horiversumObjects.Planet;
 
-public class PlanetMapAdapter extends XmlAdapter<PlanetMapAdapter.AdaptedList,Map<String,Planet>>{
+public class PlanetMapAdapter extends XmlAdapter<PlanetMapAdapter.AdaptedPlanetsList,Map<String,Planet>>{
 	
 	
-	public static class AdaptedList{
+	public static class AdaptedPlanetsList{
 		@XmlJavaTypeAdapter(PlanetAdapter.class)
 		public List<Planet> planet = new ArrayList<Planet>();
 	}
 
 	@Override
-	public AdaptedList marshal(Map<String, Planet> arg0) throws Exception {
-		AdaptedList result = new AdaptedList();
+	public AdaptedPlanetsList marshal(Map<String, Planet> arg0) throws Exception {
+		AdaptedPlanetsList result = new AdaptedPlanetsList();
 		result.planet.addAll(arg0.values());
 		Collections.sort(result.planet);
 		return result;
 	}
 
 	@Override
-	public Map<String, Planet> unmarshal(AdaptedList v) throws Exception {
+	public Map<String, Planet> unmarshal(AdaptedPlanetsList v) throws Exception {
 		Map<String,Planet> planetsMap = new HashMap<String,Planet>();
 		if(v!=null){
 			for(Planet p: v.planet){

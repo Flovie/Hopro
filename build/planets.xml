@@ -1,6 +1,65 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<planetMap created="2016-06-12T18:56:56.355+02:00">
+<planetMap created="2016-06-20T21:25:57.382+02:00">
     <planets>
+        <planet id="1:776:1" updated="2016-06-20T20:24:49.127+02:00">
+            <name>Ehuphon I</name>
+            <type>Vulkanplanet</type>
+        </planet>
+        <planet id="1:776:3" updated="2016-06-20T20:24:49.130+02:00">
+            <name>Ehuphon III</name>
+            <type>Lavaplanet</type>
+            <owner>balou</owner>
+            <orbitalRessources updated="2016-06-20T20:24:49.130+02:00">
+                <iron>194044</iron>
+                <mineral>239239</mineral>
+            </orbitalRessources>
+        </planet>
+        <planet id="1:776:6" updated="2016-06-20T20:24:49.133+02:00">
+            <name>Ehuphon VI</name>
+            <type>Felsenplanet</type>
+        </planet>
+        <planet id="1:776:7" updated="2016-06-20T20:24:49.135+02:00">
+            <name>Ehuphon VII</name>
+            <type>Felsenplanet</type>
+        </planet>
+        <planet id="1:776:9" updated="2016-06-20T20:24:49.135+02:00">
+            <name>Ehuphon IX</name>
+            <type>Wolkenplanet</type>
+        </planet>
+        <planet id="1:776:10" updated="2016-06-20T20:24:49.138+02:00">
+            <name>Ehuphon X</name>
+            <type>Felsenplanet</type>
+        </planet>
+        <planet id="1:777:3" updated="2016-06-20T20:24:53.972+02:00">
+            <name>Miponim III</name>
+            <type>Staubplanet</type>
+        </planet>
+        <planet id="1:777:4" updated="2016-06-20T20:24:53.973+02:00">
+            <name>Miponim VII</name>
+            <type>Felsenplanet</type>
+        </planet>
+        <planet id="1:777:7" updated="2016-06-20T20:24:53.975+02:00">
+            <name>MiponimXI</name>
+            <type>Vulkanplanet</type>
+            <owner>sean</owner>
+            <orbitalRessources updated="2016-06-20T20:24:53.974+02:00">
+                <iron>1173</iron>
+                <mineral>160</mineral>
+            </orbitalRessources>
+        </planet>
+        <planet id="1:777:11" updated="2016-06-20T20:24:53.978+02:00">
+            <name>Miponim IV</name>
+            <type>Dschungelplanet</type>
+            <owner>sean</owner>
+            <orbitalRessources updated="2016-06-20T20:24:53.978+02:00">
+                <iron>43827</iron>
+                <mineral>2654</mineral>
+            </orbitalRessources>
+        </planet>
+        <planet id="1:777:13" updated="2016-06-20T20:24:53.981+02:00">
+            <name>MiponimXIII</name>
+            <type>Felsenplanet</type>
+        </planet>
         <planet id="1:805:1" updated="2016-06-12T18:56:56.305+02:00">
             <name>test</name>
             <type>ice</type>

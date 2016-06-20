@@ -5,6 +5,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import horiversumObjects.Coordinate;
+import horiversumObjects.GalaxySystem;
 import horiversumObjects.Planet;
 import horiversumObjects.Ressources;
 import horiversumObjects.Universe;
@@ -48,6 +49,9 @@ public class GalaxyListener extends HtmlListener {
 						// Location of system
 						int galaxy = Integer.parseInt(systemId.substring(0, systemId.indexOf(":")));
 						int system = Integer.parseInt(systemId.substring(systemId.indexOf(":")+1));
+						
+						GalaxySystem galaxySystem = GalaxySystem.getInstance(galaxy, system);
+						galaxySystem.setName(systemName);
 
 						//get orbit list
 						Elements eList = htmlSource.select("table.OrbitTable > tbody > tr:not(.OrbitTableHead)");

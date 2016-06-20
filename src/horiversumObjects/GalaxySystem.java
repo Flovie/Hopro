@@ -1,24 +1,41 @@
 package horiversumObjects;
 
-public class GalaxySystem {
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement(name="system")
+@XmlAccessorType(XmlAccessType.FIELD)
+public class GalaxySystem implements Comparable<GalaxySystem>{
 	
-	private int galaxy;
+	@XmlAttribute(name="galaxy", required=true)
+	private Integer galaxy;
 	
-	private int system;
+	@XmlAttribute(name="system", required=true)
+	private Integer system;
 	
+	@XmlElement
 	private String name;
 	
+	@XmlElement
 	private String discoverer;
 	
-	private float positionX;
+	@XmlElement
+	private Float positionX;
 	
-	private float positionY;
+	@XmlElement
+	private Float positionY;
 	
+	@XmlElement
 	private String owner;
 	
-	private int numberOfPlanets;
+	@XmlElement
+	private Integer numberOfPlanets;
 	
-	private int numberOfColonies;
+	@XmlElement
+	private Integer numberOfColonies;
 
 
 
@@ -107,8 +124,18 @@ public class GalaxySystem {
 			s = new GalaxySystem();
 			s.galaxy = galaxy;
 			s.system = system;
+			Universe.getPlanetMap().addSystem(s);
 		}
 		return s;
+	}
+
+	@Override
+	public int compareTo(GalaxySystem arg0) {
+		int result = this.galaxy.compareTo(arg0.getGalaxy());
+		if (result==0){
+			result = this.system.compareTo(arg0.getSystem());
+		}
+		return result;
 	}
 	
 			

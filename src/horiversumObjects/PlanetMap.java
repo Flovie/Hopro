@@ -10,6 +10,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 import xml.adapters.PlanetMapAdapter;
+import xml.adapters.SystemMapAdapter;
 
 @XmlRootElement(name="planetMap")
 public class PlanetMap {
@@ -22,10 +23,16 @@ public class PlanetMap {
 	private Map<String,Planet> ps = new HashMap<String,Planet>();
 	
 	@XmlElement(name="galaxies")
+	@XmlJavaTypeAdapter(SystemMapAdapter.class)
 	private Map<String,GalaxySystem> galaxies = new HashMap<String,GalaxySystem>();
 	
 	public void addPlanet(Planet p){
 		ps.put(p.uniqueId, p);
+		if (!(galaxies.containsKey(p.getPosition().getGalaxy() + ":" + p.getPosition().getSystem()))){
+			GalaxySystem gs = GalaxySystem.getInstance(p.getPosition().getGalaxy(), p.getPosition().getSystem());
+			galaxies.put(p.getPosition().getGalaxy() + ":" + p.getPosition().getSystem(), gs);
+		}
+			
 	}
 	
 	public boolean planetExists(String id){

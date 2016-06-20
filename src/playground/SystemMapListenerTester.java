@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
+import horiversumObjects.Universe;
 import listener.HtmlReader;
 import listener.htmlListeners.GalaxyListener;
 import listener.htmlListeners.SystemMapListener;
@@ -22,9 +23,10 @@ public class SystemMapListenerTester {
 		br.close();
 		HtmlReader htmlReader = new HtmlReader(sb.toString());
 		htmlReader.addListener(new GalaxyListener());
-		htmlReader.addListener(new SystemMapListener());		
-		Thread readerThread = new Thread(htmlReader,htmlReader.toString());
-    	readerThread.start();		
+		htmlReader.addListener(new SystemMapListener());
+		htmlReader.run();
+//		System.out.println(Universe.getPlanetMap().getSystem(1, 815));
+    	Universe.saveAll();
 	}
 
 }
