@@ -14,6 +14,7 @@ import javax.swing.text.DefaultCaret;
 
 import horiversumObjects.Universe;
 import misc.ErrorLogger;
+import misc.Settings;
 import misc.StandardLogger;
 
 public class LogScreen extends JFrame implements ErrorLogger, StandardLogger, ActionListener{
@@ -33,7 +34,8 @@ public class LogScreen extends JFrame implements ErrorLogger, StandardLogger, Ac
 		this.setLayout(new BorderLayout());
 		this.logField = new JTextArea();
 		this.logField.setEditable(true);
-		this.logField.setLineWrap(true);		
+		this.logField.setLineWrap(true);	
+		this.setAlwaysOnTop(Settings.isAlwaysOnTop());
 		DefaultCaret caret = (DefaultCaret)this.logField.getCaret();
 		caret.setUpdatePolicy(DefaultCaret.ALWAYS_UPDATE);
 		JScrollPane scrollPane = new JScrollPane(this.logField);
