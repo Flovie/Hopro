@@ -13,7 +13,7 @@ var disabled = false;
 function doStuffWithDom(domContent) {
 	if (disabled == false){
 		sendNativeMessage(domContent);
-		console.log('I sent it\n');
+		console.log("I sent it");
 	}	
 }
 
@@ -102,14 +102,20 @@ chrome.tabs.getAllInWindow( null, function( tabs ){
 });
 
 chrome.tabs.onCreated.addListener(function(tab){
-    num_tabs++;
+    chrome.tabs.getAllInWindow( null, function( tabs ){
+		console.log("Initial tab count: " + tabs.length);
+		num_tabs = tabs.length;
+	});
+	console.log("Open tabs " + num_tabs);
     //console.log("Tab created event caught. Open tabs #: " + num_tabs);
 });
 
 chrome.tabs.onRemoved.addListener(function(tabId){
     num_tabs--;
+	console.log("Remaining tabs " + num_tabs);
     //console.log("Tab removed event caught. Open tabs #: " + num_tabs);
     if( num_tabs == 0 ){
-		if(disabled==false){endHopro();}						
+		console.log("Schließe hopro");
+		endHopro();
 	}        
 });
