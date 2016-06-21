@@ -7,6 +7,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
 import listener.htmlListeners.HtmlListener;
+import misc.Settings;
 
 public class HtmlReader implements Runnable{
 	
@@ -56,7 +57,9 @@ public class HtmlReader implements Runnable{
 	
 	private String tidyUpHtmlSource(String htmlSource){
 		String result = htmlSource.replace("\\\"", "\"");
-		Debugger.saveString(htmlSource,"lastHtmlRead.html");
+		if(Settings.isDebuggingMode()){
+			Debugger.saveString(htmlSource,"lastHtmlRead.html");
+		}
 		return result;
 	}
 

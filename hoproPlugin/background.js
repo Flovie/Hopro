@@ -11,7 +11,7 @@ var disabled = false;
 
 // A function to use as callback
 function doStuffWithDom(domContent) {
-	if (disabled == false){
+	if (disabled == false && connected == true){
 		sendNativeMessage(domContent);
 		console.log("I sent it");
 	}	
@@ -102,10 +102,10 @@ chrome.tabs.getAllInWindow( null, function( tabs ){
 });
 
 chrome.tabs.onCreated.addListener(function(tab){
-    chrome.tabs.getAllInWindow( null, function( tabs ){
-		console.log("Initial tab count: " + tabs.length);
-		num_tabs = tabs.length;
-	});
+    //chrome.tabs.getAllInWindow( null, function( tabs ){
+		//console.log("Initial tab count: " + tabs.length);
+		//num_tabs = tabs.length;
+	//});
 	console.log("Open tabs " + num_tabs);
     //console.log("Tab created event caught. Open tabs #: " + num_tabs);
 });
@@ -115,7 +115,7 @@ chrome.tabs.onRemoved.addListener(function(tabId){
 	console.log("Remaining tabs " + num_tabs);
     //console.log("Tab removed event caught. Open tabs #: " + num_tabs);
     if( num_tabs == 0 ){
-		console.log("Schließe hopro");
-		endHopro();
+		console.log("Schließe hopro -> deactivated");
+		//endHopro();
 	}        
 });

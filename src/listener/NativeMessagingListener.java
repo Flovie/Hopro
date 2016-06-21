@@ -66,7 +66,7 @@ public class NativeMessagingListener {
 		        }
 		        
 		        // Saving every $saveIntervall$ seconds		        
-		        if ((System.currentTimeMillis()-lastSaved)/1000 >=  Settings.saveIntervall){
+		        if ((System.currentTimeMillis()-lastSaved)/1000 >=  Settings.getSaveIntervall()){
 		        	Universe.saveAll();
 		        	lastSaved = System.currentTimeMillis();		        	
 		        }

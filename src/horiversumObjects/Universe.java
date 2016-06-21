@@ -39,13 +39,13 @@ public class Universe {
 	}	
 	
 	public static void saveAll(){
-		Universe.savePlanetMap(Settings.planetsXmlFile);
-		Universe.saveUserMap(Settings.usersXmlFile);
+		Universe.savePlanetMap(Settings.getPlanetsFile());
+		Universe.saveUserMap(Settings.getUsersFile());
 	}
 	
 	public static void loadAll(){
-		Universe.loadPlanetMap(Settings.planetsXmlFile);
-		Universe.loadUserMap(Settings.usersXmlFile);
+		Universe.loadPlanetMap(Settings.getPlanetsFile());
+		Universe.loadUserMap(Settings.getUsersFile());
 	}
 
 }
