@@ -32,6 +32,9 @@ public class XmlPlanet implements Comparable<XmlPlanet>{
 	@XmlElement(name="orbitalRessources", required=false)
 	public Ressources orbitalRessources = null;
 	
+	@XmlElement(name="stolenRessources", required=false)
+	public Ressources stolenRessources = null;
+	
 	public void transferDataToXml(Planet p){
 		this.uniqueId = p.getUniqueId();
 		this.updated = p.getUpdated();
@@ -41,6 +44,7 @@ public class XmlPlanet implements Comparable<XmlPlanet>{
 			this.owner = p.getOwner().getName();
 		}		
 		this.orbitalRessources = p.getOrbitalRessources();
+		this.stolenRessources = p.getStolenRessources();
 	}
 
 	@Override

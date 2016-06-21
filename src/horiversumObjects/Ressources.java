@@ -6,6 +6,7 @@ import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlTransient;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Ressources {
@@ -18,6 +19,9 @@ public class Ressources {
 	private Integer fuel;
 	@XmlAttribute(required=true)
 	private Calendar updated;
+	
+	@XmlTransient
+	private boolean autoupdate = true;
 		
 	public int getIron(){
 		return this.iron;
@@ -51,13 +55,21 @@ public class Ressources {
 	}
 	
 	private void update(){
-		this.updated = Calendar.getInstance();
+		if(this.autoupdate){
+			this.updated = Calendar.getInstance();
+		}
+	}
+	
+	public void setUpdate(Calendar c){
+		this.updated = c;
+		this.autoupdate=false;
 	}
 	
 	public void add(Ressources r){
 		this.iron = this.iron + r.getIron();
 		this.minerals = this.minerals + r.getMinerals();
 		this.fuel = this.fuel + r.getFuel();
+		this.update();
 	}
 	
 }

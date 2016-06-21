@@ -7,13 +7,13 @@ import java.io.IOException;
 
 import horiversumObjects.Universe;
 import listener.HtmlReader;
-import listener.htmlListeners.GalaxyListener;
+import listener.htmlListeners.BeschaffungsreportListener;
 
-public class GalaxyListenerTester {
+public class BeschaffungsreportListenerTester {
 	
 	public static void main(String[] args) throws IOException{
 		Universe.loadAll();
-		BufferedReader br = new BufferedReader(new FileReader(new File("./input/galaxy.html")));
+		BufferedReader br = new BufferedReader(new FileReader(new File("./input/beschaffungsreport.html")));
 		String line = br.readLine();
 		StringBuffer sb = new StringBuffer();		
 		while(line!=null){
@@ -22,7 +22,7 @@ public class GalaxyListenerTester {
 		}
 		br.close();
 		HtmlReader htmlReader = new HtmlReader(sb.toString());
-    	htmlReader.addListener(new GalaxyListener());
+    	htmlReader.addListener(new BeschaffungsreportListener());
     	htmlReader.run();  
     	Universe.saveAll();
 	}

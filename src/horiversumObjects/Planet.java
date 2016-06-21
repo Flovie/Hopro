@@ -27,6 +27,9 @@ public class Planet implements Comparable<Planet> {
 	// Ownership
 	private User owner = null;
 	
+	// stolen ressources
+	private Ressources stolenRessources = null;
+	
 	// time
 	private Calendar updated = null;	
 	
@@ -49,6 +52,7 @@ public class Planet implements Comparable<Planet> {
 		}		
 		this.updated = xml.updated;
 		this.orbitRessources = xml.orbitalRessources;
+		this.stolenRessources = xml.stolenRessources;
 	}
 	
 	// SETTERS
@@ -87,6 +91,17 @@ public class Planet implements Comparable<Planet> {
 		this.updated = updated;
 	}
 	
+	public void addStolenRessources(Ressources r){
+		if (this.stolenRessources==null){
+			this.stolenRessources = r;
+		}else{
+			// only new results are allowed
+			if(r.getUpdated().compareTo(this.stolenRessources.getUpdated())>0){
+				this.stolenRessources.add(r);
+			}
+		}
+	}
+	
 	// GETTERS
 	
 	public User getOwner(){
@@ -103,6 +118,10 @@ public class Planet implements Comparable<Planet> {
 	
 	public Ressources getOrbitalRessources(){
 		return this.orbitRessources;
+	}
+	
+	public Ressources getStolenRessources(){
+		return this.stolenRessources;
 	}
 	
 	public Coordinate getPosition(){
