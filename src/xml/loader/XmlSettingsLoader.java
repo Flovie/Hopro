@@ -17,7 +17,7 @@ public class XmlSettingsLoader {
 			JAXBContext jc = JAXBContext.newInstance(Settings.class);
 			Unmarshaller unmarshaller = jc.createUnmarshaller();
 			settings = (Settings) unmarshaller.unmarshal(new FileInputStream(new File(filename)));
-			GlobalObjects.logger.addLog("Successfully parsed Settings.");
+//			GlobalObjects.logger.addLog("Successfully parsed Settings.");
 		}catch(Exception e){
 			GlobalObjects.errorLogger.logError(e);			
 			settings = new Settings();

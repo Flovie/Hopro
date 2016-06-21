@@ -7,6 +7,7 @@ import java.nio.charset.StandardCharsets;
 
 import horiversumObjects.Universe;
 import listener.gui.LogScreen;
+import listener.htmlListeners.BeschaffungsreportListener;
 import listener.htmlListeners.GalaxyListener;
 import listener.htmlListeners.SystemMapListener;
 import misc.GlobalObjects;
@@ -19,11 +20,11 @@ public class NativeMessagingListener {
 	
 	public static void main(String[] args){
 		try {
+			GlobalObjects.logger = new LogScreen();
 			
 			DataInputStream dataInputStream = new DataInputStream(new BufferedInputStream(System.in));
 			
 			// Start log GUI
-			GlobalObjects.logger = new LogScreen();
 			GlobalObjects.logger.addLog("Start des Loggers");
 			
 			// Load
@@ -57,10 +58,11 @@ public class NativeMessagingListener {
 		        		GlobalObjects.logger.closeLogger();
 		        		break;		        		
 		        	}
-//		        	System.err.println(input);
+//		        	System.err.println(in);
 		        	HtmlReader htmlReader = new HtmlReader(in);
 		        	htmlReader.addListener(new GalaxyListener());
 		        	htmlReader.addListener(new SystemMapListener());
+		        	htmlReader.addListener(new BeschaffungsreportListener());
 		        	Thread readerThread = new Thread(htmlReader,htmlReader.toString());
 		        	readerThread.start();		        	
 		        }

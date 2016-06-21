@@ -11,14 +11,14 @@ var disabled = false;
 
 // A function to use as callback
 function doStuffWithDom(domContent) {
-	if (disabled == false && connected == true){
+	if (disabled == false){
 		sendNativeMessage(domContent);
 		console.log("I sent it");
 	}	
 }
 
 function endHopro(){
-	if(disabled==false){
+	if(disabled==false && connected == true){
 		sendNativeMessage("!STOP!");
 		port.disconnect();
 		bePrepared = false;

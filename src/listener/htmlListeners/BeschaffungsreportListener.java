@@ -31,13 +31,18 @@ public class BeschaffungsreportListener extends HtmlListener{
 						try {
 							Ressources r = new Ressources();
 							Calendar c = Calendar.getInstance();
-							c.setTime(format.parse(elements.first().text()));
+							try{
+								c.setTime(format.parse(elements.first().text().replace("\\n","")));
+							} catch (Exception e){
+								format = new SimpleDateFormat("dd.MM.yyyyHH:mm:ss");
+								c.setTime(format.parse(elements.first().text()));
+							}
 							r.setUpdate(c);
 							elements = htmlSource.select("div.MessageContainerBodyBox table.MessageTable td.MessageTableCellLeft");
 							if(elements.size()>1){
 								Element e = elements.get(1);
 								String planiInformation = e.select("a").first().text();
-								String id = planiInformation.substring(planiInformation.indexOf("(")+1, planiInformation.indexOf(")")-1).trim();
+								String id = planiInformation.substring(planiInformation.indexOf("(")+1, planiInformation.indexOf(")")).trim();
 								Planet p = Planet.getInstance(id);
 								elements = e.select("p");
 								if(elements.size()>1){
