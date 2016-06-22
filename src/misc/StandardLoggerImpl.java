@@ -1,12 +1,15 @@
 package misc;
 
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 public class StandardLoggerImpl implements StandardLogger{
+	
+	private SimpleDateFormat format = new SimpleDateFormat("HH:mm:ss");
 
 	@Override
 	public void addLog(String s) {
-		System.out.println(Calendar.getInstance().getTime().toString() + ": " + s);		
+		System.out.println(format.format(Calendar.getInstance().getTime()) + ": " + s);		
 	}
 
 	@Override

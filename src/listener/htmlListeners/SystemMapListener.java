@@ -17,6 +17,9 @@ public class SystemMapListener extends HtmlListener {
 			// FILTER
 			if (title.equalsIgnoreCase("Horizon - Galaxie")){				
 				Elements tmp = htmlSource.select(".GalaxySystemLink, .GalaxySystemLinkColonized");
+				if(!tmp.isEmpty()){
+					GlobalObjects.logger.addLog("Identified Galaxy View");
+				}
 				for(Element e: tmp){
 					int startIndex = 0;
 					int nextIndex = 0;					
@@ -33,7 +36,7 @@ public class SystemMapListener extends HtmlListener {
 					int galaxy = Integer.parseInt(id[0].trim());
 					int system = Integer.parseInt(id[1].trim());
 					GalaxySystem s = GalaxySystem.getInstance(galaxy, system);
-					GlobalObjects.logger.addLog("Discovered data for " + s.toString());
+					GlobalObjects.logger.addSubLog("Found data for " + s.toString(),1);
 					if (!noName){
 						// Name
 						startIndex = nextIndex + 3;

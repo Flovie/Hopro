@@ -39,7 +39,7 @@ public class BeschaffungsreportListener extends HtmlListener{
 							}
 							r.setUpdate(c);
 							elements = htmlSource.select("div.MessageContainerBodyBox table.MessageTable td.MessageTableCellLeft");
-							if(elements.size()>1){
+							if(elements.size()>1){								
 								Element e = elements.get(1);
 								String planiInformation = e.select("a").first().text();
 								String id = planiInformation.substring(planiInformation.indexOf("(")+1, planiInformation.indexOf(")")).trim();
@@ -67,6 +67,9 @@ public class BeschaffungsreportListener extends HtmlListener{
 									}
 									p.addStolenRessources(r);
 									GlobalObjects.logger.addLog("Identified Beschaffungsreport (" + p.uniqueId + "): " + c.getTime());
+									GlobalObjects.logger.addSubLog("Eisen: " + r.getIron(), 1);
+									GlobalObjects.logger.addSubLog("Minerale: " + r.getMinerals(), 1);
+									GlobalObjects.logger.addSubLog("Treibstoff: " + r.getFuel(), 1);
 								}			
 							}					
 						} catch (ParseException e) {

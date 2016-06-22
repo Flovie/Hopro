@@ -3,6 +3,7 @@ package listener.gui;
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 import javax.swing.JButton;
@@ -21,6 +22,8 @@ public class LogScreen extends JFrame implements ErrorLogger, StandardLogger, Ac
 	
 	private JTextArea logField;
 	private JButton saveButton;
+	
+	private SimpleDateFormat format = new SimpleDateFormat("HH:mm:ss");
 	
 	/**
 	 * 
@@ -49,7 +52,7 @@ public class LogScreen extends JFrame implements ErrorLogger, StandardLogger, Ac
 	}
 	
 	public void addLog(String s){
-		this.logField.append(Calendar.getInstance().getTime().toString() + ": " + s);
+		this.logField.append(format.format(Calendar.getInstance().getTime()) + ": " + s);
 		this.logField.append(System.lineSeparator());
 	}
 	
