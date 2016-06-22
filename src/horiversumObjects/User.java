@@ -20,7 +20,8 @@ public class User implements Comparable<User>{
 	// Misc
 	private String alliance;
 	private Boolean activityStatus;
-	private Long score;
+	private Integer activityRatio;
+	private Score score;
 	
 	// Planets
 	private Set<Planet> planets = new HashSet<Planet>();
@@ -44,7 +45,10 @@ public class User implements Comparable<User>{
 		}
 		if (xml.activityStatus!= null){
 			u.activityStatus = xml.activityStatus;
-		}		
+		}	
+		if (xml.activityRatio!=null){
+			u.activityRatio = xml.activityRatio;
+		}
 		if(xml.planets==null){
 			u.planets = new HashSet<Planet>();
 		}else{
@@ -72,10 +76,16 @@ public class User implements Comparable<User>{
 		this.update();
 	}
 	
-	public void setScore(long score){
+	public void setActivityRatio(int activityRatio){
+		this.activityRatio = activityRatio;
+		this.update();
+	}
+	
+	public void setScore(Score score){
 		this.score = score;
 		this.update();
 	}
+	
 	
 	public void addPlanet(Planet p){
 		if (!(this.planets.contains(p))){
@@ -98,6 +108,10 @@ public class User implements Comparable<User>{
 	public Boolean getActivityStatus() {
 		return activityStatus;
 	}
+	
+	public Integer getActivityRatio(){
+		return this.activityRatio;
+	}
 
 	public String getName() {
 		return userId;
@@ -107,7 +121,7 @@ public class User implements Comparable<User>{
 		return userId;
 	}
 	
-	public Long getScore(){
+	public Score getScore(){
 		return this.score;
 	}
 	

@@ -54,16 +54,22 @@ public class BeschaffungsreportListener extends HtmlListener{
 										nextIndex = beute.indexOf("Eisenerz")-1;
 										r.setIron(Integer.parseInt(HtmlReader.cleanUpForParsingNumber(beute.substring(startIndex, nextIndex))));
 										startIndex = nextIndex+10;
+									}else{
+										r.setIron(0);
 									}
 									if(beute.contains("Minerale")){		
 										nextIndex = beute.indexOf("Minerale")-1;
 										r.setMinerals(Integer.parseInt(HtmlReader.cleanUpForParsingNumber(beute.substring(startIndex, nextIndex))));
 										startIndex = nextIndex+10;
+									}else{
+										r.setMinerals(0);
 									}
 									if(beute.contains("Treibstoff")){		
 										nextIndex = beute.indexOf("Treibstoff")-1;
 										r.setFuel(Integer.parseInt(HtmlReader.cleanUpForParsingNumber(beute.substring(startIndex, nextIndex))));
 										startIndex = nextIndex+12;
+									}else{
+										r.setFuel(0);
 									}
 									p.addStolenRessources(r);
 									GlobalObjects.logger.addLog("Identified Beschaffungsreport (" + p.uniqueId + "): " + c.getTime());

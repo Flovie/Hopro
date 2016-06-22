@@ -24,15 +24,19 @@ public class Ressources {
 	private boolean autoupdate = true;
 		
 	public int getIron(){
-		return this.iron;
+			return this.iron;
 	}
 		
 	public int getMinerals(){
-		return this.minerals;
+			return this.minerals;
 	}
 		
 	public int getFuel(){
-		return this.fuel;
+//		if(this.fuel==null){
+//			return 0;
+//		}else{
+			return this.fuel;
+//		}		
 	}
 		
 	public Calendar getUpdated(){
@@ -66,9 +70,21 @@ public class Ressources {
 	}
 	
 	public void add(Ressources r){
-		this.iron = this.iron + r.getIron();
-		this.minerals = this.minerals + r.getMinerals();
-		this.fuel = this.fuel + r.getFuel();
+		if(this.iron != null){
+			this.iron = this.iron + r.getIron();
+		}else{
+			this.iron = r.getIron();
+		}
+		if(this.minerals != null){
+			this.minerals = this.minerals + r.getMinerals();
+		}else{
+			this.minerals = r.getMinerals();
+		}
+		if(this.fuel != null){
+			this.fuel = this.fuel + r.getFuel();
+		}else{
+			this.fuel = r.getFuel();
+		}
 		this.update();
 	}
 	

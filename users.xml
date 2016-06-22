@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<userMap created="2016-06-22T22:31:52.824+02:00">
+    <users>
+        <user id="-=NoC=-" updated="2016-06-22T22:30:33.941+02:00">
+            <alliance>Plex</alliance>
+            <score updated="2016-06-22T22:30:33.941+02:00">
+                <relScore>1.19</relScore>
+                <score>2321444548</score>
+            </score>
+            <activityRatio>89</activityRatio>
+        </user>
+        <user id="357Onsen" updated="2016-06-22T22:30:33.984+02:00">
+            <alliance>ASGW</alliance>
+            <score updated="2016-06-22T22:30:33.984+02:00">
+                <relScore>0.498</relScore>
+                <score>1171721021</score>
+            </score>
+            <activityRatio>50</activityRatio>
+        </user>
+        <user id="Adiumy" updated="2016-06-22T22:30:33.938+02:00">
+            <alliance>SUN</alliance>
+            <score updated="2016-06-22T22:30:33.938+02:00">
+                <relScore>1.09</relScore>
+                <score>2449010788</score>
+            </score>
+            <activityRatio>100</activityRatio>
+        </user>
+        <user id="Aldo the Apache" updated="2016-06-22T22:30:33.998+02:00">
+            <score updated="2016-06-22T22:30:33.998+02:00">
+                <relScore>0.383</relScore>
+                <score>862623144</score>
+            </score>
+            <activityRatio>53</activityRatio>
+        </user>
+        <user id="Aloha" updated="2016-06-22T22:30:33.965+02:00">
+            <score updated="2016-06-22T22:30:33.965+02:00">
+                <relScore>0.652</relScore>
+                <score>1468790641</score>
+            </score>
+            <activityRatio>97</activityRatio>
+        </user>
+        <user id="Ambrosia" updated="2016-06-22T22:30:33.953+02:00">
+            <score updated="2016-06-22T22:30:33.953+02:00">
+                <relScore>0.774</relScore>
+                <score>1743492314</score>
+            </score>
+            <activityRatio>73</activityRatio>
+        </user>
+        <user id="Anomander Rake" updated="2016-06-22T22:30:33.974+02:00">
+            <alliance>BASIS</alliance>
+            <score updated="2016-06-22T22:30:33.974+02:00">
+                <relScore>0.588</relScore>
+                <score>1319814995</score>
+            </score>
+            <activityRatio>56</activityRatio>
+        </user>
+        <user id="Antares" updated="2016-06-22T22:30:33.959+02:00">
+            <alliance>DNA</alliance>
+            <score updated="2016-06-22T22:30:33.959+02:00">
+                <relScore>0.736</relScore>
+                <score>1610114439</score>
+            </score>
+            <activityRatio>68</activityRatio>
+        </user>
+        <user id="Astor" updated="2016-06-22T22:30:33.972+02:00">
+            <alliance>CDA</alliance>
+            <score updated="2016-06-22T22:30:33.972+02:00">
+                <relScore>0.591</relScore>
+                <score>1329483694</score>
+            </score>
+            <activityRatio>57</activityRatio>
+        </user>
+        <user id="Bloos" updated="2016-06-22T22:30:33.985+02:00">
+            <alliance>1UP</alliance>
+            <score updated="2016-06-22T22:30:33.985+02:00">
+                <relScore>0.517</relScore>
+                <score>1163868200</score>
+            </score>
+            <activityRatio>100</activityRatio>
+        </user>
+        <user id="Bomilkar" updated="2016-06-22T22:30:33.938+02:00">
+            <alliance>HEAD</alliance>
+            <score updated="2016-06-22T22:30:33.938+02:00">
+                <relScore>1.26</relScore>
+                <score>2548106389</score>
+            </score>
+            <activityRatio>93</activityRatio>
+        </user>
+        <user id="Bruno" updated="2016-06-22T22:30:33.965+02:00">
+            <alliance>1UP</alliance>
+            <score updated="2016-06-22T22:30:33.965+02:00">
+                <relScore>0.653</relScore>
+                <score>1466782163</score>
+            </score>
+            <activityRatio>62</activityRatio>
+        </user>
+        <user id="Brusli" updated="2016-06-22T22:30:33.962+02:00">
+            <alliance>SUN</alliance>
+            <score updated="2016-06-22T22:30:33.962+02:00">
+                <relScore>0.682</relScore>
+                <score>1536631362</score>
+            </score>
+            <activityRatio>65</activityRatio>
+        </user>
+        <user id="Bukm0p" updated="2016-06-22T22:30:33.984+02:00">
+            <alliance>m00n</alliance>
+            <score updated="2016-06-22T22:30:33.984+02:00">
+                <relScore>0.531</relScore>
+                <score>1170919764</score>
+            </score>
+            <activityRatio>67</activityRatio>
+        </user>
+        <user id="Bärbel" updated="2016-06-22T22:30:33.934+02:00">
+            <alliance>SUN</alliance>
+            <score updated="2016-06-22T22:30:33.934+02:00">
+                <relScore>1.42</relScore>
+                <score>3208111970</score>
+            </score>
+            <activityRatio>100</activityRatio>
+        </user>
+        <user id="Cartman" updated="2016-06-22T22:30:33.933+02:00">
+            <score updated="2016-06-22T22:30:33.933+02:00">
+                <relScore>1.58</relScore>
+                <score>3565644778</score>
+            </score>
+            <activityRatio>99</activityRatio>
+        </user>
+        <user id="Chewbacca" updated="2016-06-22T22:30:33.931+02:00">
+            <alliance>CDA</alliance>
+            <score updated="2016-06-22T22:30:33.931+02:00">
+                <relScore>1.7</relScore>
+                <score>3809944658</score>
+            </score>
+            <activityRatio>100</activityRatio>
+        </user>
+        <user id="Commander" updated="2016-06-22T22:30:33.936+02:00">
+            <alliance>UEFA</alliance>
+            <score updated="2016-06-22T22:30:33.936+02:00">
+                <relScore>1.3</relScore>
+                <score>2923783561</score>
+            </score>
+            <activityRatio>97</activityRatio>
+        </user>
+        <user id="Deine Mudda" updated="2016-06-22T22:30:33.999+02:00">
+            <alliance>DNA</alliance>
+            <score updated="2016-06-22T22:30:33.999+02:00">
+                <relScore>0.312</relScore>
+                <score>845258162</score>
+            </score>
+            <activityRatio>95</activityRatio>
+        </user>
+        <user id="Dr. Octopus" updated="2016-06-22T22:30:33.993+02:00">
+            <alliance>BIER</alliance>
+            <score updated="2016-06-22T22:30:33.993+02:00">
+                <relScore>0.402</relScore>
+                <score>904311053</score>
+            </score>
+            <activityRatio>39</activityRatio>
+        </user>
+        <user id="DrEcksack" updated="2016-06-22T22:30:33.968+02:00">
+            <alliance>SUN</alliance>
+            <score updated="2016-06-22T22:30:33.968+02:00">
+                <relScore>0.635</relScore>
+                <score>1429112757</score>
+            </score>
+            <activityRatio>81</activityRatio>
+        </user>
+        <user id="Feivel" updated="2016-06-22T22:30:33.952+02:00">
+            <alliance>BASIS</alliance>
+            <score updated="2016-06-22T22:30:33.952+02:00">
+                <relScore>0.783</relScore>
+                <score>1755553775</score>
+            </score>
+            <activityRatio>100</activityRatio>
+        </user>
+        <user id="Felidae" updated="2016-06-22T22:30:33.997+02:00">
+            <alliance>CDA</alliance>
+            <score updated="2016-06-22T22:30:33.997+02:00">
+                <relScore>0.388</relScore>
+                <score>877318404</score>
+            </score>
+            <activityRatio>97</activityRatio>
+        </user>
+        <user id="Freelancer" updated="2016-06-22T22:30:33.991+02:00">
+            <alliance>UFO</alliance>
+            <score updated="2016-06-22T22:30:33.991+02:00">
+                <relScore>0.367</relScore>
+                <score>936995035</score>
+            </score>
+            <activityRatio>40</activityRatio>
+        </user>
+        <user id="Galaxy_Ranger" updated="2016-06-22T22:30:33.937+02:00">
+            <alliance>CDA</alliance>
+            <score updated="2016-06-22T22:30:33.937+02:00">
+                <relScore>1.3</relScore>
+                <score>2904989357</score>
+            </score>
+            <activityRatio>98</activityRatio>
+        </user>
+        <user id="Gandir" updated="2016-06-22T22:30:33.977+02:00">
+            <alliance>GILDE</alliance>
+            <score updated="2016-06-22T22:30:33.977+02:00">
+                <relScore>0.58</relScore>
+                <score>1306506478</score>
+            </score>
+            <activityRatio>56</activityRatio>
+        </user>
+        <user id="Heisenberg" updated="2016-06-22T22:30:33.990+02:00">
+            <alliance>HEAD</alliance>
+            <score updated="2016-06-22T22:30:33.990+02:00">
+                <relScore>0.374</relScore>
+                <score>944768372</score>
+            </score>
+            <activityRatio>74</activityRatio>
+        </user>
+        <user id="Hephaistos" updated="2016-06-22T22:30:33.949+02:00">
+            <score updated="2016-06-22T22:30:33.949+02:00">
+                <relScore>0.829</relScore>
+                <score>1866416727</score>
+            </score>
+            <activityRatio>100</activityRatio>
+        </user>
+        <user id="Hetzer" updated="2016-06-22T22:30:33.930+02:00">
+            <score updated="2016-06-22T22:30:33.930+02:00">
+                <relScore>1.99</relScore>
+                <score>4484154754</score>
+            </score>
+            <activityRatio>100</activityRatio>
+        </user>
+        <user id="Hitlord" updated="2016-06-22T22:30:33.991+02:00">
+            <alliance>HEAD</alliance>
+            <score updated="2016-06-22T22:30:33.991+02:00">
+                <relScore>0.362</relScore>
+                <score>922662671</score>
+            </score>
+            <activityRatio>70</activityRatio>
+        </user>
+        <user id="Horst" updated="2016-06-22T22:30:33.961+02:00">
+            <alliance>BIER</alliance>
+            <score updated="2016-06-22T22:30:33.961+02:00">
+                <relScore>0.71</relScore>
+                <score>1583734125</score>
+            </score>
+            <activityRatio>73</activityRatio>
+        </user>
+        <user id="Infineon" updated="2016-06-22T22:30:33.957+02:00">
+            <alliance>m00n</alliance>
+            <score updated="2016-06-22T22:30:33.957+02:00">
+                <relScore>0.766</relScore>
+                <score>1647184934</score>
+            </score>
+            <activityRatio>100</activityRatio>
+        </user>
+        <user id="Jones" updated="2016-06-22T22:30:33.957+02:00">
+            <alliance>CDA</alliance>
+            <score updated="2016-06-22T22:30:33.957+02:00">
+                <relScore>0.732</relScore>
+                <score>1644257331</score>
+            </score>
+            <activityRatio>69</activityRatio>
+        </user>
+        <user id="Kim Jong Deux" updated="2016-06-22T22:30:33.999+02:00">
+            <alliance>HEAD</alliance>
+            <score updated="2016-06-22T22:30:33.999+02:00">
+                <relScore>0.31</relScore>
+                <score>829883019</score>
+            </score>
+            <activityRatio>41</activityRatio>
+        </user>
+        <user id="Kosmosrabauke" updated="2016-06-22T22:30:33.946+02:00">
+            <alliance>FIFA</alliance>
+            <score updated="2016-06-22T22:30:33.946+02:00">
+                <relScore>0.919</relScore>
+                <score>2041110036</score>
+            </score>
+            <activityRatio>82</activityRatio>
+        </user>
+        <user id="Kriegsschaf" updated="2016-06-22T22:30:33.996+02:00">
+            <alliance>m00n</alliance>
+            <score updated="2016-06-22T22:30:33.996+02:00">
+                <relScore>0.39</relScore>
+                <score>884706756</score>
+            </score>
+            <activityRatio>100</activityRatio>
+        </user>
+        <user id="Lynx" updated="2016-06-22T22:30:33.949+02:00">
+            <alliance>SUN</alliance>
+            <score updated="2016-06-22T22:30:33.949+02:00">
+                <relScore>0.819</relScore>
+                <score>1844244369</score>
+            </score>
+            <activityRatio>100</activityRatio>
+        </user>
+        <user id="Mac" updated="2016-06-22T22:30:33.945+02:00">
+            <alliance>HANSE</alliance>
+            <score updated="2016-06-22T22:30:33.945+02:00">
+                <relScore>0.919</relScore>
+                <score>2058551330</score>
+            </score>
+            <activityRatio>83</activityRatio>
+        </user>
+        <user id="MalibuBanane" updated="2016-06-22T22:30:33.992+02:00">
+            <alliance>HEAD</alliance>
+            <score updated="2016-06-22T22:30:33.992+02:00">
+                <relScore>0.361</relScore>
+                <score>921415946</score>
+            </score>
+            <activityRatio>100</activityRatio>
+        </user>
+        <user id="MampfHamsterIII" updated="2016-06-22T22:30:33.981+02:00">
+            <score updated="2016-06-22T22:30:33.981+02:00">
+                <relScore>0.546</relScore>
+                <score>1230053093</score>
+            </score>
+            <activityRatio>52</activityRatio>
+        </user>
+        <user id="Marodeur" updated="2016-06-22T22:30:33.932+02:00">
+            <alliance>DNA</alliance>
+            <score updated="2016-06-22T22:30:33.932+02:00">
+                <relScore>1.96</relScore>
+                <score>3741169151</score>
+            </score>
+            <activityRatio>100</activityRatio>
+        </user>
+        <user id="Milchbubi" updated="2016-06-22T22:30:33.967+02:00">
+            <alliance>HEAD</alliance>
+            <score updated="2016-06-22T22:30:33.967+02:00">
+                <relScore>0.658</relScore>
+                <score>1456444059</score>
+            </score>
+            <activityRatio>62</activityRatio>
+        </user>
+        <user id="Mondmann" updated="2016-06-22T22:30:33.933+02:00">
+            <alliance>SUN</alliance>
+            <score updated="2016-06-22T22:30:33.932+02:00">
+                <relScore>1.65</relScore>
+                <score>3708230211</score>
+            </score>
+            <activityRatio>100</activityRatio>
+        </user>
+        <user id="Monkey D Ruffy" updated="2016-06-22T22:30:33.978+02:00">
+            <alliance>DNA</alliance>
+            <score updated="2016-06-22T22:30:33.977+02:00">
+                <relScore>0.554</relScore>
+                <score>1282225457</score>
+            </score>
+            <activityRatio>100</activityRatio>
+        </user>
+        <user id="Mordin Solus" updated="2016-06-22T22:30:33.940+02:00">
+            <alliance>CDA</alliance>
+            <score updated="2016-06-22T22:30:33.940+02:00">
+                <relScore>1.05</relScore>
+                <score>2349576794</score>
+            </score>
+            <activityRatio>100</activityRatio>
+        </user>
+        <user id="Msb774" updated="2016-06-22T22:30:33.995+02:00">
+            <score updated="2016-06-22T22:30:33.995+02:00">
+                <relScore>0.395</relScore>
+                <score>890516439</score>
+            </score>
+            <activityRatio>97</activityRatio>
+        </user>
+        <user id="Nemesis" updated="2016-06-22T22:30:34+02:00">
+            <alliance>SUN</alliance>
+            <score updated="2016-06-22T22:30:34+02:00">
+                <relScore>0.362</relScore>
+                <score>815189973</score>
+            </score>
+            <activityRatio>35</activityRatio>
+        </user>
+        <user id="Nub the lesser" updated="2016-06-22T22:30:33.948+02:00">
+            <alliance>SUN</alliance>
+            <score updated="2016-06-22T22:30:33.948+02:00">
+                <relScore>0.864</relScore>
+                <score>1945043819</score>
+            </score>
+            <activityRatio>80</activityRatio>
+        </user>
+        <user id="Obi-Wan Kenobi" updated="2016-06-22T22:30:33.944+02:00">
+            <alliance>DNA</alliance>
+            <score updated="2016-06-22T22:30:33.944+02:00">
+                <relScore>1.16</relScore>
+                <score>2097208168</score>
+            </score>
+            <activityRatio>84</activityRatio>
+        </user>
+        <user id="Odin" updated="2016-06-22T22:30:33.934+02:00">
+            <alliance>DNA</alliance>
+            <score updated="2016-06-22T22:30:33.934+02:00">
+                <relScore>1.65</relScore>
+                <score>3251224966</score>
+            </score>
+            <activityRatio>99</activityRatio>
+        </user>
+        <user id="Optimus Prime" updated="2016-06-22T22:30:33.953+02:00">
+            <alliance>CDA</alliance>
+            <score updated="2016-06-22T22:30:33.953+02:00">
+                <relScore>0.777</relScore>
+                <score>1745865536</score>
+            </score>
+            <activityRatio>73</activityRatio>
+        </user>
+        <user id="PEKKA" updated="2016-06-22T22:30:33.930+02:00">
+            <alliance>1UP</alliance>
+            <score updated="2016-06-22T22:30:33.930+02:00">
+                <relScore>2.14</relScore>
+                <score>4776864460</score>
+            </score>
+            <activityRatio>100</activityRatio>
+        </user>
+        <user id="Pardona" updated="2016-06-22T22:30:33.994+02:00">
+            <alliance>GILDE</alliance>
+            <score updated="2016-06-22T22:30:33.994+02:00">
+                <relScore>0.396</relScore>
+                <score>894327275</score>
+            </score>
+            <activityRatio>38</activityRatio>
+        </user>
+        <user id="PiratoRox" updated="2016-06-22T22:30:33.983+02:00">
+            <alliance>SUN</alliance>
+            <score updated="2016-06-22T22:30:33.983+02:00">
+                <relScore>0.526</relScore>
+                <score>1185125560</score>
+            </score>
+            <activityRatio>51</activityRatio>
+        </user>
+        <user id="Prometheus" updated="2016-06-22T22:30:33.989+02:00">
+            <alliance>FIFA</alliance>
+            <score updated="2016-06-22T22:30:33.989+02:00">
+                <relScore>0.454</relScore>
+                <score>1014790832</score>
+            </score>
+            <activityRatio>45</activityRatio>
+        </user>
+        <user id="Rapha" updated="2016-06-22T22:30:33.960+02:00">
+            <alliance>DNA</alliance>
+            <score updated="2016-06-22T22:30:33.960+02:00">
+                <relScore>0.775</relScore>
+                <score>1608380095</score>
+            </score>
+            <activityRatio>68</activityRatio>
+        </user>
+        <user id="Sauron" updated="2016-06-22T22:30:33.985+02:00">
+            <alliance>HANSE</alliance>
+            <score updated="2016-06-22T22:30:33.985+02:00">
+                <relScore>0.508</relScore>
+                <score>1142186660</score>
+            </score>
+            <activityRatio>49</activityRatio>
+        </user>
+        <user id="ScYo" updated="2016-06-22T22:30:33.990+02:00">
+            <alliance>HEAD</alliance>
+            <score updated="2016-06-22T22:30:33.990+02:00">
+                <relScore>0.374</relScore>
+                <score>944374499</score>
+            </score>
+            <activityRatio>43</activityRatio>
+        </user>
+        <user id="Serendipity" updated="2016-06-22T22:30:33.978+02:00">
+            <alliance>DNA</alliance>
+            <score updated="2016-06-22T22:30:33.978+02:00">
+                <relScore>0.583</relScore>
+                <score>1262892788</score>
+            </score>
+            <activityRatio>54</activityRatio>
+        </user>
+        <user id="Sharra" updated="2016-06-22T22:30:33.997+02:00">
+            <score updated="2016-06-22T22:30:33.997+02:00">
+                <relScore>0.388</relScore>
+                <score>874405306</score>
+            </score>
+            <activityRatio>41</activityRatio>
+        </user>
+        <user id="Shinji" updated="2016-06-22T22:30:33.966+02:00">
+            <alliance>m00n</alliance>
+            <score updated="2016-06-22T22:30:33.966+02:00">
+                <relScore>0.675</relScore>
+                <score>1462486673</score>
+            </score>
+            <activityRatio>62</activityRatio>
+        </user>
+        <user id="Sojus" updated="2016-06-22T22:30:33.943+02:00">
+            <alliance>DNA</alliance>
+            <score updated="2016-06-22T22:30:33.943+02:00">
+                <relScore>1.03</relScore>
+                <score>2139762989</score>
+            </score>
+            <activityRatio>85</activityRatio>
+        </user>
+        <user id="Spawn" updated="2016-06-22T22:30:33.968+02:00">
+            <alliance>Plex</alliance>
+            <score updated="2016-06-22T22:30:33.968+02:00">
+                <relScore>0.707</relScore>
+                <score>1455125566</score>
+            </score>
+            <activityRatio>62</activityRatio>
+        </user>
+        <user id="Swarm0815247" updated="2016-06-22T22:30:33.961+02:00">
+            <alliance>HEAD</alliance>
+            <score updated="2016-06-22T22:30:33.961+02:00">
+                <relScore>0.703</relScore>
+                <score>1537543427</score>
+            </score>
+            <activityRatio>65</activityRatio>
+        </user>
+        <user id="SynCoCoop" updated="2016-06-22T22:30:33.980+02:00">
+            <alliance>BIER</alliance>
+            <score updated="2016-06-22T22:30:33.980+02:00">
+                <relScore>0.548</relScore>
+                <score>1230358575</score>
+            </score>
+            <activityRatio>52</activityRatio>
+        </user>
+        <user id="Toadie" updated="2016-06-22T22:30:33.958+02:00">
+            <alliance>HEAD</alliance>
+            <score updated="2016-06-22T22:30:33.958+02:00">
+                <relScore>0.757</relScore>
+                <score>1635539731</score>
+            </score>
+            <activityRatio>76</activityRatio>
+        </user>
+        <user id="Triple X" updated="2016-06-22T22:30:33.963+02:00">
+            <alliance>BASIS</alliance>
+            <score updated="2016-06-22T22:30:33.963+02:00">
+                <relScore>0.661</relScore>
+                <score>1483469405</score>
+            </score>
+            <activityRatio>63</activityRatio>
+        </user>
+        <user id="Verleihnix" updated="2016-06-22T22:30:33.982+02:00">
+            <alliance>1UP</alliance>
+            <score updated="2016-06-22T22:30:33.982+02:00">
+                <relScore>0.542</relScore>
+                <score>1219854353</score>
+            </score>
+            <activityRatio>52</activityRatio>
+        </user>
+        <user id="WoF" updated="2016-06-22T22:30:33.988+02:00">
+            <alliance>CDA</alliance>
+            <score updated="2016-06-22T22:30:33.988+02:00">
+                <relScore>0.484</relScore>
+                <score>1092219057</score>
+            </score>
+            <activityRatio>99</activityRatio>
+        </user>
+        <user id="Yellowjacket" updated="2016-06-22T22:30:33.989+02:00">
+            <alliance>BIER</alliance>
+            <score updated="2016-06-22T22:30:33.989+02:00">
+                <relScore>0.437</relScore>
+                <score>982121634</score>
+            </score>
+            <activityRatio>42</activityRatio>
+        </user>
+        <user id="Zippy" updated="2016-06-22T22:30:33.954+02:00">
+            <score updated="2016-06-22T22:30:33.954+02:00">
+                <relScore>0.763</relScore>
+                <score>1717649821</score>
+            </score>
+            <activityRatio>100</activityRatio>
+        </user>
+        <user id="[Zag]" updated="2016-06-22T22:30:33.980+02:00">
+            <alliance>CDA</alliance>
+            <score updated="2016-06-22T22:30:33.980+02:00">
+                <relScore>0.547</relScore>
+                <score>1231901359</score>
+            </score>
+            <activityRatio>53</activityRatio>
+        </user>
+        <user id="_nightkin" updated="2016-06-22T22:30:34+02:00">
+            <score updated="2016-06-22T22:30:34+02:00">
+                <relScore>0.367</relScore>
+                <score>826836683</score>
+            </score>
+            <activityRatio>36</activityRatio>
+        </user>
+        <user id="alialbakschisch" updated="2016-06-22T22:30:33.992+02:00">
+            <alliance>HANSE</alliance>
+            <score updated="2016-06-22T22:30:33.992+02:00">
+                <relScore>0.403</relScore>
+                <score>907789065</score>
+            </score>
+            <activityRatio>97</activityRatio>
+        </user>
+        <user id="amyt" updated="2016-06-22T22:30:33.995+02:00">
+            <alliance>DNA</alliance>
+            <score updated="2016-06-22T22:30:33.995+02:00">
+                <relScore>0.378</relScore>
+                <score>893720662</score>
+            </score>
+            <activityRatio>38</activityRatio>
+        </user>
+        <user id="anthrax" updated="2016-06-22T22:30:33.997+02:00">
+            <alliance>HANSE</alliance>
+            <score updated="2016-06-22T22:30:33.997+02:00">
+                <relScore>0.383</relScore>
+                <score>863993919</score>
+            </score>
+            <activityRatio>37</activityRatio>
+        </user>
+        <user id="d[O_O]b" updated="2016-06-22T22:30:33.929+02:00">
+            <alliance>HEAD</alliance>
+            <score updated="2016-06-22T22:30:33.929+02:00">
+                <relScore>2.69</relScore>
+                <score>5111821629</score>
+            </score>
+            <activityRatio>100</activityRatio>
+        </user>
+        <user id="deep" updated="2016-06-22T22:30:33.964+02:00">
+            <alliance>DNA</alliance>
+            <score updated="2016-06-22T22:30:33.964+02:00">
+                <relScore>0.698</relScore>
+                <score>1470585664</score>
+            </score>
+            <activityRatio>63</activityRatio>
+        </user>
+        <user id="dooku von serenn" updated="2016-06-22T22:30:33.976+02:00">
+            <alliance>ASGW</alliance>
+            <score updated="2016-06-22T22:30:33.976+02:00">
+                <relScore>0.573</relScore>
+                <score>1307655861</score>
+            </score>
+            <activityRatio>56</activityRatio>
+        </user>
+        <user id="durstig" updated="2016-06-22T22:30:33.993+02:00">
+            <alliance>HANSE</alliance>
+            <score updated="2016-06-22T22:30:33.993+02:00">
+                <relScore>0.398</relScore>
+                <score>895384832</score>
+            </score>
+            <activityRatio>38</activityRatio>
+        </user>
+        <user id="foXen" updated="2016-06-22T22:30:33.989+02:00">
+            <alliance>DNA</alliance>
+            <score updated="2016-06-22T22:30:33.989+02:00">
+                <relScore>0.428</relScore>
+                <score>983891123</score>
+            </score>
+            <activityRatio>42</activityRatio>
+        </user>
+        <user id="glenn" active="false" updated="2016-06-21T22:11:13.977+02:00">
+            <planets>1:27:8</planets>
+        </user>
+        <user id="greystoke" updated="2016-06-22T22:30:33.988+02:00">
+            <alliance>GILDE</alliance>
+            <score updated="2016-06-22T22:30:33.988+02:00">
+                <relScore>0.485</relScore>
+                <score>1093813207</score>
+            </score>
+            <activityRatio>47</activityRatio>
+        </user>
+        <user id="hieronymus" updated="2016-06-22T22:30:33.940+02:00">
+            <score updated="2016-06-22T22:30:33.940+02:00">
+                <relScore>1.07</relScore>
+                <score>2409445242</score>
+            </score>
+            <activityRatio>91</activityRatio>
+        </user>
+        <user id="jerry" updated="2016-06-22T22:30:33.986+02:00">
+            <alliance>BASIS</alliance>
+            <score updated="2016-06-22T22:30:33.986+02:00">
+                <relScore>0.493</relScore>
+                <score>1109141159</score>
+            </score>
+            <activityRatio>47</activityRatio>
+        </user>
+        <user id="kane" updated="2016-06-22T22:30:33.963+02:00">
+            <alliance>KOGGE</alliance>
+            <score updated="2016-06-22T22:30:33.963+02:00">
+                <relScore>0.653</relScore>
+                <score>1471299296</score>
+            </score>
+            <activityRatio>63</activityRatio>
+        </user>
+        <user id="killtec_" updated="2016-06-22T22:30:33.942+02:00">
+            <score updated="2016-06-22T22:30:33.942+02:00">
+                <relScore>0.951</relScore>
+                <score>2142415802</score>
+            </score>
+            <activityRatio>85</activityRatio>
+        </user>
+        <user id="knecht ruprecht" updated="2016-06-22T22:30:33.956+02:00">
+            <alliance>m00n</alliance>
+            <score updated="2016-06-22T22:30:33.956+02:00">
+                <relScore>0.79</relScore>
+                <score>1695663971</score>
+            </score>
+            <activityRatio>100</activityRatio>
+        </user>
+        <user id="lord dead" updated="2016-06-22T22:30:33.946+02:00">
+            <alliance>CDA</alliance>
+            <score updated="2016-06-22T22:30:33.946+02:00">
+                <relScore>0.871</relScore>
+                <score>1954131587</score>
+            </score>
+            <activityRatio>80</activityRatio>
+        </user>
+        <user id="lord schorsch" updated="2016-06-22T22:30:33.995+02:00">
+            <alliance>DNA</alliance>
+            <score updated="2016-06-22T22:30:33.995+02:00">
+                <relScore>0.375</relScore>
+                <score>888039447</score>
+            </score>
+            <activityRatio>38</activityRatio>
+        </user>
+        <user id="majowka" updated="2016-06-22T22:30:33.967+02:00">
+            <alliance>HEAD</alliance>
+            <score updated="2016-06-22T22:30:33.967+02:00">
+                <relScore>0.661</relScore>
+                <score>1461521565</score>
+            </score>
+            <activityRatio>79</activityRatio>
+        </user>
+        <user id="mozh" updated="2016-06-22T22:30:33.947+02:00">
+            <alliance>CDA</alliance>
+            <score updated="2016-06-22T22:30:33.947+02:00">
+                <relScore>0.867</relScore>
+                <score>1946552133</score>
+            </score>
+            <activityRatio>80</activityRatio>
+        </user>
+        <user id="polotano" updated="2016-06-22T22:30:33.979+02:00">
+            <score updated="2016-06-22T22:30:33.979+02:00">
+                <relScore>0.556</relScore>
+                <score>1251774140</score>
+            </score>
+            <activityRatio>53</activityRatio>
+        </user>
+        <user id="schlatt" updated="2016-06-22T22:30:33.939+02:00">
+            <alliance>SUN</alliance>
+            <score updated="2016-06-22T22:30:33.939+02:00">
+                <relScore>1.08</relScore>
+                <score>2441013238</score>
+            </score>
+            <activityRatio>100</activityRatio>
+        </user>
+        <user id="sean" updated="2016-06-22T22:30:33.999+02:00">
+            <score updated="2016-06-22T22:30:33.999+02:00">
+                <relScore>0.375</relScore>
+                <score>845415360</score>
+            </score>
+            <activityRatio>36</activityRatio>
+        </user>
+        <user id="sharia812" updated="2016-06-22T22:30:33.935+02:00">
+            <alliance>CDA</alliance>
+            <score updated="2016-06-22T22:30:33.935+02:00">
+                <relScore>1.35</relScore>
+                <score>3030315477</score>
+            </score>
+            <activityRatio>98</activityRatio>
+        </user>
+        <user id="ssss" updated="2016-06-22T22:30:33.981+02:00">
+            <alliance>HANSE</alliance>
+            <score updated="2016-06-22T22:30:33.981+02:00">
+                <relScore>0.544</relScore>
+                <score>1221139930</score>
+            </score>
+            <activityRatio>52</activityRatio>
+        </user>
+        <user id="syndro" updated="2016-06-22T22:30:33.986+02:00">
+            <alliance>CDA</alliance>
+            <score updated="2016-06-22T22:30:33.986+02:00">
+                <relScore>0.5</relScore>
+                <score>1127978707</score>
+            </score>
+            <activityRatio>48</activityRatio>
+        </user>
+        <user id="ulthima" updated="2016-06-22T22:30:33.994+02:00">
+            <alliance>HANSE</alliance>
+            <score updated="2016-06-22T22:30:33.994+02:00">
+                <relScore>0.397</relScore>
+                <score>894200393</score>
+            </score>
+            <activityRatio>38</activityRatio>
+        </user>
+        <user id="webbi" updated="2016-06-22T22:30:33.987+02:00">
+            <alliance>CDA</alliance>
+            <score updated="2016-06-22T22:30:33.987+02:00">
+                <relScore>0.487</relScore>
+                <score>1097514207</score>
+            </score>
+            <activityRatio>50</activityRatio>
+        </user>
+        <user id="yochlol" updated="2016-06-22T22:30:33.942+02:00">
+            <alliance>HEAD</alliance>
+            <score updated="2016-06-22T22:30:33.942+02:00">
+                <relScore>1.11</relScore>
+                <score>2263658669</score>
+            </score>
+            <activityRatio>88</activityRatio>
+        </user>
+    </users>
+</userMap>

@@ -12,6 +12,7 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
 import horiversumObjects.Planet;
+import horiversumObjects.Score;
 import horiversumObjects.User;
 
 @XmlRootElement(name="user")
@@ -28,13 +29,17 @@ public class XmlUser implements Comparable<XmlUser>{
 	public Boolean activityStatus;
 	
 	@XmlElement(required=false)
-	public Long score;
+	public Score score;
 	
 	@XmlElement(required=false)
 	public List<String> planets = null;
 	
+	@XmlElement(required=false)
+	public Integer activityRatio;
+	
 	@XmlAttribute(required=true)
 	public Calendar updated;
+
 	
 	
 	public void transferDataToXml(User u){
@@ -42,7 +47,10 @@ public class XmlUser implements Comparable<XmlUser>{
 		this.alliance = u.getAlliance();
 		if (u.getActivityStatus()!=null){
 			this.activityStatus = u.getActivityStatus();
-		}		
+		}
+		if(u.getActivityRatio()!=null){
+			this.activityRatio = u.getActivityRatio();
+		}
 		this.score = u.getScore();
 		if (u.getPlanets()!=null){
 			this.planets = new ArrayList<String>();
