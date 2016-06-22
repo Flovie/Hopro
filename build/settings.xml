@@ -1,7 +1,7 @@
 <settings>
-	<planetsFile>X:\Dropbox\Horiversum\planets.xml</planetsFile>
-	<usersFile>X:\Dropbox\Horiversum\users.xml</usersFile>
+	<planetsFile>C:\Users\ostermann\Documents\Dropbox\Horiversum\planets.xml</planetsFile>
+	<usersFile>C:\Users\ostermann\Documents\Dropbox\Horiversum\users.xml</usersFile>
 	<saveIntervall>300</saveIntervall>
 	<debuggingMode>false</debuggingMode>
-	<alwaysOnTop>true</alwaysOnTop>
+	<alwaysOnTop>false</alwaysOnTop>
 </settings>
