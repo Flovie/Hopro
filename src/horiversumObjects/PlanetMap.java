@@ -20,7 +20,7 @@ public class PlanetMap {
 	
 	@XmlElement(name="planets")
 	@XmlJavaTypeAdapter(PlanetMapAdapter.class)
-	private Map<String,Planet> ps = new HashMap<String,Planet>();
+	private Map<String,Planet> ps = new HashMap<String,Planet>();	
 	
 	@XmlElement(name="galaxies")
 	@XmlJavaTypeAdapter(SystemMapAdapter.class)
@@ -81,6 +81,6 @@ public class PlanetMap {
 	
 	public void addSystem(GalaxySystem s){
 		this.galaxies.put(s.getGalaxy() + ":" + s.getSystem(), s);
-	}
+	}	
 
 }

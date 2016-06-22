@@ -43,16 +43,18 @@ public class Planet implements Comparable<Planet> {
 		this.updated = Calendar.getInstance();
 	}
 	
-	public void transferDataFromXml(XmlPlanet xml){
-		this.name = xml.name;
-		this.type = xml.type;
+	public static Planet transferFromXml(XmlPlanet xml){
+		Planet p = new Planet(xml.uniqueId);
+		p.name = xml.name;
+		p.type = xml.type;
 		if(xml.owner != null){
-			this.owner = User.getInstance(xml.owner);
-			this.owner.addPlanet(this);
+			p.owner = User.getInstance(xml.owner);
+			p.owner.addPlanet(p);
 		}		
-		this.updated = xml.updated;
-		this.orbitRessources = xml.orbitalRessources;
-		this.stolenRessources = xml.stolenRessources;
+		p.updated = xml.updated;
+		p.orbitRessources = xml.orbitalRessources;
+		p.stolenRessources = xml.stolenRessources;
+		return p;
 	}
 	
 	// SETTERS
@@ -89,6 +91,48 @@ public class Planet implements Comparable<Planet> {
 	
 	public void setUpdated(Calendar updated){
 		this.updated = updated;
+	}
+	
+	public void update(Planet p){
+		if(this.uniqueId.equalsIgnoreCase(p.uniqueId)){
+			boolean isNewer = this.getUpdated().compareTo(p.getUpdated()) < 1;
+			if(p.type != null){
+				if(isNewer || this.type == null){
+					this.type = p.type;
+				}				
+			}
+			if(p.type != null){
+				if(isNewer || this.name == null){
+					this.name = p.name;
+				}				
+			}
+			if(p.getOrbitalRessources() != null){
+				if(this.orbitRessources != null){
+					if(this.orbitRessources.getUpdated().compareTo(p.getOrbitalRessources().getUpdated()) < 1){
+						this.orbitRessources = p.getOrbitalRessources();
+					}					
+				}else{
+					this.orbitRessources = p.getOrbitalRessources();
+				}
+			}
+			if(p.owner != null){
+				if(isNewer || this.owner == null){
+					this.owner = p.owner;
+				}				
+			}
+			if(p.getStolenRessources() != null){
+				if(this.stolenRessources != null){
+					if(this.stolenRessources.getUpdated().compareTo(p.getStolenRessources().getUpdated()) < 1){
+						this.stolenRessources = p.getStolenRessources();
+					}					
+				}else{
+					this.stolenRessources = p.getStolenRessources();
+				}
+			}
+			if(isNewer){
+				this.updated = p.updated;
+			}
+		}
 	}
 	
 	public void addStolenRessources(Ressources r){

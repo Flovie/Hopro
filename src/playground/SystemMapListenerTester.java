@@ -14,6 +14,7 @@ public class SystemMapListenerTester {
 	
 	public static void main(String[] args) throws IOException{
 		Universe.loadAll();
+		System.out.println(Universe.getPlanetMap().getSystem(1, 815));
 		BufferedReader br = new BufferedReader(new FileReader(new File("./input/systemMap.html")));
 		String line = br.readLine();
 		StringBuffer sb = new StringBuffer();		

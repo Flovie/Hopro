@@ -37,25 +37,27 @@ public class User implements Comparable<User>{
 	}
 	
 	// XML Functions
-	public void transferDataFromXml(XmlUser xml){
-		if (this.alliance != null){
-			this.alliance = xml.alliance;
+	public static User transferFromXml(XmlUser xml){
+		User u = new User(xml.userId);
+		if (xml.alliance != null){
+			u.alliance = xml.alliance;
 		}
 		if (xml.activityStatus!= null){
-			this.activityStatus = xml.activityStatus;
+			u.activityStatus = xml.activityStatus;
 		}		
 		if(xml.planets==null){
-			this.planets = new HashSet<Planet>();
+			u.planets = new HashSet<Planet>();
 		}else{
 			for(String s: xml.planets){
 				Planet p = Planet.getInstance(s);
-				if (p.getOwner().userId.equals(this.userId)){
-					this.planets.add(p);
+				if (p.getOwner().userId.equals(u.userId)){
+					u.planets.add(p);
 				}							
 			}
 		}			
-		this.score = xml.score;
-		this.updated = xml.updated;		
+		u.score = xml.score;
+		u.updated = xml.updated;	
+		return u;
 	}
 	
 	

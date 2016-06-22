@@ -31,11 +31,13 @@ public class Universe {
 	}
 	
 	public static void loadPlanetMap(String filename){
-		XmlPlanetMapLoader.load(filename);
+		// This overwrite the earlier pmap. This may potentially lead to inconsistencies!
+		Universe.pmap = XmlPlanetMapLoader.load(filename);
 	}
 	
 	public static void loadUserMap(String filename){
-		XmlUserMapLoader.load(filename);
+		// This overwrite the earlier umap. This may potentially lead to inconsistencies!
+		Universe.umap = XmlUserMapLoader.load(filename);
 	}	
 	
 	public static void saveAll(){

@@ -16,8 +16,7 @@ public class UserAdapter extends XmlAdapter<XmlUser,User> {
 
 	@Override
 	public User unmarshal(XmlUser xml) throws Exception {
-		User u = User.getInstance(xml.userId);
-		u.transferDataFromXml(xml);
+		User u = User.transferFromXml(xml);
 		return u;
 	}
 

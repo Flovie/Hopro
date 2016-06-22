@@ -35,7 +35,6 @@ public class PlanetMapAdapter extends XmlAdapter<PlanetMapAdapter.AdaptedPlanets
 				planetsMap.put(p.uniqueId, p);
 			}
 		}
-					
 		return planetsMap;
 	}
 

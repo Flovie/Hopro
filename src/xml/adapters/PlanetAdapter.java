@@ -2,9 +2,7 @@ package xml.adapters;
 
 import javax.xml.bind.annotation.adapters.XmlAdapter;
 
-import horiversumObjects.Coordinate;
 import horiversumObjects.Planet;
-import horiversumObjects.Universe;
 import xml.XmlPlanet;
 
 public class PlanetAdapter extends XmlAdapter<XmlPlanet,Planet>{
@@ -19,8 +17,7 @@ public class PlanetAdapter extends XmlAdapter<XmlPlanet,Planet>{
 
 	@Override
 	public Planet unmarshal(XmlPlanet xml) throws Exception {
-		Planet p = Universe.getPlanetMap().getPlanet(new Coordinate(xml.uniqueId));
-		p.transferDataFromXml(xml);
+		Planet p = Planet.transferFromXml(xml);
 		return p;
 	}
 	

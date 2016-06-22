@@ -27,7 +27,7 @@ public class SystemMapAdapter extends XmlAdapter<SystemMapAdapter.AdaptedSystemL
 
 	@Override
 	public Map<String, GalaxySystem> unmarshal(AdaptedSystemList v) throws Exception {
-		Map<String,GalaxySystem> systemsMap = new HashMap<String,GalaxySystem>();
+		Map<String,GalaxySystem> systemsMap = new HashMap<String,GalaxySystem>();		
 		if(v!=null){
 			for(GalaxySystem s: v.system){
 				systemsMap.put(s.getGalaxy() + ":" + s.getSystem(), s);
