@@ -13,6 +13,7 @@ var disabled = false;
 function doStuffWithDom(domContent) {
 	if (disabled == false){
 		sendNativeMessage(domContent);
+		console.log(domContent);
 		console.log("I sent it");
 	}	
 }
