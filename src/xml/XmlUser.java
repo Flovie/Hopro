@@ -37,6 +37,9 @@ public class XmlUser implements Comparable<XmlUser>{
 	@XmlElement(required=false)
 	public Integer activityRatio;
 	
+	@XmlElement(required=false)
+	public String status;
+	
 	@XmlAttribute(required=true)
 	public Calendar updated;
 
@@ -50,6 +53,9 @@ public class XmlUser implements Comparable<XmlUser>{
 		}
 		if(u.getActivityRatio()!=null){
 			this.activityRatio = u.getActivityRatio();
+		}
+		if(u.getStatus()!=null){
+			this.status = u.getStatus();
 		}
 		this.score = u.getScore();
 		if (u.getPlanets()!=null){

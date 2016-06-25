@@ -178,7 +178,12 @@ chrome.runtime.onMessage.addListener(function (msg, sender, sendResponse) {
     if (msg.text === 'report_back') {
         // Call the specified callback, passing
         // the web-page's DOM content as argument
-        sendResponse(document.all[0].outerHTML);
+		// Look wheather it is a highscore list
+		if(window.frames["lh_stat_main"]){
+			sendResponse(window.frames["lh_stat_main"].document.all[0].outerHTML);	
+		}else{
+			sendResponse(document.all[0].outerHTML);	
+		}
     }
 });
 

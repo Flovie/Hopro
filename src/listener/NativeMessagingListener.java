@@ -9,6 +9,7 @@ import horiversumObjects.Universe;
 import listener.gui.LogScreen;
 import listener.htmlListeners.BeschaffungsreportListener;
 import listener.htmlListeners.GalaxyListener;
+import listener.htmlListeners.HighscoreListener;
 import listener.htmlListeners.SystemMapListener;
 import misc.GlobalObjects;
 import misc.Settings;
@@ -63,6 +64,7 @@ public class NativeMessagingListener {
 		        	htmlReader.addListener(new GalaxyListener());
 		        	htmlReader.addListener(new SystemMapListener());
 		        	htmlReader.addListener(new BeschaffungsreportListener());
+		        	htmlReader.addListener(new HighscoreListener());
 		        	Thread readerThread = new Thread(htmlReader,htmlReader.toString());
 		        	readerThread.start();		        	
 		        }

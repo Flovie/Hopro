@@ -22,6 +22,7 @@ public class User implements Comparable<User>{
 	private Boolean activityStatus;
 	private Integer activityRatio;
 	private Score score;
+	private String status;
 	
 	// Planets
 	private Set<Planet> planets = new HashSet<Planet>();
@@ -48,6 +49,9 @@ public class User implements Comparable<User>{
 		}	
 		if (xml.activityRatio!=null){
 			u.activityRatio = xml.activityRatio;
+		}
+		if (xml.status!=null){
+			u.status = xml.status;
 		}
 		if(xml.planets==null){
 			u.planets = new HashSet<Planet>();
@@ -85,6 +89,12 @@ public class User implements Comparable<User>{
 		this.score = score;
 		this.update();
 	}
+	
+	public void setStatus(String status) {
+		this.status = status;
+		this.update();
+	}
+		
 	
 	
 	public void addPlanet(Planet p){
@@ -132,6 +142,10 @@ public class User implements Comparable<User>{
 	public Calendar getUpdated(){
 		return this.updated;
 	}
+	
+	public String getStatus() {
+		return status;
+	}
 
 
 	public static User getInstance(String id) {
@@ -151,6 +165,5 @@ public class User implements Comparable<User>{
 	public int compareTo(User o) {
 		return this.getName().compareTo(o.getName());
 	}
-		
 
 }

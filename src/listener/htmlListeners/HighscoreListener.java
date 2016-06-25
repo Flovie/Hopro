@@ -31,6 +31,7 @@ public class HighscoreListener extends HtmlListener{
 							if(!entries.get(3).text().trim().equals("\u00a0")){
 								u.setAlliance(entries.get(3).text().trim());
 							}
+							u.setStatus(entries.get(5).text().trim());
 							u.setActivityRatio(Integer.parseInt(entries.get(6).text().trim()));
 							Score s = new Score();
 							s.setScore(Long.parseLong(HtmlReader.cleanUpForParsingNumber(entries.get(7).text())));

@@ -13,7 +13,7 @@ var disabled = false;
 function doStuffWithDom(domContent) {
 	if (disabled == false){
 		sendNativeMessage(domContent);
-		console.log(domContent);
+		//console.log(domContent);
 		console.log("I sent it");
 	}	
 }
@@ -84,9 +84,10 @@ chrome.tabs.onUpdated.addListener(function (tabId,changeInfo,tab) {
 		// get current time
 		var d_new = new Date();
 		console.log(changeInfo)
-		if(hasOwnProperty(changeInfo,"favIconUrl")){
-			bePrepared = true;
-		}
+		bePrepared = true;
+		//if(hasOwnProperty(changeInfo,"favIconUrl")){
+			//bePrepared = true;
+		//}
 		// ...check the URL of the active tab against our pattern and if the last call is long enough ago
 		if ((urlRegex.test(tab.url)) && (bePrepared==true) && (changeInfo.status=="complete")){
 			// send a message specifying a callback too		
