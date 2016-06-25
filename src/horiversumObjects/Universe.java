@@ -31,13 +31,13 @@ public class Universe {
 	}
 	
 	public static void loadPlanetMap(String filename){
-		// This overwrite the earlier pmap. This may potentially lead to inconsistencies!
-		Universe.pmap = XmlPlanetMapLoader.load(filename);
+		Thread planetLoaderThread = new Thread(new XmlPlanetMapLoader(filename),filename);
+		planetLoaderThread.start();
 	}
 	
 	public static void loadUserMap(String filename){
-		// This overwrite the earlier umap. This may potentially lead to inconsistencies!
-		Universe.umap = XmlUserMapLoader.load(filename);
+		Thread userLoaderThread = new Thread(new XmlUserMapLoader(filename),filename);
+		userLoaderThread.start();
 	}	
 	
 	public static void saveAll(){
@@ -48,6 +48,16 @@ public class Universe {
 	public static void loadAll(){
 		Universe.loadPlanetMap(Settings.getPlanetsFile());
 		Universe.loadUserMap(Settings.getUsersFile());
+	}
+
+	public static void planetMapCallback(PlanetMap pmap2) {
+		// This overwrite the earlier pmap. This may potentially lead to inconsistencies!
+		Universe.pmap = pmap2;		
+	}
+	
+	public static void userMapCallback(UserMap umap2) {
+		// This overwrite the earlier umap. This may potentially lead to inconsistencies!
+		Universe.umap = umap2;		
 	}
 
 }
