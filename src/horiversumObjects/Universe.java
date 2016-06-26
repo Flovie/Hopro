@@ -1,6 +1,5 @@
 package horiversumObjects;
 
-import misc.GlobalObjects;
 import misc.Settings;
 import xml.loader.XmlPlanetMapLoader;
 import xml.loader.XmlUserMapLoader;
@@ -12,6 +11,9 @@ public class Universe {
 	private static UserMap umap = new UserMap();
 	private static PlanetMap pmap = new PlanetMap();
 	
+	private static boolean userMapFileLocked = false;
+	private static boolean planetMapFileLocked = false;
+	
 	public static PlanetMap getPlanetMap(){
 		return Universe.pmap;
 	}
@@ -21,13 +23,15 @@ public class Universe {
 	}
 	
 	public static void savePlanetMap(String filename){
-		XmlPlanetMapSaver.save(pmap, filename);
-		GlobalObjects.logger.addLog("Planets saved to " + filename);
+		Universe.pmap.updateLastSaved();
+		Thread planetSaverThread = new Thread(new XmlPlanetMapSaver(filename, Universe.pmap),filename);		
+		planetSaverThread.start();
 	}
 	
-	public static void saveUserMap(String filename){		
-		XmlUserMapSaver.save(umap, filename);
-		GlobalObjects.logger.addLog("Users saved to " + filename);
+	public static void saveUserMap(String filename){	
+		Universe.umap.updateLastSaved();
+		Thread userSaverThread = new Thread(new XmlUserMapSaver(filename, Universe.umap),filename);
+		userSaverThread.start();		
 	}
 	
 	public static void loadPlanetMap(String filename){
@@ -58,6 +62,22 @@ public class Universe {
 	public static void userMapCallback(UserMap umap2) {
 		// This overwrite the earlier umap. This may potentially lead to inconsistencies!
 		Universe.umap = umap2;		
+	}
+	
+	public static void setUserMapFileLocked(boolean userMapFileIsAccessed){
+		Universe.userMapFileLocked = userMapFileIsAccessed;
+	}
+	
+	public static void setPlanetMapFileLocked(boolean planetMapFileIsAccessed){
+		Universe.planetMapFileLocked = planetMapFileIsAccessed;
+	}
+	
+	public static boolean isUserMapFileLocked(){
+		return Universe.userMapFileLocked;
+	}
+	
+	public static boolean isPlanetMapFileLocked(){
+		return Universe.planetMapFileLocked;
 	}
 
 }

@@ -24,12 +24,19 @@ public class XmlPlanetMapLoader implements Runnable{
 	@Override
 	public void run() {
 		try{
+			while(Universe.isPlanetMapFileLocked()){
+				// wait
+				Thread.sleep(500);
+			}
+			Universe.setPlanetMapFileLocked(true);
 			JAXBContext jc = JAXBContext.newInstance(PlanetMap.class);
 			Unmarshaller unmarshaller = jc.createUnmarshaller();
 			this.pmap = (PlanetMap) unmarshaller.unmarshal(new FileInputStream(new File(filename)));
 			GlobalObjects.logger.addLog("Successfully loaded planets from " + filename);
-			Universe.planetMapCallback(pmap);
+			Universe.setPlanetMapFileLocked(false);
+			Universe.planetMapCallback(pmap);			
 		}catch(Exception e){
+			Universe.setPlanetMapFileLocked(false);
 			GlobalObjects.errorLogger.logError(e);			
 			this.pmap = new PlanetMap();
 		}		

@@ -1,6 +1,6 @@
 <settings>
-	<planetsFile>X:\Dropbox\Horiversum\planets.xml</planetsFile>
-	<usersFile>X:\Dropbox\Horiversum\users.xml</usersFile>
+	<planetsFile>Y:\Dropbox\Horiversum\planets.xml</planetsFile>
+	<usersFile>Y:\Dropbox\Horiversum\users.xml</usersFile>
 	<saveIntervall>300</saveIntervall>
 	<debuggingMode>false</debuggingMode>
 	<alwaysOnTop>false</alwaysOnTop>

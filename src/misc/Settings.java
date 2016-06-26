@@ -24,45 +24,76 @@ public class Settings {
 	private boolean alwaysOnTop = false;
 	
 	@XmlTransient
-	private static Settings settings;
+	private static Settings settings = null;
 	
-	public static String getPlanetsFile(){
-		if(Settings.settings==null){
+	@XmlTransient
+	public static boolean loaded = false;
+	
+	public static String getPlanetsFile(){		
+		if(!Settings.loaded){
 			Settings.loadSettings();
+			Settings.waitForLoading();
 		};
 		return Settings.settings.planetsXmlFile;
 	}
 	
 	public static String getUsersFile(){
-		if(Settings.settings==null){
+		if(!Settings.loaded){
 			Settings.loadSettings();
+			Settings.waitForLoading();
 		};
 		return Settings.settings.usersXmlFile;
 	}
 	
 	public static int getSaveIntervall(){
-		if(Settings.settings==null){
+		if(!Settings.loaded){
 			Settings.loadSettings();
+			Settings.waitForLoading();
 		};
+		while(Settings.loaded==false){}
 		return Settings.settings.saveIntervall;
 	}
 	
 	public static boolean isDebuggingMode(){
-		if(Settings.settings==null){
+		if(!Settings.loaded){
 			Settings.loadSettings();
+			Settings.waitForLoading();
 		};
+		while(Settings.loaded==false){}
 		return Settings.settings.debuggingMode;
 	}
 	
 	public static boolean isAlwaysOnTop(){
-		if(Settings.settings==null){
+		if(!Settings.loaded){
 			Settings.loadSettings();
+			Settings.waitForLoading();
 		};
+		while(Settings.loaded==false){}
 		return Settings.settings.alwaysOnTop;
 	}
 	
-	private static void loadSettings(){
-		Settings.settings = XmlSettingsLoader.loadSettings("./settings.xml");
+	public static void waitForLoading(){
+		while(Settings.loaded==false){
+			try {
+				Thread.sleep(100);
+			} catch (InterruptedException e) {
+				GlobalObjects.errorLogger.logError(e);
+			}
+		}
+	}
+	
+	private static void loadSettings(){	
+		Thread settingsLoaderThread = new Thread(new XmlSettingsLoader("./settings.xml"),"settingsLoader");
+		settingsLoaderThread.start();
+	}
+	
+	public static void loadingCallback(Settings settings){			
+		Settings.settings = settings;
+		Settings.loaded = true;
+	}
+	
+	public static boolean isLoaded(){
+		return Settings.loaded;
 	}
 
 }

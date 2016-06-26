@@ -9,20 +9,27 @@ import javax.xml.bind.Unmarshaller;
 import misc.GlobalObjects;
 import misc.Settings;
 
-public class XmlSettingsLoader {
+public class XmlSettingsLoader implements Runnable{
 	
-	public static Settings loadSettings(String filename){
-		Settings settings = null;
+	private String filename;
+	public Settings settings;
+	
+	public XmlSettingsLoader(String filename){
+		this.filename = filename;
+	}
+	
+	@Override
+	public void run() {
 		try{
 			JAXBContext jc = JAXBContext.newInstance(Settings.class);
 			Unmarshaller unmarshaller = jc.createUnmarshaller();
-			settings = (Settings) unmarshaller.unmarshal(new FileInputStream(new File(filename)));
+			this.settings = (Settings) unmarshaller.unmarshal(new FileInputStream(new File(filename)));
 //			GlobalObjects.logger.addLog("Successfully parsed Settings.");
+			Settings.loadingCallback(this.settings);
 		}catch(Exception e){
+			Settings.loadingCallback(new Settings());
 			GlobalObjects.errorLogger.logError(e);			
-			settings = new Settings();
-		}
-		return settings;
+		}		
 	}
 
 }

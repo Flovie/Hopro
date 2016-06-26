@@ -5,7 +5,6 @@ import java.io.FileNotFoundException;
 import javax.xml.bind.JAXBException;
 
 import horiversumObjects.Universe;
-import misc.Settings;
 
 public class Test {
 
@@ -13,8 +12,9 @@ public class Test {
 		
 		Universe.loadAll();
 		Universe.saveAll();
-		
-				
+		Universe.saveAll();
+		Universe.saveAll();
+		Universe.loadAll();		
 	}
 
 }
