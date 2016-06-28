@@ -1,6 +1,8 @@
 package xml;
 
+import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.List;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -8,8 +10,8 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
-import horiversumObjects.Ressources;
 import horiversumObjects.Planet;
+import horiversumObjects.Ressources;
 
 @XmlRootElement(name="planet")
 @XmlAccessorType(XmlAccessType.FIELD)
@@ -33,7 +35,8 @@ public class XmlPlanet implements Comparable<XmlPlanet>{
 	public Ressources orbitalRessources = null;
 	
 	@XmlElement(name="stolenRessources", required=false)
-	public Ressources stolenRessources = null;
+	public XmlStolenRessources stolenRessources = null;
+	
 	
 	public void transferDataToXml(Planet p){
 		this.uniqueId = p.getUniqueId();
@@ -44,12 +47,27 @@ public class XmlPlanet implements Comparable<XmlPlanet>{
 			this.owner = p.getOwner().getName();
 		}		
 		this.orbitalRessources = p.getOrbitalRessources();
-		this.stolenRessources = p.getStolenRessources();
+		if (p.getStolenRessources() != null){
+			// this is required for nested elements in xml
+			this.stolenRessources = new XmlStolenRessources();
+			this.stolenRessources.stolenRessources = new ArrayList<Ressources>();
+			this.stolenRessources.stolenRessources.addAll(p.getStolenRessources().values());
+		}
 	}
 
 	@Override
 	public int compareTo(XmlPlanet o) {
 		return this.uniqueId.compareTo(o.uniqueId);
+	}
+	
+	
+	public static class XmlStolenRessources{
+		@XmlElement(name="raid", required=false)
+		private List<Ressources> stolenRessources = null;
+		
+		public List<Ressources> getStolenRessources(){
+			return this.stolenRessources;
+		}
 	}
 	
 }

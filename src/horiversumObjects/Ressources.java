@@ -5,17 +5,16 @@ import java.util.Calendar;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlTransient;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Ressources {
 	
-	@XmlElement(name="iron",required=false)
+	@XmlAttribute(name="iron",required=false)
 	private Integer iron;
-	@XmlElement(name="mineral",required=false)
+	@XmlAttribute(name="mineral",required=false)
 	private Integer minerals;
-	@XmlElement(name="fuel", required=false)
+	@XmlAttribute(name="fuel", required=false)
 	private Integer fuel;
 	@XmlAttribute(required=true)
 	private Calendar updated;

@@ -1,58 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<planetMap created="2016-06-22T22:31:52.800+02:00">
+<planetMap created="2016-06-28T22:20:02.264+02:00">
     <planets>
-        <planet id="1:27:1" updated="2016-06-21T22:11:13.955+02:00">
-            <name>Ipharol I</name>
-            <type>Unbekannter Planet</type>
-        </planet>
-        <planet id="1:27:2" updated="2016-06-21T22:11:13.969+02:00">
-            <name>Ipharol II</name>
-            <type>Unbekannter Planet</type>
-        </planet>
-        <planet id="1:27:5" updated="2016-06-21T22:11:13.971+02:00">
-            <name>Ipharol V</name>
-            <type>Unbekannter Planet</type>
-        </planet>
-        <planet id="1:27:6" updated="2016-06-21T22:11:13.973+02:00">
-            <name>Ipharol VI</name>
-            <type>Unbekannter Planet</type>
-        </planet>
-        <planet id="1:27:8" updated="2016-06-21T22:11:13.976+02:00">
-            <name>Ipharol VIII</name>
-            <type>Standard Planet</type>
-            <owner>glenn</owner>
-        </planet>
-        <planet id="1:27:9" updated="2016-06-21T22:11:13.979+02:00">
-            <name>Ipharol IX</name>
-            <type>Unbekannter Planet</type>
-        </planet>
-        <planet id="1:27:14" updated="2016-06-21T22:11:13.981+02:00">
-            <type>Turnier geschlossen</type>
-        </planet>
-        <planet id="1:335:3" updated="2016-06-21T23:52:36.302+02:00">
-            <stolenRessources updated="2016-06-21T15:06:46+02:00">
-                <iron>3545</iron>
-                <mineral>2385</mineral>
-                <fuel>73</fuel>
-            </stolenRessources>
-        </planet>
-        <planet id="1:801:1" updated="2016-06-21T23:01:48.395+02:00">
-            <stolenRessources updated="2016-06-21T23:05:12.947+02:00">
-                <iron>840755</iron>
-                <mineral>604915</mineral>
-                <fuel>2794600</fuel>
-            </stolenRessources>
-        </planet>
-        <planet id="1:801:6" updated="2016-06-22T21:38:28.952+02:00">
-            <stolenRessources updated="2016-06-22T21:22:13+02:00">
-                <iron>699004</iron>
-                <fuel>5273</fuel>
+        <planet id="1:27:8" updated="2016-06-28T22:18:55.506+02:00"/>
+        <planet id="1:801:6" updated="2016-06-28T22:18:55.610+02:00">
+            <stolenRessources>
+                <raid iron="699024" mineral="0" fuel="5273" updated="2016-06-22T21:21:13+02:00"/>
+                <raid iron="699004" mineral="0" fuel="5273" updated="2016-06-22T21:23:13+02:00"/>
+                <raid iron="699004" mineral="0" fuel="5273" updated="2016-06-22T21:24:13+02:00"/>
             </stolenRessources>
         </planet>
     </planets>
     <galaxies>
         <system galaxy="1" system="27"/>
-        <system galaxy="1" system="335"/>
         <system galaxy="1" system="801"/>
     </galaxies>
 </planetMap>

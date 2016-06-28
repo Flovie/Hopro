@@ -1,6 +1,8 @@
 package horiversumObjects;
 
 import java.util.Calendar;
+import java.util.Map;
+import java.util.TreeMap;
 
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
@@ -28,7 +30,7 @@ public class Planet implements Comparable<Planet> {
 	private User owner = null;
 	
 	// stolen ressources
-	private Ressources stolenRessources = null;
+	private Map<Calendar,Ressources> stolenRessources = null;
 	
 	// time
 	private Calendar updated = null;	
@@ -53,7 +55,12 @@ public class Planet implements Comparable<Planet> {
 		}		
 		p.updated = xml.updated;
 		p.orbitRessources = xml.orbitalRessources;
-		p.stolenRessources = xml.stolenRessources;
+		if(xml.stolenRessources!=null){
+			p.initializeStolenRessources();
+			for(Ressources r: xml.stolenRessources.getStolenRessources()){
+				p.stolenRessources.put(r.getUpdated(), r);
+			}
+		}
 		return p;
 	}
 	
@@ -121,12 +128,11 @@ public class Planet implements Comparable<Planet> {
 				}				
 			}
 			if(p.getStolenRessources() != null){
-				if(this.stolenRessources != null){
-					if(this.stolenRessources.getUpdated().compareTo(p.getStolenRessources().getUpdated()) < 1){
-						this.stolenRessources = p.getStolenRessources();
-					}					
-				}else{
-					this.stolenRessources = p.getStolenRessources();
+				this.initializeStolenRessources();
+				for(Ressources r: p.getStolenRessources().values()){
+					if(!this.stolenRessources.containsKey(r.getUpdated())){
+						this.stolenRessources.put(r.getUpdated(), r);
+					}
 				}
 			}
 			if(isNewer){
@@ -136,13 +142,21 @@ public class Planet implements Comparable<Planet> {
 	}
 	
 	public void addStolenRessources(Ressources r){
-		if (this.stolenRessources==null){
-			this.stolenRessources = r;
+		if (this.stolenRessources == null){
+			this.initializeStolenRessources();
+			this.stolenRessources.put(r.getUpdated(), r);
 		}else{
-			// only new results are allowed
-			if(r.getUpdated().compareTo(this.stolenRessources.getUpdated())>0){
-				this.stolenRessources.add(r);
+			if(!this.stolenRessources.containsKey(r.getUpdated())){
+				this.stolenRessources.put(r.getUpdated(), r);
 			}
+		}
+		
+		
+	}
+	
+	private void initializeStolenRessources(){
+		if(this.stolenRessources==null){
+			this.stolenRessources = new TreeMap<Calendar,Ressources>();
 		}
 	}
 	
@@ -164,7 +178,7 @@ public class Planet implements Comparable<Planet> {
 		return this.orbitRessources;
 	}
 	
-	public Ressources getStolenRessources(){
+	public Map<Calendar,Ressources> getStolenRessources(){
 		return this.stolenRessources;
 	}
 	
@@ -208,7 +222,6 @@ public class Planet implements Comparable<Planet> {
 		return this.position.compareTo(arg0.getPosition());
 //		return this.uniqueId.compareTo(arg0.uniqueId);
 	}
-
 	
 
 }
