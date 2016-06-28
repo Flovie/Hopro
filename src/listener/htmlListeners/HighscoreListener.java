@@ -21,31 +21,56 @@ public class HighscoreListener extends HtmlListener{
 			if (title.equalsIgnoreCase("Little Horizon - The utility monitor")){
 				Elements elements = htmlSource.select("div.StatWrapper table.Stat_Table tr");
 				if(elements.size()>1){
-					GlobalObjects.logger.addLog("Identified Highscore List");
-					int counter = 0;
-					for(int j=1; j<elements.size();j++){
-						Element e = elements.get(j);
-						Elements entries = e.select("td");						
-						if(entries.size()==9){
-							User u = User.getInstance(entries.get(1).text());
-							if(!entries.get(3).text().trim().equals("\u00a0")){
-								u.setAlliance(entries.get(3).text().trim());
+					// Options
+					Elements selectedElements = htmlSource.select("select option[selected]");
+					if (selectedElements.size()==4){
+						String modeOption = selectedElements.get(0).text();
+						String playerOption = selectedElements.get(1).text();
+						String typeOption = selectedElements.get(2).text();
+//						String rangeOption = selectedElements.get(3).text();
+						if(modeOption.equals("Normal")){
+							GlobalObjects.logger.addLog("Identified Highscore List (" + playerOption + " - " + typeOption +")");					
+							int counter = 0;
+							for(int j=1; j<elements.size();j++){
+								Element e = elements.get(j);
+								Elements entries = e.select("td");						
+								if(entries.size()==9){
+									switch (playerOption){
+									case "player":
+										switch (typeOption){
+										case "Gesamter Highscore":
+											this.addPlaverTotalHighscore(entries);
+											break;
+										}
+										
+									case "alliance":
+									}
+									counter++;
+								}						
 							}
-							u.setStatus(entries.get(5).text().trim());
-							u.setActivityRatio(Integer.parseInt(entries.get(6).text().trim()));
-							Score s = new Score();
-							s.setScore(Long.parseLong(HtmlReader.cleanUpForParsingNumber(entries.get(7).text())));
-							s.setRelScore(Float.parseFloat(HtmlReader.cleanUpForParsingNumber(entries.get(8).text())));;
-							u.setScore(s);
-							counter++;
-						}						
+							GlobalObjects.logger.addSubLog("Added " + counter + " scores", 1);
+						}
 					}
-					GlobalObjects.logger.addSubLog("Added " + counter + " scores", 1);		
+					
+							
 				}
 				
 			}
 		}
 		
+	}
+	
+	private void addPlaverTotalHighscore(Elements entries){
+		User u = User.getInstance(entries.get(1).text());
+		if(!entries.get(3).text().trim().equals("\u00a0")){
+			u.setAlliance(entries.get(3).text().trim());
+		}
+		u.setStatus(entries.get(5).text().trim());
+		u.setActivityRatio(Integer.parseInt(entries.get(6).text().trim()));
+		Score s = new Score();
+		s.setScore(Long.parseLong(HtmlReader.cleanUpForParsingNumber(entries.get(7).text())));
+		s.setRelScore(Float.parseFloat(HtmlReader.cleanUpForParsingNumber(entries.get(8).text())));;
+		u.setScore(s);	
 	}
 
 }
