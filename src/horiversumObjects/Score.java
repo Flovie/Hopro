@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlElement;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Score {
 	
-	@XmlElement(name="relScore",required=false)
+	@XmlAttribute(name="relScore",required=false)
 	private Float relScore;
-	@XmlElement(name="score",required=false)
+	@XmlAttribute(name="score",required=false)
 	private Long score;
 	
 	@XmlAttribute(required=true)

@@ -33,12 +33,12 @@ public class HighscoreListener extends HtmlListener{
 							int counter = 0;
 							for(int j=1; j<elements.size();j++){
 								Element e = elements.get(j);
-								Elements entries = e.select("td");						
+								Elements entries = e.select("td");	
 								if(entries.size()==9){
 									switch (playerOption){
-									case "player":
+									case "Spieler":
 										switch (typeOption){
-										case "Gesamter Highscore":
+										case "Gesamter Highscore":		
 											this.addPlaverTotalHighscore(entries);
 											break;
 										}
