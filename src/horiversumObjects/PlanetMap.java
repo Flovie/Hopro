@@ -1,7 +1,9 @@
 package horiversumObjects;
 
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import javax.xml.bind.annotation.XmlAttribute;
@@ -82,5 +84,17 @@ public class PlanetMap {
 	public void addSystem(GalaxySystem s){
 		this.galaxies.put(s.getGalaxy() + ":" + s.getSystem(), s);
 	}	
+	
+	public List<Planet> getAllPlanetsOfUser(User u){
+		List<Planet> results = new ArrayList<Planet>();
+		for(Planet p: this.ps.values()){
+			if(p.getOwner() != null){
+				if(p.getOwner().equals(u)){
+					results.add(p);
+				}
+			}
+		}
+		return results;
+	}
 
 }

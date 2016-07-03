@@ -29,10 +29,7 @@ public class XmlUser implements Comparable<XmlUser>{
 	public Boolean activityStatus;
 	
 	@XmlElement(required=false)
-	public Score score;
-	
-	@XmlElement(required=false)
-	public List<String> planets = null;
+	public Score score;	
 	
 	@XmlElement(required=false)
 	public Integer activityRatio;
@@ -58,13 +55,6 @@ public class XmlUser implements Comparable<XmlUser>{
 			this.status = u.getStatus();
 		}
 		this.score = u.getScore();
-		if (u.getPlanets()!=null){
-			this.planets = new ArrayList<String>();
-			for(Planet p: u.getPlanets()){				
-				this.planets.add(p.uniqueId);
-				Collections.sort(this.planets);
-			}
-		}
 		this.updated = u.getUpdated();
 	}
 	

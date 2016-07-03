@@ -11,8 +11,9 @@ import listener.htmlListeners.HighscoreListener;
 
 public class HighscoreListenerTester {
 	
-	public static void main(String[] args) throws IOException{
+	public static void main(String[] args) throws IOException, InterruptedException{
 		Universe.loadAll();
+		Thread.sleep(1000);
 		BufferedReader br = new BufferedReader(new FileReader(new File("./input/highscore.html")));
 		String line = br.readLine();
 		StringBuffer sb = new StringBuffer();		
@@ -24,6 +25,7 @@ public class HighscoreListenerTester {
 		HtmlReader htmlReader = new HtmlReader(sb.toString());
     	htmlReader.addListener(new HighscoreListener());
     	htmlReader.run();  
+    	Thread.sleep(1000);
     	Universe.saveAll();
 	}
 

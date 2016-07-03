@@ -67,10 +67,8 @@ public class HighscoreListener extends HtmlListener{
 		}
 		u.setStatus(entries.get(5).text().trim());
 		u.setActivityRatio(Integer.parseInt(entries.get(6).text().trim()));
-		Score s = new Score();
-		s.setScore(Long.parseLong(HtmlReader.cleanUpForParsingNumber(entries.get(7).text())));
-		s.setRelScore(Float.parseFloat(HtmlReader.cleanUpForParsingNumber(entries.get(8).text())));;
-		u.setScore(s);	
+		Score s = u.getScore();
+		s.setScore(Long.parseLong(HtmlReader.cleanUpForParsingNumber(entries.get(7).text())), Float.parseFloat(HtmlReader.cleanUpForParsingNumber(entries.get(8).text())));	
 	}
 
 }

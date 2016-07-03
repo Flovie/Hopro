@@ -1,8 +1,6 @@
 package horiversumObjects;
 
 import java.util.Calendar;
-import java.util.HashSet;
-import java.util.Set;
 
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
@@ -22,10 +20,7 @@ public class User implements Comparable<User>{
 	private Boolean activityStatus;
 	private Integer activityRatio;
 	private Score score;
-	private String status;
-	
-	// Planets
-	private Set<Planet> planets = new HashSet<Planet>();
+	private String status;	
 	
 	// time
 	private Calendar updated = null;	
@@ -52,17 +47,7 @@ public class User implements Comparable<User>{
 		}
 		if (xml.status!=null){
 			u.status = xml.status;
-		}
-		if(xml.planets==null){
-			u.planets = new HashSet<Planet>();
-		}else{
-			for(String s: xml.planets){
-				Planet p = Planet.getInstance(s);
-				if (p.getOwner().userId.equals(u.userId)){
-					u.planets.add(p);
-				}							
-			}
-		}			
+		}					
 		u.score = xml.score;
 		u.updated = xml.updated;	
 		return u;
@@ -83,31 +68,13 @@ public class User implements Comparable<User>{
 	public void setActivityRatio(int activityRatio){
 		this.activityRatio = activityRatio;
 		this.update();
-	}
-	
-	public void setScore(Score score){
-		this.score = score;
-		this.update();
-	}
+	}	
 	
 	public void setStatus(String status) {
 		this.status = status;
 		this.update();
 	}
 		
-	
-	
-	public void addPlanet(Planet p){
-		if (!(this.planets.contains(p))){
-			this.planets.add(p);
-		}		
-		this.update();
-	}
-	
-	public void removePlanet(Planet p){
-		this.planets.remove(p);
-		this.update();
-	}
 	
 	
 	// GETTERS	
@@ -132,12 +99,14 @@ public class User implements Comparable<User>{
 	}
 	
 	public Score getScore(){
-		return this.score;
+		if(this.score==null){
+			this.score = new Score();
+			return this.score;
+		}else{
+			return this.score;
+		}		
 	}
 	
-	public Set<Planet> getPlanets(){
-		return this.planets;
-	}
 	
 	public Calendar getUpdated(){
 		return this.updated;
@@ -163,7 +132,7 @@ public class User implements Comparable<User>{
 
 	@Override
 	public int compareTo(User o) {
-		return this.getName().compareTo(o.getName());
+		return this.getName().compareToIgnoreCase(o.getName());
 	}
 
 }

@@ -51,7 +51,6 @@ public class Planet implements Comparable<Planet> {
 		p.type = xml.type;
 		if(xml.owner != null){
 			p.owner = User.getInstance(xml.owner);
-			p.owner.addPlanet(p);
 		}		
 		p.updated = xml.updated;
 		p.orbitRessources = xml.orbitalRessources;
@@ -79,13 +78,11 @@ public class Planet implements Comparable<Planet> {
 	public void setOwner(User owner){
 		this.removeOwner();
 		this.owner = owner;
-		User.getInstance(owner.getName()).addPlanet(this);
 		this.update();
 	}
 	
 	public void removeOwner(){
 		if (this.owner!=null){
-			this.owner.removePlanet(this);
 			this.owner = null;
 			this.update();
 		}		
