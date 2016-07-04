@@ -87,14 +87,28 @@ public class PlanetMap {
 	
 	public List<Planet> getAllPlanetsOfUser(User u){
 		List<Planet> results = new ArrayList<Planet>();
-		for(Planet p: this.ps.values()){
-			if(p.getOwner() != null){
-				if(p.getOwner().equals(u)){
-					results.add(p);
-				}
+		for(Planet p: this.getHabitedPlanets()){
+			if(p.getOwner().equals(u)){
+				results.add(p);
 			}
 		}
 		return results;
+	}
+	
+	public List<Planet> getAllPlanets(){
+		List<Planet> planetList = new ArrayList<Planet>();
+		planetList.addAll(this.ps.values());
+		return planetList;
+	}
+	
+	public List<Planet> getHabitedPlanets(){
+		List<Planet> planetList = new ArrayList<Planet>();
+		for(Planet p: this.ps.values()){
+			if(p.getOwner()!=null){
+				planetList.add(p);
+			}
+		}
+		return planetList;
 	}
 
 }

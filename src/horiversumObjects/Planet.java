@@ -220,5 +220,27 @@ public class Planet implements Comparable<Planet> {
 //		return this.uniqueId.compareTo(arg0.uniqueId);
 	}
 	
+	public static String getShortType(String longType){
+		switch(longType){
+		case "Dschungelplanet": return "JUPL";
+		case "Eisenerzplanet": return "IDPL";
+		case "Eisplanet": return "ICPL";
+		case "Ethanozeanplanet": return "EOPL";
+		case "Felsenplanet": return "RKPL";
+		case "Lavaplanet": return "LVPL";
+		case "Mineralinselplanet": return "MIPL";
+		case "Säurenplanet": return "ACPL";
+		case "Standard Planet": return "STPL";
+		case "Staubplanet": return "MUPL";
+		case "Vulkanplanet": return "VUPL";
+		case "Waldplanet": return "FOPL";		
+		case "Wasserplanet": return "WAPL";
+		case "Wasserstoffplanet": return "HYPL";								
+		case "Wolkenplanet": return "CLPL";
+		case "Wüstenplanet": return "DSPL";
+		default: return longType;
+		}
+	}
+	
 
 }

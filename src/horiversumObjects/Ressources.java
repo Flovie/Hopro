@@ -87,4 +87,18 @@ public class Ressources {
 		this.update();
 	}
 	
+	public long getSum(){
+		long sum = 0;
+		if(this.iron!=null){
+			sum = sum + this.iron;
+		}
+		if(this.minerals!=null){
+			sum = sum + this.minerals;
+		}
+		if(this.fuel!=null){
+			sum = sum + this.fuel;
+		}
+		return sum;
+	}
+	
 }

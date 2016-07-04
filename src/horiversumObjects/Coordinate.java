@@ -47,5 +47,17 @@ public class Coordinate implements Comparable<Coordinate>{
 			return Integer.compare(this.galaxy,arg0.galaxy);
 		}		
 	}
+	
+	public double calculateDistance(Coordinate c){
+		double distance;
+		if(Universe.getPlanetMap().systemExists(this.galaxy, this.system) && Universe.getPlanetMap().systemExists(c.galaxy, c.system)){
+			GalaxySystem system1 = Universe.getPlanetMap().getSystem(this.galaxy, this.system);
+			GalaxySystem system2 = Universe.getPlanetMap().getSystem(c.galaxy, c.system);
+			distance = system1.calculateDistance(system2);
+		}else{
+			distance = Double.NaN;
+		}					
+		return distance;
+	}
 
 }

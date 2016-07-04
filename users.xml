@@ -1,890 +1,2060 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<userMap created="2016-06-28T22:20:02.266+02:00">
+<userMap created="2016-07-04T22:26:59.059+02:00">
     <users>
-        <user id="-=NoC=-" updated="2016-06-28T21:55:03.961+02:00">
-            <alliance>Plex</alliance>
-            <score updated="2016-06-28T21:55:03.961+02:00">
-                <relScore>1.19</relScore>
-                <score>2321444548</score>
-            </score>
-            <activityRatio>89</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="357Onsen" updated="2016-06-28T21:55:04.008+02:00">
-            <alliance>ASGW</alliance>
-            <score updated="2016-06-28T21:55:04+02:00">
-                <relScore>0.498</relScore>
-                <score>1171721021</score>
-            </score>
-            <activityRatio>50</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Adiumy" updated="2016-06-28T21:55:03.957+02:00">
-            <alliance>SUN</alliance>
-            <score updated="2016-06-28T21:55:03.957+02:00">
-                <relScore>1.09</relScore>
-                <score>2449010788</score>
-            </score>
-            <activityRatio>100</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Aldo the Apache" updated="2016-06-28T21:55:04.028+02:00">
-            <score updated="2016-06-28T21:55:04.028+02:00">
-                <relScore>0.383</relScore>
-                <score>862623144</score>
-            </score>
-            <activityRatio>53</activityRatio>
-            <status>Bewährung</status>
-        </user>
-        <user id="Aloha" updated="2016-06-28T21:55:03.984+02:00">
-            <score updated="2016-06-28T21:55:03.984+02:00">
-                <relScore>0.652</relScore>
-                <score>1468790641</score>
-            </score>
-            <activityRatio>97</activityRatio>
-            <status>Gesucht</status>
-        </user>
-        <user id="Ambrosia" updated="2016-06-28T21:55:03.973+02:00">
-            <score updated="2016-06-28T21:55:03.973+02:00">
-                <relScore>0.774</relScore>
-                <score>1743492314</score>
-            </score>
-            <activityRatio>73</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Anomander Rake" updated="2016-06-28T21:55:03.990+02:00">
-            <alliance>BASIS</alliance>
-            <score updated="2016-06-28T21:55:03.989+02:00">
-                <relScore>0.588</relScore>
-                <score>1319814995</score>
-            </score>
-            <activityRatio>56</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Antares" updated="2016-06-28T21:55:03.978+02:00">
-            <alliance>DNA</alliance>
-            <score updated="2016-06-28T21:55:03.978+02:00">
-                <relScore>0.736</relScore>
-                <score>1610114439</score>
-            </score>
-            <activityRatio>68</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Astor" updated="2016-06-28T21:55:03.989+02:00">
-            <alliance>CDA</alliance>
-            <score updated="2016-06-28T21:55:03.989+02:00">
-                <relScore>0.591</relScore>
-                <score>1329483694</score>
-            </score>
-            <activityRatio>57</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Bloos" updated="2016-06-28T21:55:04.009+02:00">
-            <alliance>1UP</alliance>
-            <score updated="2016-06-28T21:55:04.009+02:00">
-                <relScore>0.517</relScore>
-                <score>1163868200</score>
-            </score>
-            <activityRatio>100</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Bomilkar" updated="2016-06-28T21:55:03.957+02:00">
-            <alliance>HEAD</alliance>
-            <score updated="2016-06-28T21:55:03.957+02:00">
-                <relScore>1.26</relScore>
-                <score>2548106389</score>
-            </score>
-            <activityRatio>93</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Bruno" updated="2016-06-28T21:55:03.985+02:00">
-            <alliance>1UP</alliance>
-            <score updated="2016-06-28T21:55:03.985+02:00">
-                <relScore>0.653</relScore>
-                <score>1466782163</score>
-            </score>
-            <activityRatio>62</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Brusli" updated="2016-06-28T21:55:03.982+02:00">
-            <alliance>SUN</alliance>
-            <score updated="2016-06-28T21:55:03.982+02:00">
-                <relScore>0.682</relScore>
-                <score>1536631362</score>
-            </score>
-            <activityRatio>65</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Bukm0p" updated="2016-06-28T21:55:04.009+02:00">
-            <alliance>m00n</alliance>
-            <score updated="2016-06-28T21:55:04.009+02:00">
-                <relScore>0.531</relScore>
-                <score>1170919764</score>
-            </score>
-            <activityRatio>67</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Bärbel" updated="2016-06-28T21:55:03.952+02:00">
-            <alliance>SUN</alliance>
-            <score updated="2016-06-28T21:55:03.952+02:00">
-                <relScore>1.42</relScore>
-                <score>3208111970</score>
-            </score>
-            <activityRatio>100</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Cartman" updated="2016-06-28T21:55:03.951+02:00">
-            <score updated="2016-06-28T21:55:03.951+02:00">
-                <relScore>1.58</relScore>
-                <score>3565644778</score>
-            </score>
-            <activityRatio>99</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Chewbacca" updated="2016-06-28T21:55:03.948+02:00">
-            <alliance>CDA</alliance>
-            <score updated="2016-06-28T21:55:03.948+02:00">
-                <relScore>1.7</relScore>
-                <score>3809944658</score>
-            </score>
-            <activityRatio>100</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Commander" updated="2016-06-28T21:55:03.955+02:00">
-            <alliance>UEFA</alliance>
-            <score updated="2016-06-28T21:55:03.955+02:00">
-                <relScore>1.3</relScore>
-                <score>2923783561</score>
-            </score>
-            <activityRatio>97</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Deine Mudda" updated="2016-06-28T21:55:04.030+02:00">
-            <alliance>DNA</alliance>
-            <score updated="2016-06-28T21:55:04.030+02:00">
-                <relScore>0.312</relScore>
-                <score>845258162</score>
-            </score>
-            <activityRatio>95</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Dr. Octopus" updated="2016-06-28T21:55:04.022+02:00">
-            <alliance>BIER</alliance>
-            <score updated="2016-06-28T21:55:04.022+02:00">
-                <relScore>0.402</relScore>
-                <score>904311053</score>
-            </score>
-            <activityRatio>39</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="DrEcksack" updated="2016-06-28T21:55:03.988+02:00">
-            <alliance>SUN</alliance>
-            <score updated="2016-06-28T21:55:03.988+02:00">
-                <relScore>0.635</relScore>
-                <score>1429112757</score>
-            </score>
-            <activityRatio>81</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Feivel" updated="2016-06-28T21:55:03.971+02:00">
-            <alliance>BASIS</alliance>
-            <score updated="2016-06-28T21:55:03.971+02:00">
-                <relScore>0.783</relScore>
-                <score>1755553775</score>
-            </score>
-            <activityRatio>100</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Felidae" updated="2016-06-28T21:55:04.027+02:00">
-            <alliance>CDA</alliance>
-            <score updated="2016-06-28T21:55:04.027+02:00">
-                <relScore>0.388</relScore>
-                <score>877318404</score>
-            </score>
-            <activityRatio>97</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Freelancer" updated="2016-06-28T21:55:04.017+02:00">
-            <alliance>UFO</alliance>
-            <score updated="2016-06-28T21:55:04.017+02:00">
-                <relScore>0.367</relScore>
-                <score>936995035</score>
-            </score>
-            <activityRatio>40</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Galaxy_Ranger" updated="2016-06-28T21:55:03.956+02:00">
-            <alliance>CDA</alliance>
-            <score updated="2016-06-28T21:55:03.956+02:00">
-                <relScore>1.3</relScore>
-                <score>2904989357</score>
-            </score>
-            <activityRatio>98</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Gandir" updated="2016-06-28T21:55:03.991+02:00">
-            <alliance>GILDE</alliance>
-            <score updated="2016-06-28T21:55:03.991+02:00">
-                <relScore>0.58</relScore>
-                <score>1306506478</score>
-            </score>
-            <activityRatio>56</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Heisenberg" updated="2016-06-28T21:55:04.016+02:00">
-            <alliance>HEAD</alliance>
-            <score updated="2016-06-28T21:55:04.016+02:00">
-                <relScore>0.374</relScore>
-                <score>944768372</score>
-            </score>
-            <activityRatio>74</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Hephaistos" updated="2016-06-28T21:55:03.970+02:00">
-            <score updated="2016-06-28T21:55:03.970+02:00">
-                <relScore>0.829</relScore>
-                <score>1866416727</score>
-            </score>
-            <activityRatio>100</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Hetzer" updated="2016-06-28T21:55:03.948+02:00">
-            <score updated="2016-06-28T21:55:03.948+02:00">
-                <relScore>1.99</relScore>
-                <score>4484154754</score>
-            </score>
-            <activityRatio>100</activityRatio>
-            <status>Gesucht</status>
-        </user>
-        <user id="Hitlord" updated="2016-06-28T21:55:04.018+02:00">
-            <alliance>HEAD</alliance>
-            <score updated="2016-06-28T21:55:04.018+02:00">
-                <relScore>0.362</relScore>
-                <score>922662671</score>
-            </score>
-            <activityRatio>70</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Horst" updated="2016-06-28T21:55:03.979+02:00">
-            <alliance>BIER</alliance>
-            <score updated="2016-06-28T21:55:03.979+02:00">
-                <relScore>0.71</relScore>
-                <score>1583734125</score>
-            </score>
-            <activityRatio>73</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Infineon" updated="2016-06-28T21:55:03.976+02:00">
-            <alliance>m00n</alliance>
-            <score updated="2016-06-28T21:55:03.976+02:00">
-                <relScore>0.766</relScore>
-                <score>1647184934</score>
-            </score>
-            <activityRatio>100</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Jones" updated="2016-06-28T21:55:03.976+02:00">
-            <alliance>CDA</alliance>
-            <score updated="2016-06-28T21:55:03.976+02:00">
-                <relScore>0.732</relScore>
-                <score>1644257331</score>
-            </score>
-            <activityRatio>69</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Kim Jong Deux" updated="2016-06-28T21:55:04.031+02:00">
-            <alliance>HEAD</alliance>
-            <score updated="2016-06-28T21:55:04.031+02:00">
-                <relScore>0.31</relScore>
-                <score>829883019</score>
-            </score>
-            <activityRatio>41</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Kosmosrabauke" updated="2016-06-28T21:55:03.968+02:00">
-            <alliance>FIFA</alliance>
-            <score updated="2016-06-28T21:55:03.968+02:00">
-                <relScore>0.919</relScore>
-                <score>2041110036</score>
-            </score>
-            <activityRatio>82</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Kriegsschaf" updated="2016-06-28T21:55:04.026+02:00">
-            <alliance>m00n</alliance>
-            <score updated="2016-06-28T21:55:04.026+02:00">
-                <relScore>0.39</relScore>
-                <score>884706756</score>
-            </score>
-            <activityRatio>100</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Lynx" updated="2016-06-28T21:55:03.971+02:00">
-            <alliance>SUN</alliance>
-            <score updated="2016-06-28T21:55:03.971+02:00">
-                <relScore>0.819</relScore>
-                <score>1844244369</score>
-            </score>
-            <activityRatio>100</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Mac" updated="2016-06-28T21:55:03.967+02:00">
-            <alliance>HANSE</alliance>
-            <score updated="2016-06-28T21:55:03.967+02:00">
-                <relScore>0.919</relScore>
-                <score>2058551330</score>
-            </score>
-            <activityRatio>83</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="MalibuBanane" updated="2016-06-28T21:55:04.018+02:00">
-            <alliance>HEAD</alliance>
-            <score updated="2016-06-28T21:55:04.018+02:00">
-                <relScore>0.361</relScore>
-                <score>921415946</score>
-            </score>
-            <activityRatio>100</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="MampfHamsterIII" updated="2016-06-28T21:55:03.995+02:00">
-            <score updated="2016-06-28T21:55:03.995+02:00">
-                <relScore>0.546</relScore>
-                <score>1230053093</score>
-            </score>
-            <activityRatio>52</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Marodeur" updated="2016-06-28T21:55:03.949+02:00">
-            <alliance>DNA</alliance>
-            <score updated="2016-06-28T21:55:03.949+02:00">
-                <relScore>1.96</relScore>
-                <score>3741169151</score>
-            </score>
-            <activityRatio>100</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Milchbubi" updated="2016-06-28T21:55:03.987+02:00">
-            <alliance>HEAD</alliance>
-            <score updated="2016-06-28T21:55:03.987+02:00">
-                <relScore>0.658</relScore>
-                <score>1456444059</score>
-            </score>
-            <activityRatio>62</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Mondmann" updated="2016-06-28T21:55:03.950+02:00">
-            <alliance>SUN</alliance>
-            <score updated="2016-06-28T21:55:03.950+02:00">
-                <relScore>1.65</relScore>
-                <score>3708230211</score>
-            </score>
-            <activityRatio>100</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Monkey D Ruffy" updated="2016-06-28T21:55:03.992+02:00">
-            <alliance>DNA</alliance>
-            <score updated="2016-06-28T21:55:03.992+02:00">
-                <relScore>0.554</relScore>
-                <score>1282225457</score>
-            </score>
-            <activityRatio>100</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Mordin Solus" updated="2016-06-28T21:55:03.960+02:00">
-            <alliance>CDA</alliance>
-            <score updated="2016-06-28T21:55:03.960+02:00">
-                <relScore>1.05</relScore>
-                <score>2349576794</score>
-            </score>
-            <activityRatio>100</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Msb774" updated="2016-06-28T21:55:04.025+02:00">
-            <score updated="2016-06-28T21:55:04.025+02:00">
-                <relScore>0.395</relScore>
-                <score>890516439</score>
-            </score>
-            <activityRatio>97</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Nemesis" updated="2016-06-28T21:55:04.031+02:00">
-            <alliance>SUN</alliance>
-            <score updated="2016-06-28T21:55:04.031+02:00">
-                <relScore>0.362</relScore>
-                <score>815189973</score>
-            </score>
-            <activityRatio>35</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Nub the lesser" updated="2016-06-28T21:55:03.970+02:00">
-            <alliance>SUN</alliance>
-            <score updated="2016-06-28T21:55:03.970+02:00">
-                <relScore>0.864</relScore>
-                <score>1945043819</score>
-            </score>
-            <activityRatio>80</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Obi-Wan Kenobi" updated="2016-06-28T21:55:03.966+02:00">
-            <alliance>DNA</alliance>
-            <score updated="2016-06-28T21:55:03.966+02:00">
-                <relScore>1.16</relScore>
-                <score>2097208168</score>
-            </score>
-            <activityRatio>84</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Odin" updated="2016-06-28T21:55:03.951+02:00">
-            <alliance>DNA</alliance>
-            <score updated="2016-06-28T21:55:03.951+02:00">
-                <relScore>1.65</relScore>
-                <score>3251224966</score>
-            </score>
-            <activityRatio>99</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Optimus Prime" updated="2016-06-28T21:55:03.972+02:00">
-            <alliance>CDA</alliance>
-            <score updated="2016-06-28T21:55:03.972+02:00">
-                <relScore>0.777</relScore>
-                <score>1745865536</score>
-            </score>
-            <activityRatio>73</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="PEKKA" updated="2016-06-28T21:55:03.947+02:00">
-            <alliance>1UP</alliance>
-            <score updated="2016-06-28T21:55:03.947+02:00">
-                <relScore>2.14</relScore>
-                <score>4776864460</score>
-            </score>
-            <activityRatio>100</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Pardona" updated="2016-06-28T21:55:04.023+02:00">
-            <alliance>GILDE</alliance>
-            <score updated="2016-06-28T21:55:04.023+02:00">
-                <relScore>0.396</relScore>
-                <score>894327275</score>
-            </score>
+        <user id="-=Gugi=-" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.01" score="25974262" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-03T20:50:24.884+02:00"/>
             <activityRatio>38</activityRatio>
             <status>Legal</status>
         </user>
-        <user id="PiratoRox" updated="2016-06-28T21:55:04+02:00">
+        <user id="-=NoC=-" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>Plex</alliance>
+            <score relScore="1.26" score="2779114987" relScoreChangePerDay="-0.019952754" scoreChangePerDay="4664551.5" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>91</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="12ZylinderDiesel" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.001" score="2792661" relScoreChangePerDay="0.0" scoreChangePerDay="249702.95" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>47</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="357Onsen" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>ASGW</alliance>
+            <score relScore="0.499" score="1338436861" relScoreChangePerDay="-0.0059857555" scoreChangePerDay="3532305.5" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>52</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="[Zag]" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>CDA</alliance>
+            <score relScore="0.533" score="1180875127" relScoreChangePerDay="0.011971629" scoreChangePerDay="3.8499516E7" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>46</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="_nightkin" updated="2016-07-04T16:35:59.833+02:00">
+            <score relScore="0.325" score="833115758" relScoreChangePerDay="0.0" scoreChangePerDay="3956694.8" updated="2016-07-04T08:50:03.428+02:00"/>
+            <activityRatio>33</activityRatio>
+            <status>Gesucht</status>
+        </user>
+        <user id="Adiumy" active="true" updated="2016-07-04T17:31:44.738+02:00">
             <alliance>SUN</alliance>
-            <score updated="2016-06-28T21:55:04+02:00">
-                <relScore>0.526</relScore>
-                <score>1185125560</score>
-            </score>
-            <activityRatio>51</activityRatio>
+            <score relScore="1.05" score="2686743764" relScoreChangePerDay="0.0" scoreChangePerDay="1.3712331E7" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>91</activityRatio>
             <status>Legal</status>
         </user>
-        <user id="Prometheus" updated="2016-06-28T21:55:04.014+02:00">
-            <alliance>FIFA</alliance>
-            <score updated="2016-06-28T21:55:04.014+02:00">
-                <relScore>0.454</relScore>
-                <score>1014790832</score>
-            </score>
-            <activityRatio>45</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Rapha" updated="2016-06-28T21:55:03.979+02:00">
-            <alliance>DNA</alliance>
-            <score updated="2016-06-28T21:55:03.978+02:00">
-                <relScore>0.775</relScore>
-                <score>1608380095</score>
-            </score>
-            <activityRatio>68</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Sauron" updated="2016-06-28T21:55:04.010+02:00">
-            <alliance>HANSE</alliance>
-            <score updated="2016-06-28T21:55:04.010+02:00">
-                <relScore>0.508</relScore>
-                <score>1142186660</score>
-            </score>
-            <activityRatio>49</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="ScYo" updated="2016-06-28T21:55:04.017+02:00">
-            <alliance>HEAD</alliance>
-            <score updated="2016-06-28T21:55:04.017+02:00">
-                <relScore>0.374</relScore>
-                <score>944374499</score>
-            </score>
-            <activityRatio>43</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Serendipity" updated="2016-06-28T21:55:03.992+02:00">
-            <alliance>DNA</alliance>
-            <score updated="2016-06-28T21:55:03.992+02:00">
-                <relScore>0.583</relScore>
-                <score>1262892788</score>
-            </score>
-            <activityRatio>54</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Sharra" updated="2016-06-28T21:55:04.027+02:00">
-            <score updated="2016-06-28T21:55:04.027+02:00">
-                <relScore>0.388</relScore>
-                <score>874405306</score>
-            </score>
-            <activityRatio>41</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Shinji" updated="2016-06-28T21:55:03.986+02:00">
-            <alliance>m00n</alliance>
-            <score updated="2016-06-28T21:55:03.986+02:00">
-                <relScore>0.675</relScore>
-                <score>1462486673</score>
-            </score>
-            <activityRatio>62</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Sojus" updated="2016-06-28T21:55:03.963+02:00">
-            <alliance>DNA</alliance>
-            <score updated="2016-06-28T21:55:03.963+02:00">
-                <relScore>1.03</relScore>
-                <score>2139762989</score>
-            </score>
+        <user id="aegluke" active="true" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>Plex</alliance>
+            <score relScore="0.215" score="623674370" relScoreChangePerDay="0.0019952762" scoreChangePerDay="6990224.5" updated="2016-07-04T08:50:03.430+02:00"/>
             <activityRatio>85</activityRatio>
             <status>Legal</status>
         </user>
-        <user id="Spawn" updated="2016-06-28T21:55:03.988+02:00">
-            <alliance>Plex</alliance>
-            <score updated="2016-06-28T21:55:03.987+02:00">
-                <relScore>0.707</relScore>
-                <score>1455125566</score>
-            </score>
-            <activityRatio>62</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Swarm0815247" updated="2016-06-28T21:55:03.982+02:00">
-            <alliance>HEAD</alliance>
-            <score updated="2016-06-28T21:55:03.981+02:00">
-                <relScore>0.703</relScore>
-                <score>1537543427</score>
-            </score>
-            <activityRatio>65</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="SynCoCoop" updated="2016-06-28T21:55:03.994+02:00">
-            <alliance>BIER</alliance>
-            <score updated="2016-06-28T21:55:03.994+02:00">
-                <relScore>0.548</relScore>
-                <score>1230358575</score>
-            </score>
-            <activityRatio>52</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Toadie" updated="2016-06-28T21:55:03.977+02:00">
-            <alliance>HEAD</alliance>
-            <score updated="2016-06-28T21:55:03.977+02:00">
-                <relScore>0.757</relScore>
-                <score>1635539731</score>
-            </score>
-            <activityRatio>76</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Triple X" updated="2016-06-28T21:55:03.983+02:00">
-            <alliance>BASIS</alliance>
-            <score updated="2016-06-28T21:55:03.983+02:00">
-                <relScore>0.661</relScore>
-                <score>1483469405</score>
-            </score>
-            <activityRatio>63</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Verleihnix" updated="2016-06-28T21:55:03.999+02:00">
-            <alliance>1UP</alliance>
-            <score updated="2016-06-28T21:55:03.999+02:00">
-                <relScore>0.542</relScore>
-                <score>1219854353</score>
-            </score>
-            <activityRatio>52</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="WoF" updated="2016-06-28T21:55:04.013+02:00">
-            <alliance>CDA</alliance>
-            <score updated="2016-06-28T21:55:04.013+02:00">
-                <relScore>0.484</relScore>
-                <score>1092219057</score>
-            </score>
-            <activityRatio>99</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Yellowjacket" updated="2016-06-28T21:55:04.016+02:00">
-            <alliance>BIER</alliance>
-            <score updated="2016-06-28T21:55:04.016+02:00">
-                <relScore>0.437</relScore>
-                <score>982121634</score>
-            </score>
-            <activityRatio>42</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="Zippy" updated="2016-06-28T21:55:03.974+02:00">
-            <score updated="2016-06-28T21:55:03.974+02:00">
-                <relScore>0.763</relScore>
-                <score>1717649821</score>
-            </score>
-            <activityRatio>100</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="[Zag]" updated="2016-06-28T21:55:03.993+02:00">
-            <alliance>CDA</alliance>
-            <score updated="2016-06-28T21:55:03.993+02:00">
-                <relScore>0.547</relScore>
-                <score>1231901359</score>
-            </score>
-            <activityRatio>53</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="_nightkin" updated="2016-06-28T21:55:04.031+02:00">
-            <score updated="2016-06-28T21:55:04.031+02:00">
-                <relScore>0.367</relScore>
-                <score>826836683</score>
-            </score>
-            <activityRatio>36</activityRatio>
-            <status>Gesucht</status>
-        </user>
-        <user id="alialbakschisch" updated="2016-06-28T21:55:04.019+02:00">
-            <alliance>HANSE</alliance>
-            <score updated="2016-06-28T21:55:04.019+02:00">
-                <relScore>0.403</relScore>
-                <score>907789065</score>
-            </score>
-            <activityRatio>97</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="amyt" updated="2016-06-28T21:55:04.025+02:00">
+        <user id="Air23" updated="2016-07-04T16:35:59.833+02:00">
             <alliance>DNA</alliance>
-            <score updated="2016-06-28T21:55:04.025+02:00">
-                <relScore>0.378</relScore>
-                <score>893720662</score>
-            </score>
-            <activityRatio>38</activityRatio>
+            <score relScore="0.247" score="823033234" relScoreChangePerDay="0.0" scoreChangePerDay="1.1460708E7" updated="2016-07-04T08:50:03.429+02:00"/>
+            <activityRatio>85</activityRatio>
             <status>Legal</status>
         </user>
-        <user id="anthrax" updated="2016-06-28T21:55:04.028+02:00">
-            <alliance>HANSE</alliance>
-            <score updated="2016-06-28T21:55:04.028+02:00">
-                <relScore>0.383</relScore>
-                <score>863993919</score>
-            </score>
+        <user id="Akachan" active="false" updated="2016-07-04T08:50:04.944+02:00">
+            <alliance></alliance>
+            <score relScore="0.013" score="34592825" relScoreChangePerDay="-0.0019952615" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>11</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Albireo" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>FIFA</alliance>
+            <score relScore="0.247" score="633320680" relScoreChangePerDay="0.0" scoreChangePerDay="2645379.8" updated="2016-07-04T08:50:03.430+02:00"/>
             <activityRatio>37</activityRatio>
             <status>Legal</status>
         </user>
-        <user id="d[O_O]b" updated="2016-06-28T21:55:03.947+02:00">
-            <alliance>HEAD</alliance>
-            <score updated="2016-06-28T21:55:03.947+02:00">
-                <relScore>2.69</relScore>
-                <score>5111821629</score>
-            </score>
-            <activityRatio>100</activityRatio>
+        <user id="Aldo the Apache" active="true" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance></alliance>
+            <score relScore="0.373" score="957513454" relScoreChangePerDay="-0.035915006" scoreChangePerDay="-8.1086448E7" updated="2016-07-04T08:50:01.105+02:00"/>
+            <activityRatio>51</activityRatio>
             <status>Legal</status>
         </user>
-        <user id="deep" updated="2016-06-28T21:55:03.984+02:00">
-            <alliance>DNA</alliance>
-            <score updated="2016-06-28T21:55:03.984+02:00">
-                <relScore>0.698</relScore>
-                <score>1470585664</score>
-            </score>
-            <activityRatio>63</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="dooku von serenn" updated="2016-06-28T21:55:03.990+02:00">
-            <alliance>ASGW</alliance>
-            <score updated="2016-06-28T21:55:03.990+02:00">
-                <relScore>0.573</relScore>
-                <score>1307655861</score>
-            </score>
-            <activityRatio>56</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="durstig" updated="2016-06-28T21:55:04.023+02:00">
+        <user id="alialbakschisch" active="true" updated="2016-07-04T17:31:44.739+02:00">
             <alliance>HANSE</alliance>
-            <score updated="2016-06-28T21:55:04.023+02:00">
-                <relScore>0.398</relScore>
-                <score>895384832</score>
-            </score>
-            <activityRatio>38</activityRatio>
+            <score relScore="0.39" score="1000235144" relScoreChangePerDay="0.0" scoreChangePerDay="8199934.0" updated="2016-07-04T08:50:01.105+02:00"/>
+            <activityRatio>39</activityRatio>
             <status>Legal</status>
         </user>
-        <user id="foXen" updated="2016-06-28T21:55:04.015+02:00">
+        <user id="Aloha" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>SUN</alliance>
+            <score relScore="0.691" score="1772958162" relScoreChangePerDay="0.017957503" scoreChangePerDay="6.0550728E7" updated="2016-07-04T08:50:01.102+02:00"/>
+            <activityRatio>99</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Amageddzone" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>1UP</alliance>
+            <score relScore="0.398" score="1023011867" relScoreChangePerDay="0.01396694" scoreChangePerDay="4.1506408E7" updated="2016-07-04T08:50:01.105+02:00"/>
+            <activityRatio>57</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Ambrosia" updated="2016-07-04T17:31:44.738+02:00">
+            <score relScore="0.805" score="2067270594" relScoreChangePerDay="-0.0019952517" scoreChangePerDay="1.9096082E7" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>78</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="amyt" updated="2016-07-04T17:31:44.739+02:00">
             <alliance>DNA</alliance>
-            <score updated="2016-06-28T21:55:04.015+02:00">
-                <relScore>0.428</relScore>
-                <score>983891123</score>
-            </score>
+            <score relScore="0.415" score="1088323945" relScoreChangePerDay="-0.0019953111" scoreChangePerDay="7028416.5" updated="2016-07-04T08:50:01.105+02:00"/>
             <activityRatio>42</activityRatio>
             <status>Legal</status>
         </user>
-        <user id="greystoke" updated="2016-06-28T21:55:04.012+02:00">
-            <alliance>GILDE</alliance>
-            <score updated="2016-06-28T21:55:04.012+02:00">
-                <relScore>0.485</relScore>
-                <score>1093813207</score>
-            </score>
-            <activityRatio>47</activityRatio>
-            <status>Legal</status>
+        <user id="Annotopia" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="725" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>27</activityRatio>
+            <status>Geschützt</status>
         </user>
-        <user id="hieronymus" updated="2016-06-28T21:55:03.959+02:00">
-            <score updated="2016-06-28T21:55:03.959+02:00">
-                <relScore>1.07</relScore>
-                <score>2409445242</score>
-            </score>
-            <activityRatio>91</activityRatio>
-            <status>Bewährung</status>
-        </user>
-        <user id="jerry" updated="2016-06-28T21:55:04.011+02:00">
+        <user id="Anomander Rake" updated="2016-07-04T17:31:44.738+02:00">
             <alliance>BASIS</alliance>
-            <score updated="2016-06-28T21:55:04.011+02:00">
-                <relScore>0.493</relScore>
-                <score>1109141159</score>
-            </score>
-            <activityRatio>47</activityRatio>
+            <score relScore="0.588" score="1505716357" relScoreChangePerDay="-0.0039905035" scoreChangePerDay="8006277.5" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>58</activityRatio>
             <status>Legal</status>
         </user>
-        <user id="kane" updated="2016-06-28T21:55:03.983+02:00">
-            <alliance>KOGGE</alliance>
-            <score updated="2016-06-28T21:55:03.983+02:00">
-                <relScore>0.653</relScore>
-                <score>1471299296</score>
-            </score>
-            <activityRatio>63</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="killtec_" updated="2016-06-28T21:55:03.962+02:00">
-            <score updated="2016-06-28T21:55:03.962+02:00">
-                <relScore>0.951</relScore>
-                <score>2142415802</score>
-            </score>
-            <activityRatio>85</activityRatio>
-            <status>Gesucht</status>
-        </user>
-        <user id="knecht ruprecht" updated="2016-06-28T21:55:03.975+02:00">
-            <alliance>m00n</alliance>
-            <score updated="2016-06-28T21:55:03.975+02:00">
-                <relScore>0.79</relScore>
-                <score>1695663971</score>
-            </score>
-            <activityRatio>100</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="lord dead" updated="2016-06-28T21:55:03.968+02:00">
-            <alliance>CDA</alliance>
-            <score updated="2016-06-28T21:55:03.968+02:00">
-                <relScore>0.871</relScore>
-                <score>1954131587</score>
-            </score>
-            <activityRatio>80</activityRatio>
-            <status>Legal</status>
-        </user>
-        <user id="lord schorsch" updated="2016-06-28T21:55:04.026+02:00">
+        <user id="Antares" updated="2016-07-04T17:31:44.738+02:00">
             <alliance>DNA</alliance>
-            <score updated="2016-06-28T21:55:04.026+02:00">
-                <relScore>0.375</relScore>
-                <score>888039447</score>
-            </score>
-            <activityRatio>38</activityRatio>
+            <score relScore="0.74" score="1836232181" relScoreChangePerDay="0.0039906222" scoreChangePerDay="3.2615758E7" updated="2016-07-04T08:50:01.102+02:00"/>
+            <activityRatio>69</activityRatio>
             <status>Legal</status>
         </user>
-        <user id="majowka" updated="2016-06-28T21:55:03.986+02:00">
-            <alliance>HEAD</alliance>
-            <score updated="2016-06-28T21:55:03.986+02:00">
-                <relScore>0.661</relScore>
-                <score>1461521565</score>
-            </score>
-            <activityRatio>79</activityRatio>
+        <user id="anthrax" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>HANSE</alliance>
+            <score relScore="0.39" score="1002478952" relScoreChangePerDay="0.007981067" scoreChangePerDay="3.4089572E7" updated="2016-07-04T08:50:01.105+02:00"/>
+            <activityRatio>39</activityRatio>
             <status>Legal</status>
         </user>
-        <user id="mozh" updated="2016-06-28T21:55:03.969+02:00">
+        <user id="Apophis" active="true" updated="2016-07-04T16:35:59.834+02:00">
+            <alliance>1UP</alliance>
+            <score relScore="0.133" score="351144021" relScoreChangePerDay="0.0" scoreChangePerDay="3226574.8" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>33</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="aquila" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>BIER</alliance>
+            <score relScore="0.31" score="797009908" relScoreChangePerDay="-0.0019952464" scoreChangePerDay="2948627.2" updated="2016-07-04T08:50:03.429+02:00"/>
+            <activityRatio>32</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="archgoofy" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>BASIS</alliance>
+            <score relScore="0.321" score="825330534" relScoreChangePerDay="0.001995306" scoreChangePerDay="1.1408975E7" updated="2016-07-04T08:50:03.428+02:00"/>
+            <activityRatio>34</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Arkone" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.025" score="64082550" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>18</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Arthurix" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.001" score="2058413" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>12</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Astor" updated="2016-07-04T17:31:44.738+02:00">
             <alliance>CDA</alliance>
-            <score updated="2016-06-28T21:55:03.969+02:00">
-                <relScore>0.867</relScore>
-                <score>1946552133</score>
-            </score>
-            <activityRatio>80</activityRatio>
+            <score relScore="0.599" score="1552593550" relScoreChangePerDay="-0.0039906222" scoreChangePerDay="1.0966567E7" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>60</activityRatio>
             <status>Legal</status>
         </user>
-        <user id="polotano" updated="2016-06-28T21:55:03.993+02:00">
-            <score updated="2016-06-28T21:55:03.993+02:00">
-                <relScore>0.556</relScore>
-                <score>1251774140</score>
-            </score>
-            <activityRatio>53</activityRatio>
+        <user id="Atros" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>GILDE</alliance>
+            <score relScore="0.302" score="780042066" relScoreChangePerDay="0.011971598" scoreChangePerDay="3.439184E7" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>31</activityRatio>
             <status>Legal</status>
         </user>
-        <user id="schlatt" updated="2016-06-28T21:55:03.958+02:00">
-            <alliance>SUN</alliance>
-            <score updated="2016-06-28T21:55:03.958+02:00">
-                <relScore>1.08</relScore>
-                <score>2441013238</score>
-            </score>
-            <activityRatio>100</activityRatio>
+        <user id="Axones" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="505" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>16</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="BabyDeath" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>GILDE</alliance>
+            <score relScore="0.186" score="474530666" relScoreChangePerDay="-0.0019952762" scoreChangePerDay="5904.0103" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>25</activityRatio>
             <status>Legal</status>
         </user>
-        <user id="sean" updated="2016-06-28T21:55:04.030+02:00">
-            <score updated="2016-06-28T21:55:04.030+02:00">
-                <relScore>0.375</relScore>
-                <score>845415360</score>
-            </score>
+        <user id="babytimes22" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>1UP</alliance>
+            <score relScore="0.365" score="939628487" relScoreChangePerDay="-0.0019952466" scoreChangePerDay="4728594.0" updated="2016-07-04T08:50:03.427+02:00"/>
+            <activityRatio>81</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Balbanor" updated="2016-07-04T08:50:07.143+02:00">
+            <score relScore="0.0" score="8631" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.143+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="balou" active="false" updated="2016-07-04T16:27:50.580+02:00">
+            <alliance></alliance>
+            <score relScore="0.027" score="70566114" relScoreChangePerDay="-0.0019952615" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>16</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Bau311" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.01" score="26925066" relScoreChangePerDay="0.0" scoreChangePerDay="337408.66" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>19</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Bau86" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="1031" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Bender" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>ASGW</alliance>
+            <score relScore="0.203" score="479180363" relScoreChangePerDay="-0.0019952762" scoreChangePerDay="836817.1" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>22</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Bert007" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.0" score="405654" relScoreChangePerDay="0.0" scoreChangePerDay="69834.15" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>40</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Big White Clock" active="true" updated="2016-07-04T16:41:31.690+02:00">
+            <alliance></alliance>
+            <score relScore="0.115" score="294480976" relScoreChangePerDay="0.0" scoreChangePerDay="1462953.6" updated="2016-07-04T08:50:03.431+02:00"/>
             <activityRatio>36</activityRatio>
             <status>Legal</status>
         </user>
-        <user id="sharia812" updated="2016-06-28T21:55:03.954+02:00">
-            <alliance>CDA</alliance>
-            <score updated="2016-06-28T21:55:03.954+02:00">
-                <relScore>1.35</relScore>
-                <score>3030315477</score>
-            </score>
+        <user id="BigThunderstrike" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.002" score="4215407" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Black Evil 01" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>HEAD</alliance>
+            <score relScore="0.108" score="527945412" relScoreChangePerDay="0.0019952764" scoreChangePerDay="1.0597396E7" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>100</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Blackangel" active="false" updated="2016-07-04T16:35:59.834+02:00">
+            <alliance></alliance>
+            <score relScore="0.141" score="362198135" relScoreChangePerDay="-0.0019952764" scoreChangePerDay="0.0" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>22</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Blackfire" updated="2016-07-04T08:50:04.944+02:00">
+            <alliance>DNA</alliance>
+            <score relScore="0.002" score="82851710" relScoreChangePerDay="0.0" scoreChangePerDay="1443318.1" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>100</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Blackhawk" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="645" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>41</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Blau" updated="2016-07-04T08:50:04.944+02:00">
+            <alliance>FIFA</alliance>
+            <score relScore="0.011" score="40534397" relScoreChangePerDay="0.0" scoreChangePerDay="984254.4" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>21</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Blauauge" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="442" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Bloos" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>1UP</alliance>
+            <score relScore="0.549" score="1408678071" relScoreChangePerDay="0.0" scoreChangePerDay="1.6181225E7" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>54</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="BlumbaQuatsch" updated="2016-07-04T16:35:59.833+02:00">
+            <score relScore="0.29" score="743280234" relScoreChangePerDay="-0.001995306" scoreChangePerDay="144856.75" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>30</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Bomilkar" active="true" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>HEAD</alliance>
+            <score relScore="1.35" score="3072091532" relScoreChangePerDay="0.059858263" scoreChangePerDay="1.42878384E8" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>96</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="bond des orion" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>HEAD</alliance>
+            <score relScore="0.208" score="732899958" relScoreChangePerDay="0.0" scoreChangePerDay="7241064.0" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>49</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Bradox" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="446" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>18</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Brain" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>1UP</alliance>
+            <score relScore="0.303" score="782170985" relScoreChangePerDay="-0.0019952464" scoreChangePerDay="1553299.4" updated="2016-07-04T08:50:03.429+02:00"/>
+            <activityRatio>31</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="branko1313" updated="2016-07-04T08:50:04.943+02:00">
+            <alliance>DNA</alliance>
+            <score relScore="0.013" score="263401096" relScoreChangePerDay="0.0019952613" scoreChangePerDay="6920963.5" updated="2016-07-04T08:50:04.943+02:00"/>
+            <activityRatio>100</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Bruno" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>1UP</alliance>
+            <score relScore="0.577" score="1479870844" relScoreChangePerDay="-0.0059857555" scoreChangePerDay="126372.89" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>57</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Brusli" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>SUN</alliance>
+            <score relScore="0.643" score="1651264007" relScoreChangePerDay="-0.0059858738" scoreChangePerDay="4079009.2" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>63</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Bukm0p" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>m00n</alliance>
+            <score relScore="0.549" score="1409372255" relScoreChangePerDay="0.0" scoreChangePerDay="1.3066027E7" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>69</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Bull" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.001" score="2873257" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>36</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Bärbel" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>SUN</alliance>
+            <score relScore="1.51" score="3871831848" relScoreChangePerDay="0.0" scoreChangePerDay="1.4281429E7" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>99</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="C0DEx" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="443" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>14</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="CABAL" updated="2016-07-04T08:50:04.944+02:00">
+            <alliance>m00n</alliance>
+            <score relScore="0.061" score="157856367" relScoreChangePerDay="0.0" scoreChangePerDay="4156809.5" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>14</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Cartman" updated="2016-07-04T17:31:44.738+02:00">
+            <score relScore="1.39" score="3557474542" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:01.101+02:00"/>
             <activityRatio>98</activityRatio>
             <status>Legal</status>
         </user>
-        <user id="ssss" updated="2016-06-28T21:55:03.996+02:00">
-            <alliance>HANSE</alliance>
-            <score updated="2016-06-28T21:55:03.996+02:00">
-                <relScore>0.544</relScore>
-                <score>1221139930</score>
-            </score>
-            <activityRatio>52</activityRatio>
+        <user id="Caruso" updated="2016-07-04T08:50:07.143+02:00">
+            <score relScore="0.0" score="21078" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.143+02:00"/>
+            <activityRatio>17</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Cermet" updated="2016-07-04T16:35:59.833+02:00">
+            <score relScore="0.326" score="836042682" relScoreChangePerDay="-0.0019952466" scoreChangePerDay="847258.44" updated="2016-07-04T08:50:03.428+02:00"/>
+            <activityRatio>33</activityRatio>
             <status>Legal</status>
         </user>
-        <user id="syndro" updated="2016-06-28T21:55:04.011+02:00">
+        <user id="Chaotarch Xrayn" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>m00n</alliance>
+            <score relScore="0.311" score="798633461" relScoreChangePerDay="-0.001995306" scoreChangePerDay="4738653.5" updated="2016-07-04T08:50:03.429+02:00"/>
+            <activityRatio>32</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="charl" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="588" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="chefkoch1" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>1UP</alliance>
+            <score relScore="0.204" score="532130360" relScoreChangePerDay="-0.0019952764" scoreChangePerDay="1552128.2" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>23</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Chewbacca" updated="2016-07-04T17:31:44.738+02:00">
             <alliance>CDA</alliance>
-            <score updated="2016-06-28T21:55:04.011+02:00">
-                <relScore>0.5</relScore>
-                <score>1127978707</score>
-            </score>
-            <activityRatio>48</activityRatio>
+            <score relScore="1.89" score="3959454129" relScoreChangePerDay="0.019952754" scoreChangePerDay="6.062808E7" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>99</activityRatio>
             <status>Legal</status>
         </user>
-        <user id="ulthima" updated="2016-06-28T21:55:04.024+02:00">
+        <user id="Chief 311" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.0" score="176535" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>11</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Chimichanga" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.003" score="6566954" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>14</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="chrissi812" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>1UP</alliance>
+            <score relScore="0.274" score="709803239" relScoreChangePerDay="-0.0039905524" scoreChangePerDay="599158.25" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>29</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Commander" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>HEAD</alliance>
+            <score relScore="1.25" score="2874391760" relScoreChangePerDay="0.0" scoreChangePerDay="2.4817798E7" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>93</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="CroXor" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.078" score="200630561" relScoreChangePerDay="-0.001995265" scoreChangePerDay="8988.65" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>15</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="cyberchuck" updated="2016-07-04T08:50:04.943+02:00">
+            <alliance>BASIS</alliance>
+            <score relScore="0.089" score="235376514" relScoreChangePerDay="0.0039905305" scoreChangePerDay="8640502.0" updated="2016-07-04T08:50:04.943+02:00"/>
+            <activityRatio>35</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="d[O_O]b" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>HEAD</alliance>
+            <score relScore="2.82" score="6099084104" relScoreChangePerDay="-0.039905507" scoreChangePerDay="-2.83695E7" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>100</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="da Phantasialand" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>SUN</alliance>
+            <score relScore="0.227" score="582047414" relScoreChangePerDay="0.0" scoreChangePerDay="2824272.0" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>25</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Dan Tonk" updated="2016-07-04T08:50:07.145+02:00">
+            <score relScore="0.0" score="432" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.145+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="dandy" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>BASIS</alliance>
+            <score relScore="0.179" score="464716453" relScoreChangePerDay="-0.005985799" scoreChangePerDay="-1.0988073E7" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>21</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Dante" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.0" score="380262" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>12</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Darkness" updated="2016-07-04T08:50:04.943+02:00">
+            <alliance>DNA</alliance>
+            <score relScore="0.004" score="244394657" relScoreChangePerDay="0.0" scoreChangePerDay="4394707.5" updated="2016-07-04T08:50:04.943+02:00"/>
+            <activityRatio>100</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="deep" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>DNA</alliance>
+            <score relScore="0.684" score="1641214629" relScoreChangePerDay="0.007981125" scoreChangePerDay="3.2551192E7" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>63</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Deine Mudda" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>DNA</alliance>
+            <score relScore="0.335" score="1003982255" relScoreChangePerDay="-0.0019952517" scoreChangePerDay="7244098.0" updated="2016-07-04T08:50:01.105+02:00"/>
+            <activityRatio>93</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Dennis" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.003" score="6778737" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>12</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="DerDieter" updated="2016-07-04T08:50:07.143+02:00">
+            <score relScore="0.0" score="122410" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.143+02:00"/>
+            <activityRatio>21</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="desdar" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.0" score="362387" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>11</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Desmo" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>FIFA</alliance>
+            <score relScore="0.212" score="546591878" relScoreChangePerDay="0.0" scoreChangePerDay="4594533.5" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>32</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="deutschePest" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>Plex</alliance>
+            <score relScore="0.332" score="864070050" relScoreChangePerDay="0.0" scoreChangePerDay="3.292565E7" updated="2016-07-04T08:50:03.427+02:00"/>
+            <activityRatio>37</activityRatio>
+            <status>Gesucht</status>
+        </user>
+        <user id="Diablos" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="571" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>42</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Diesel" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.0" score="226913" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Dimplay" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.0" score="1022153" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>14</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Disaster" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.003" score="6970414" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>11</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Dobb" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="917" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>39</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Doctor Doom" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>BIER</alliance>
+            <score relScore="0.199" score="514634555" relScoreChangePerDay="0.0" scoreChangePerDay="2785553.8" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>23</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="don bilbo" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>ASGW</alliance>
+            <score relScore="0.167" score="404744775" relScoreChangePerDay="0.0" scoreChangePerDay="2517570.8" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>21</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Donar" updated="2016-07-04T16:35:59.833+02:00">
+            <score relScore="0.216" score="554752571" relScoreChangePerDay="-0.0019952466" scoreChangePerDay="3036720.5" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>27</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="dooku von serenn" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>ASGW</alliance>
+            <score relScore="0.552" score="1446281734" relScoreChangePerDay="0.0039905035" scoreChangePerDay="2.0719866E7" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>56</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Dorilys" updated="2016-07-04T16:35:59.833+02:00">
             <alliance>HANSE</alliance>
-            <score updated="2016-06-28T21:55:04.024+02:00">
-                <relScore>0.397</relScore>
-                <score>894200393</score>
-            </score>
+            <score relScore="0.18" score="467277512" relScoreChangePerDay="0.0" scoreChangePerDay="5059499.5" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>21</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="dosenfisch" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.067" score="171148927" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>14</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Dotz" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>HANSE</alliance>
+            <score relScore="0.325" score="835065987" relScoreChangePerDay="-0.001995306" scoreChangePerDay="3714532.5" updated="2016-07-04T08:50:03.428+02:00"/>
+            <activityRatio>33</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Dr. Octopus" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>BIER</alliance>
+            <score relScore="0.405" score="1039038882" relScoreChangePerDay="-0.003990563" scoreChangePerDay="804731.3" updated="2016-07-04T08:50:01.105+02:00"/>
+            <activityRatio>40</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="draki" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>HANSE</alliance>
+            <score relScore="0.335" score="861973141" relScoreChangePerDay="-0.003990553" scoreChangePerDay="236964.52" updated="2016-07-04T08:50:03.427+02:00"/>
+            <activityRatio>37</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="DrEcksack" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>SUN</alliance>
+            <score relScore="0.663" score="1702775919" relScoreChangePerDay="-0.007981126" scoreChangePerDay="449336.47" updated="2016-07-04T08:50:01.102+02:00"/>
+            <activityRatio>83</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="durstig" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>HANSE</alliance>
+            <score relScore="0.378" score="970245479" relScoreChangePerDay="-0.011971689" scoreChangePerDay="-1.9236168E7" updated="2016-07-04T08:50:01.105+02:00"/>
             <activityRatio>38</activityRatio>
             <status>Legal</status>
         </user>
-        <user id="webbi" updated="2016-06-28T21:55:04.012+02:00">
+        <user id="dwarf" active="true" updated="2016-07-04T16:31:09.315+02:00">
+            <alliance></alliance>
+            <score relScore="0.099" score="255108647" relScoreChangePerDay="-0.001995265" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.943+02:00"/>
+            <activityRatio>16</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Dywen" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.005" score="11958189" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>20</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Edelbert" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="2631" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>43</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Eiswind" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="659" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>19</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Ente des Todes" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.001" score="3808068" relScoreChangePerDay="0.0" scoreChangePerDay="447012.34" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>48</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="enze" updated="2016-07-04T08:50:04.944+02:00">
+            <alliance>DNA</alliance>
+            <score relScore="0.004" score="86348298" relScoreChangePerDay="0.0" scoreChangePerDay="1269099.9" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>99</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Epsitus" updated="2016-07-04T16:35:59.834+02:00">
+            <alliance>HEAD</alliance>
+            <score relScore="0.034" score="375672415" relScoreChangePerDay="0.0" scoreChangePerDay="3795189.5" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>35</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="equilibrium" updated="2016-07-04T16:35:59.833+02:00">
+            <score relScore="0.34" score="871690291" relScoreChangePerDay="0.003990553" scoreChangePerDay="1.9395044E7" updated="2016-07-04T08:50:03.427+02:00"/>
+            <activityRatio>36</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="evilmaster" updated="2016-07-04T16:35:59.834+02:00">
+            <alliance>DNA</alliance>
+            <score relScore="0.04" score="319230766" relScoreChangePerDay="0.0" scoreChangePerDay="6868304.0" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>97</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="evoempire" updated="2016-07-04T17:31:44.739+02:00">
             <alliance>CDA</alliance>
-            <score updated="2016-06-28T21:55:04.012+02:00">
-                <relScore>0.487</relScore>
-                <score>1097514207</score>
-            </score>
+            <score relScore="0.353" score="1047286775" relScoreChangePerDay="-0.0019953111" scoreChangePerDay="9166121.0" updated="2016-07-04T08:50:01.105+02:00"/>
+            <activityRatio>44</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="federalsecurity" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="3406" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Feivel" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>BASIS</alliance>
+            <score relScore="0.848" score="2165968702" relScoreChangePerDay="-0.009976378" scoreChangePerDay="-2203758.0" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>79</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Felidae" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>CDA</alliance>
+            <score relScore="0.38" score="1103457476" relScoreChangePerDay="0.009976378" scoreChangePerDay="3.5571644E7" updated="2016-07-04T08:50:01.105+02:00"/>
+            <activityRatio>43</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Felidae42" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.005" score="12315925" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>14</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Firegames" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="432" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Floki" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>1UP</alliance>
+            <score relScore="0.234" score="606183660" relScoreChangePerDay="-0.0019952762" scoreChangePerDay="126372.555" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>25</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Flovie" active="true" updated="2016-07-04T22:26:59.072+02:00">
+            <alliance>HEAD</alliance>
+            <score relScore="0.189" score="694692883" relScoreChangePerDay="0.0039905226" scoreChangePerDay="1.70299E7" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>100</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="flyer" active="false" updated="2016-07-04T08:57:16.756+02:00">
+            <alliance></alliance>
+            <score relScore="0.077" score="198672013" relScoreChangePerDay="-0.001995265" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>15</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="fonsk" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.0" score="700286" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>45</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Foudroyant Virus" active="true" updated="2016-07-04T08:50:04.945+02:00">
+            <alliance></alliance>
+            <score relScore="0.003" score="7161889" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>25</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="foXen" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>DNA</alliance>
+            <score relScore="0.434" score="1127773825" relScoreChangePerDay="0.0039905035" scoreChangePerDay="2.0767396E7" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>43</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Freak2207" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>HEAD</alliance>
+            <score relScore="0.272" score="863969562" relScoreChangePerDay="0.003990553" scoreChangePerDay="1.8447972E7" updated="2016-07-04T08:50:03.427+02:00"/>
+            <activityRatio>35</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="freakystar" updated="2016-07-04T08:50:07.143+02:00">
+            <score relScore="0.0" score="94272" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.143+02:00"/>
+            <activityRatio>46</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Freelancer" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>UFO</alliance>
+            <score relScore="0.375" score="1085448033" relScoreChangePerDay="0.0019952517" scoreChangePerDay="1.364744E7" updated="2016-07-04T08:50:01.105+02:00"/>
+            <activityRatio>42</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Frerix" updated="2016-07-04T16:35:59.834+02:00">
+            <score relScore="0.111" score="284652472" relScoreChangePerDay="0.0" scoreChangePerDay="2720671.5" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>17</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Fuyuko" updated="2016-07-04T08:50:07.145+02:00">
+            <score relScore="0.0" score="432" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.145+02:00"/>
+            <activityRatio>14</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="g0lem*" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.007" score="18453565" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>16</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Galaxy_Ranger" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>CDA</alliance>
+            <score relScore="1.18" score="2737005963" relScoreChangePerDay="0.019952755" scoreChangePerDay="6.2435368E7" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>94</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Gandir" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>GILDE</alliance>
+            <score relScore="0.566" score="1452480843" relScoreChangePerDay="-0.0019952517" scoreChangePerDay="8983868.0" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>56</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Garfield" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.023" score="59480797" relScoreChangePerDay="0.0" scoreChangePerDay="2337245.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>12</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="GarstigerGnom" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.001" score="3145053" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>14</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="geilo" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="432" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Geronimo" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>CDA</alliance>
+            <score relScore="0.113" score="555283796" relScoreChangePerDay="0.003990538" scoreChangePerDay="1.6429118E7" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>31</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Ghxyz" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.017" score="42910819" relScoreChangePerDay="0.0" scoreChangePerDay="13168.725" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>17</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="giro" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.001" score="2796608" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="glenn" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="432" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Golem" updated="2016-07-04T16:35:59.834+02:00">
+            <alliance>FIFA</alliance>
+            <score relScore="0.13" score="339207612" relScoreChangePerDay="0.0" scoreChangePerDay="1250614.8" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>18</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="greystoke" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>GILDE</alliance>
+            <score relScore="0.481" score="1236655033" relScoreChangePerDay="-0.003990563" scoreChangePerDay="4291460.5" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>48</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Gringo05" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="1545" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>14</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Gugi" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="1229" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>18</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Hacke Peter" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>Plex</alliance>
+            <score relScore="0.25" score="697013518" relScoreChangePerDay="-0.0039905524" scoreChangePerDay="-592114.94" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>28</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="hanibal00" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>BASIS</alliance>
+            <score relScore="0.175" score="456247287" relScoreChangePerDay="-0.0019952762" scoreChangePerDay="583766.75" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>21</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Haremhab" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.001" score="1860836" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>34</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Heisenberg" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>HEAD</alliance>
+            <score relScore="0.403" score="1132274505" relScoreChangePerDay="0.0" scoreChangePerDay="9882234.0" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>75</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Hephaistos" updated="2016-07-04T17:31:44.738+02:00">
+            <score relScore="0.832" score="2135707655" relScoreChangePerDay="-0.007981126" scoreChangePerDay="1619560.8" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>79</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Hermes" updated="2016-07-04T08:50:04.944+02:00">
+            <alliance>GILDE</alliance>
+            <score relScore="0.009" score="23583086" relScoreChangePerDay="0.0" scoreChangePerDay="5903.978" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>17</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Hetzer" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>SUN</alliance>
+            <score relScore="1.88" score="4826311752" relScoreChangePerDay="-0.019952754" scoreChangePerDay="2.0990004E7" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>100</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Hexer62" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="547" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>43</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="hidi" updated="2016-07-04T08:50:04.944+02:00">
+            <alliance>SUN</alliance>
+            <score relScore="0.09" score="231811010" relScoreChangePerDay="-0.0019952501" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>15</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="hieronymus" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>1UP</alliance>
+            <score relScore="0.95" score="2428125590" relScoreChangePerDay="0.015962252" scoreChangePerDay="6.7397704E7" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>86</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="hille70" active="true" updated="2016-07-04T08:59:13.255+02:00">
+            <alliance></alliance>
+            <score relScore="0.075" score="191624828" relScoreChangePerDay="0.0" scoreChangePerDay="27724.15" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>15</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Himbeere" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="463" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>33</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Hitlord" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>HEAD</alliance>
+            <score relScore="0.366" score="1056181059" relScoreChangePerDay="0.0" scoreChangePerDay="1.046683E7" updated="2016-07-04T08:50:01.105+02:00"/>
+            <activityRatio>67</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Holzweg" updated="2016-07-04T08:50:07.143+02:00">
+            <score relScore="0.0" score="122472" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.143+02:00"/>
+            <activityRatio>12</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Hork" active="true" updated="2016-07-04T16:35:59.834+02:00">
+            <alliance>DNA</alliance>
+            <score relScore="0.062" score="364159035" relScoreChangePerDay="0.0039905454" scoreChangePerDay="1.2936005E7" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>100</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Horst" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>BIER</alliance>
+            <score relScore="0.681" score="1731684203" relScoreChangePerDay="0.021948008" scoreChangePerDay="7.3696464E7" updated="2016-07-04T08:50:01.102+02:00"/>
+            <activityRatio>70</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="HubbaTimmbo" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.028" score="72030678" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>16</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Icewald" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.005" score="11643245" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Iltis" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>DNA</alliance>
+            <score relScore="0.197" score="642046922" relScoreChangePerDay="0.0" scoreChangePerDay="7505384.0" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>26</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Immgrisch" active="false" updated="2016-07-04T08:57:25.745+02:00">
+            <alliance></alliance>
+            <score relScore="0.0" score="867" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>24</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="In Memoriam Dhyani" updated="2016-07-04T08:50:07.145+02:00">
+            <score relScore="0.0" score="432" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.145+02:00"/>
+            <activityRatio>11</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Infineon" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>m00n</alliance>
+            <score relScore="0.75" score="1924728847" relScoreChangePerDay="-0.005985874" scoreChangePerDay="2082335.4" updated="2016-07-04T08:50:01.102+02:00"/>
+            <activityRatio>73</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="insane" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>CDA</alliance>
+            <score relScore="0.156" score="642990758" relScoreChangePerDay="-0.0019952762" scoreChangePerDay="5239856.0" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>28</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="ironman" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>BASIS</alliance>
+            <score relScore="0.252" score="650241194" relScoreChangePerDay="0.0059858286" scoreChangePerDay="2.0857062E7" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>28</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="irsi" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>CDA</alliance>
+            <score relScore="0.221" score="776160550" relScoreChangePerDay="-0.0019952762" scoreChangePerDay="6394875.0" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>31</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="J4cky" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.083" score="213265044" relScoreChangePerDay="-0.001995265" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>15</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Jack" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.032" score="82977305" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>12</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="JackLimmo" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.082" score="209384967" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>16</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="jannick" updated="2016-07-04T08:50:07.143+02:00">
+            <score relScore="0.0" score="41377" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.143+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="jannick15" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="443" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Jannickzockt" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.016" score="40648347" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="JanosNadaPlanos" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.007" score="18088116" relScoreChangePerDay="0.0" scoreChangePerDay="2779117.5" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>32</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="jerry" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>BASIS</alliance>
+            <score relScore="0.485" score="1242011913" relScoreChangePerDay="-0.0019952517" scoreChangePerDay="4027431.8" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>48</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Jhanaris" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="508" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>28</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="JohannderWeisse" active="true" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>ASGW</alliance>
+            <score relScore="0.223" score="520390651" relScoreChangePerDay="0.0019952764" scoreChangePerDay="9401130.0" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>46</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Jones" active="false" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>CDA</alliance>
+            <score relScore="0.642" score="1641368778" relScoreChangePerDay="-0.005985755" scoreChangePerDay="5158380.5" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>63</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="juco" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>Plex</alliance>
+            <score relScore="0.193" score="578758778" relScoreChangePerDay="0.0" scoreChangePerDay="3563131.2" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>28</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Kaiser von Terra" active="true" updated="2016-07-04T16:27:57.120+02:00">
+            <alliance></alliance>
+            <score relScore="0.005" score="13716312" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>38</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Kaluschi" updated="2016-07-04T08:50:07.143+02:00">
+            <score relScore="0.0" score="19127" relScoreChangePerDay="0.0" scoreChangePerDay="11191.256" updated="2016-07-04T08:50:07.143+02:00"/>
+            <activityRatio>91</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Kamikaze" updated="2016-07-04T08:50:04.944+02:00">
+            <alliance>FIFA</alliance>
+            <score relScore="0.04" score="114089458" relScoreChangePerDay="0.0" scoreChangePerDay="735367.5" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>59</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="kane" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>KOGGE</alliance>
+            <score relScore="0.647" score="1661577379" relScoreChangePerDay="-0.0019952517" scoreChangePerDay="9045048.0" updated="2016-07-04T08:50:01.103+02:00"/>
+            <activityRatio>64</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="kathrinchen" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="463" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>47</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="KatyFire" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>BIER</alliance>
+            <score relScore="0.292" score="751955419" relScoreChangePerDay="0.005985799" scoreChangePerDay="2.0627266E7" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>57</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="kevin16king" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.001" score="2428206" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="killmeplease" active="false" updated="2016-07-04T08:57:23.298+02:00">
+            <alliance></alliance>
+            <score relScore="0.0" score="432" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.145+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="killtec_" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>SUN</alliance>
+            <score relScore="0.994" score="2551987886" relScoreChangePerDay="0.0" scoreChangePerDay="2.8068342E7" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>88</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Kim Jong Deux" active="true" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>HEAD</alliance>
+            <score relScore="0.327" score="977124995" relScoreChangePerDay="0.0059858146" scoreChangePerDay="2.3574702E7" updated="2016-07-04T08:50:01.105+02:00"/>
+            <activityRatio>42</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="king" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>SUN</alliance>
+            <score relScore="0.147" score="377505323" relScoreChangePerDay="-0.0019952764" scoreChangePerDay="310264.84" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>19</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="knecht ruprecht" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>m00n</alliance>
+            <score relScore="0.818" score="2099275572" relScoreChangePerDay="-0.0039905035" scoreChangePerDay="1.077879E7" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>78</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="knochenjochen" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.02" score="51048832" relScoreChangePerDay="0.0019952615" scoreChangePerDay="2660609.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>80</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="knutschkugel" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.004" score="11363860" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>14</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Kopflos" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.087" score="224039568" relScoreChangePerDay="-0.001995265" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>15</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Kosmosrabauke" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>FIFA</alliance>
+            <score relScore="0.934" score="2363719293" relScoreChangePerDay="-0.0039905035" scoreChangePerDay="1.5613461E7" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>85</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Kraitos" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.008" score="21562564" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>15</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Kreios" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.063" score="162169577" relScoreChangePerDay="-0.0019952653" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>15</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Kriegsschaf" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>m00n</alliance>
+            <score relScore="0.468" score="1200140557" relScoreChangePerDay="0.01396694" scoreChangePerDay="4.4109824E7" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>100</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Kyoya" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="539" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>18</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Kyrazu" updated="2016-07-04T08:50:07.143+02:00">
+            <score relScore="0.0" score="111134" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.143+02:00"/>
+            <activityRatio>31</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Leto" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>UFO</alliance>
+            <score relScore="0.282" score="610389612" relScoreChangePerDay="-0.0019952464" scoreChangePerDay="1219596.1" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>26</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Leto II" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.002" score="5944713" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Leutz" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.01" score="25890186" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Lightning Farron" updated="2016-07-04T08:50:04.944+02:00">
+            <alliance>1UP</alliance>
+            <score relScore="0.03" score="88067163" relScoreChangePerDay="0.0019952615" scoreChangePerDay="2354087.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="locutus" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>CDA</alliance>
+            <score relScore="0.27" score="876464999" relScoreChangePerDay="0.0" scoreChangePerDay="8002315.0" updated="2016-07-04T08:50:03.427+02:00"/>
+            <activityRatio>34</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="lol123" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="432" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="lord dead" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>CDA</alliance>
+            <score relScore="0.849" score="2066626877" relScoreChangePerDay="-0.005985874" scoreChangePerDay="1.298666E7" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>78</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="lord schorsch" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>DNA</alliance>
+            <score relScore="0.394" score="1045135641" relScoreChangePerDay="-0.003990563" scoreChangePerDay="1882672.0" updated="2016-07-04T08:50:01.105+02:00"/>
+            <activityRatio>40</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Lynx" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>SUN</alliance>
+            <score relScore="0.797" score="2045001534" relScoreChangePerDay="-0.005985874" scoreChangePerDay="2082756.4" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>76</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Mac" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>HANSE</alliance>
+            <score relScore="0.979" score="2497886563" relScoreChangePerDay="-0.005985874" scoreChangePerDay="1.039116E7" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>87</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="MadNimrod" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.0" score="952797" relScoreChangePerDay="0.0" scoreChangePerDay="120204.516" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>46</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Mageta" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.001" score="2157599" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>11</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="magnificus" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.029" score="73858503" relScoreChangePerDay="0.0" scoreChangePerDay="443041.78" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>12</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="majowka" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>HEAD</alliance>
+            <score relScore="0.66" score="1660240842" relScoreChangePerDay="0.0059858738" scoreChangePerDay="2.8604684E7" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>77</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="MalibuBanane" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>HEAD</alliance>
+            <score relScore="0.447" score="1223705350" relScoreChangePerDay="-0.0019953111" scoreChangePerDay="1.121653E7" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>100</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Malumba" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="432" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="MampfHamsterIII" updated="2016-07-04T17:31:44.739+02:00">
+            <score relScore="0.516" score="1324544748" relScoreChangePerDay="-0.005985874" scoreChangePerDay="707685.0" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>51</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="mannie" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="432" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Mantai" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.009" score="22501834" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>17</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="map tco" updated="2016-07-04T08:50:07.145+02:00">
+            <score relScore="0.0" score="432" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.145+02:00"/>
+            <activityRatio>22</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Mario2525" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.004" score="9271321" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="mark123" updated="2016-07-04T08:50:07.145+02:00">
+            <score relScore="0.0" score="432" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.145+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Marodeur" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>DNA</alliance>
+            <score relScore="1.96" score="4251524598" relScoreChangePerDay="0.09976401" scoreChangePerDay="2.2160784E8" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>100</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="matze21" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="742" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>29</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Matzepan" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>CDA</alliance>
+            <score relScore="0.359" score="1059569575" relScoreChangePerDay="0.0019952517" scoreChangePerDay="1.7364228E7" updated="2016-07-04T08:50:01.105+02:00"/>
+            <activityRatio>48</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="MC_Kay" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.009" score="22948852" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>11</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="mechfi" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>CDA</alliance>
+            <score relScore="0.296" score="931113981" relScoreChangePerDay="-0.003990553" scoreChangePerDay="5158084.0" updated="2016-07-04T08:50:03.427+02:00"/>
+            <activityRatio>38</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Milchbubi" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>HEAD</alliance>
+            <score relScore="0.555" score="1445101054" relScoreChangePerDay="-0.005985874" scoreChangePerDay="3515363.5" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>55</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Momentum" active="false" updated="2016-07-04T16:37:18.446+02:00">
+            <alliance></alliance>
+            <score relScore="0.168" score="431287523" relScoreChangePerDay="-0.0019952764" scoreChangePerDay="0.0" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>20</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Mondmann" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>SUN</alliance>
+            <score relScore="1.71" score="4393219841" relScoreChangePerDay="0.0" scoreChangePerDay="2.9436238E7" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>100</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Monkey D Ruffy" active="true" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>DNA</alliance>
+            <score relScore="0.57" score="1486493625" relScoreChangePerDay="-0.0039906222" scoreChangePerDay="9073073.0" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>57</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Moogle" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="645" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>29</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Morbid" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.001" score="2067669" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>30</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Mordin Solus" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>CDA</alliance>
+            <score relScore="1.03" score="2132158480" relScoreChangePerDay="0.0" scoreChangePerDay="3611021.2" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>79</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Morkar" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>BIER</alliance>
+            <score relScore="0.189" score="489096681" relScoreChangePerDay="0.0" scoreChangePerDay="3230234.0" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>25</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="mother" updated="2016-07-04T16:35:59.834+02:00">
+            <alliance>FIFA</alliance>
+            <score relScore="0.109" score="286951107" relScoreChangePerDay="0.0" scoreChangePerDay="3223049.0" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>17</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Mower" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>HANSE</alliance>
+            <score relScore="0.224" score="579455685" relScoreChangePerDay="0.0019952764" scoreChangePerDay="8741186.0" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>25</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="mozh" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>CDA</alliance>
+            <score relScore="0.895" score="2160323120" relScoreChangePerDay="0.0" scoreChangePerDay="2.4546926E7" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>79</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Msb774" active="true" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance></alliance>
+            <score relScore="0.464" score="1191391256" relScoreChangePerDay="0.009976378" scoreChangePerDay="3.8960624E7" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>46</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="musiofu" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>CDA</alliance>
+            <score relScore="0.244" score="824336386" relScoreChangePerDay="-0.0019952764" scoreChangePerDay="7151064.0" updated="2016-07-04T08:50:03.428+02:00"/>
+            <activityRatio>33</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="n4tron" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>HEAD</alliance>
+            <score relScore="0.155" score="624767978" relScoreChangePerDay="-0.0019952762" scoreChangePerDay="3693031.2" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>43</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="nazgul" active="true" updated="2016-07-04T16:35:59.834+02:00">
+            <alliance>m00n</alliance>
+            <score relScore="0.139" score="357633910" relScoreChangePerDay="-0.0019952764" scoreChangePerDay="377100.47" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>18</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Nemesis" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>SUN</alliance>
+            <score relScore="0.348" score="893885885" relScoreChangePerDay="-0.001995306" scoreChangePerDay="4905913.5" updated="2016-07-04T08:50:03.427+02:00"/>
+            <activityRatio>35</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="NoGhost" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.008" score="20442571" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Nordica" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="456" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>14</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Nostra" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.038" score="97125772" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Nub the lesser" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>SUN</alliance>
+            <score relScore="0.9" score="2309811080" relScoreChangePerDay="-0.007981126" scoreChangePerDay="1212711.6" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>84</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Nurgut" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>DNA</alliance>
+            <score relScore="0.122" score="486411984" relScoreChangePerDay="0.0" scoreChangePerDay="4475066.5" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>23</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Obi-Wan" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>FIFA</alliance>
+            <score relScore="0.299" score="765292271" relScoreChangePerDay="-0.001995306" scoreChangePerDay="1570939.6" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>31</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Obi-Wan Kenobi" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>DNA</alliance>
+            <score relScore="1.16" score="2379734769" relScoreChangePerDay="0.0" scoreChangePerDay="9093595.0" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>86</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Odin" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>DNA</alliance>
+            <score relScore="1.59" score="3572545496" relScoreChangePerDay="0.0" scoreChangePerDay="1.0582606E7" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>98</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Odysseus" updated="2016-07-04T16:35:59.834+02:00">
+            <score relScore="0.107" score="274315865" relScoreChangePerDay="0.0" scoreChangePerDay="24625.65" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>16</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Optimus Prime" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>CDA</alliance>
+            <score relScore="0.779" score="1686289527" relScoreChangePerDay="-0.0019952517" scoreChangePerDay="1.4263355E7" updated="2016-07-04T08:50:01.102+02:00"/>
+            <activityRatio>64</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Pardona" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>GILDE</alliance>
+            <score relScore="0.4" score="1028684550" relScoreChangePerDay="-0.0019952517" scoreChangePerDay="5209520.0" updated="2016-07-04T08:50:01.105+02:00"/>
+            <activityRatio>40</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Paul Panzer" updated="2016-07-04T16:35:59.833+02:00">
+            <score relScore="0.176" score="450986919" relScoreChangePerDay="0.0" scoreChangePerDay="3223801.0" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>26</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="PEKKA" active="true" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>1UP</alliance>
+            <score relScore="2.08" score="5290144998" relScoreChangePerDay="-0.019952754" scoreChangePerDay="4560637.5" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>100</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="pfeifenkopf" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.013" score="34084960" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>11</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Philipmasteski" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="432" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="PiratoRox" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>SUN</alliance>
+            <score relScore="0.598" score="1535751031" relScoreChangePerDay="0.011971628" scoreChangePerDay="4.592714E7" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>60</activityRatio>
+            <status>Bewährung</status>
+        </user>
+        <user id="polotano" updated="2016-07-04T17:31:44.739+02:00">
+            <score relScore="0.549" score="1409699245" relScoreChangePerDay="-0.0059857555" scoreChangePerDay="947208.06" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>54</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Prisma" updated="2016-07-04T16:35:59.833+02:00">
+            <score relScore="0.235" score="603130295" relScoreChangePerDay="-0.0019952764" scoreChangePerDay="0.0" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>25</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Prometheus" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>FIFA</alliance>
+            <score relScore="0.438" score="1113692349" relScoreChangePerDay="0.0059858146" scoreChangePerDay="2.5172322E7" updated="2016-07-04T08:50:01.105+02:00"/>
+            <activityRatio>46</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="pshaube" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.021" score="53003675" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="quwertzip0" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>CDA</alliance>
+            <score relScore="0.235" score="805556544" relScoreChangePerDay="0.0019952762" scoreChangePerDay="1.3716985E7" updated="2016-07-04T08:50:03.429+02:00"/>
+            <activityRatio>32</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Rabus" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>Plex</alliance>
+            <score relScore="0.122" score="433541064" relScoreChangePerDay="0.0" scoreChangePerDay="-138234.45" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>20</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="rachne" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.047" score="119953637" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>14</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="ralle" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.001" score="2343446" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="ranessa" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>CDA</alliance>
+            <score relScore="0.175" score="682924412" relScoreChangePerDay="-0.0019952762" scoreChangePerDay="7589841.5" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>29</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Rantanplan" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>Plex</alliance>
+            <score relScore="0.128" score="446141414" relScoreChangePerDay="-0.0019952466" scoreChangePerDay="-803244.75" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>23</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Rapha" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>DNA</alliance>
+            <score relScore="0.766" score="1809678613" relScoreChangePerDay="0.0039905035" scoreChangePerDay="2.9102044E7" updated="2016-07-04T08:50:01.102+02:00"/>
+            <activityRatio>68</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Raysu" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="432" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Rensiur" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="522" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>19</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Revengerider" updated="2016-07-04T16:35:59.834+02:00">
+            <alliance>DNA</alliance>
+            <score relScore="0.016" score="269565538" relScoreChangePerDay="0.0" scoreChangePerDay="4176759.2" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>100</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="robert45auf" updated="2016-07-04T08:50:04.943+02:00">
+            <alliance>DNA</alliance>
+            <score relScore="0.013" score="262594454" relScoreChangePerDay="0.0" scoreChangePerDay="4120213.8" updated="2016-07-04T08:50:04.943+02:00"/>
+            <activityRatio>100</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Rocket" updated="2016-07-04T16:35:59.834+02:00">
+            <score relScore="0.129" score="329978105" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>21</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Saboti" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.0" score="233588" relScoreChangePerDay="0.0" scoreChangePerDay="38317.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>42</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Salix" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.0" score="827592" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Sani" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>BIER</alliance>
+            <score relScore="0.243" score="628016431" relScoreChangePerDay="0.009976352" scoreChangePerDay="3.2234176E7" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>59</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Sarah Farron" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>1UP</alliance>
+            <score relScore="0.292" score="755663318" relScoreChangePerDay="-0.005985799" scoreChangePerDay="-5600064.5" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>30</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Sauron" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>HANSE</alliance>
+            <score relScore="0.544" score="1392264543" relScoreChangePerDay="-0.0019952517" scoreChangePerDay="1.0410612E7" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>55</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="schafspelz" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="1289" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>12</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Schaja" active="true" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>CDA</alliance>
+            <score relScore="0.105" score="537928025" relScoreChangePerDay="0.0" scoreChangePerDay="5158068.0" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>46</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="schlatt" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>SUN</alliance>
+            <score relScore="1.06" score="2720962743" relScoreChangePerDay="0.0" scoreChangePerDay="1.3968234E7" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>91</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Schnubbel" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="443" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>12</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="schorsch" updated="2016-07-04T08:50:04.943+02:00">
+            <score relScore="0.097" score="247910729" relScoreChangePerDay="0.001995265" scoreChangePerDay="2963561.0" updated="2016-07-04T08:50:04.943+02:00"/>
+            <activityRatio>16</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Scubb" updated="2016-07-04T08:50:07.145+02:00">
+            <score relScore="0.0" score="432" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.145+02:00"/>
+            <activityRatio>41</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="ScYo" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>HEAD</alliance>
+            <score relScore="0.398" score="1123900148" relScoreChangePerDay="0.03791026" scoreChangePerDay="9.0924912E7" updated="2016-07-04T08:50:01.105+02:00"/>
+            <activityRatio>45</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="sean" updated="2016-07-04T16:35:59.833+02:00">
+            <score relScore="0.371" score="951375219" relScoreChangePerDay="0.0" scoreChangePerDay="8814403.0" updated="2016-07-04T08:50:03.427+02:00"/>
+            <activityRatio>37</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="sekt" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.058" score="149100649" relScoreChangePerDay="0.0" scoreChangePerDay="4214267.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>15</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Serendipity" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>DNA</alliance>
+            <score relScore="0.554" score="1374278606" relScoreChangePerDay="-0.0039905035" scoreChangePerDay="6102676.0" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>53</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="seth" updated="2016-07-04T16:35:59.833+02:00">
+            <score relScore="0.233" score="598413517" relScoreChangePerDay="-0.0019952764" scoreChangePerDay="2324.4922" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>27</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="shadowpriest" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.016" score="41688437" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>12</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Shanty" active="true" updated="2016-07-04T08:50:04.944+02:00">
+            <alliance></alliance>
+            <score relScore="0.068" score="173411190" relScoreChangePerDay="0.0" scoreChangePerDay="102217.234" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>14</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="sharia812" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>CDA</alliance>
+            <score relScore="1.49" score="3147836009" relScoreChangePerDay="0.019952754" scoreChangePerDay="7.1777688E7" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>96</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Sharra" updated="2016-07-04T17:31:44.739+02:00">
+            <score relScore="0.405" score="1040410741" relScoreChangePerDay="0.003990563" scoreChangePerDay="2.2651174E7" updated="2016-07-04T08:50:01.105+02:00"/>
+            <activityRatio>43</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="sheidogis" updated="2016-07-04T16:35:59.833+02:00">
+            <score relScore="0.185" score="475853044" relScoreChangePerDay="-0.0019952762" scoreChangePerDay="2086569.8" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>23</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Sheo9114" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="463" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Shinji" active="true" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>m00n</alliance>
+            <score relScore="0.693" score="1779956094" relScoreChangePerDay="-0.007981126" scoreChangePerDay="1484085.4" updated="2016-07-04T08:50:01.102+02:00"/>
+            <activityRatio>68</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="ShrrgDBeor" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="1418" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>32</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="silentium" updated="2016-07-04T16:35:59.833+02:00">
+            <score relScore="0.267" score="685006537" relScoreChangePerDay="-0.001995306" scoreChangePerDay="2690526.8" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>28</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="SilverS" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.03" score="77834413" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>16</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Silversong" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="2294" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>28</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Simpel" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>BIER</alliance>
+            <score relScore="0.253" score="651999558" relScoreChangePerDay="0.011971627" scoreChangePerDay="3.5854692E7" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>32</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Sintiar" active="false" updated="2016-07-04T08:57:26.886+02:00">
+            <alliance></alliance>
+            <score relScore="0.0" score="443" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>17</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Sir Bud" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>HEAD</alliance>
+            <score relScore="0.148" score="609179270" relScoreChangePerDay="0.0" scoreChangePerDay="4875387.5" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>31</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Sirus_der_Virus" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.0" score="1169389" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>11</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="skeletton" updated="2016-07-04T16:35:59.834+02:00">
+            <score relScore="0.137" score="350718615" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>18</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Sojus" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>DNA</alliance>
+            <score relScore="1.03" score="2434052335" relScoreChangePerDay="-0.019952755" scoreChangePerDay="9863101.0" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>86</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="SonGoku70" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.057" score="145544175" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>14</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="space concept" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.011" score="29191360" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="spacecowboy" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>BASIS</alliance>
+            <score relScore="0.326" score="839915128" relScoreChangePerDay="0.0059857992" scoreChangePerDay="2.8005948E7" updated="2016-07-04T08:50:03.428+02:00"/>
+            <activityRatio>34</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Spacekiller" updated="2016-07-04T08:50:07.143+02:00">
+            <score relScore="0.0" score="136453" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.143+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Spawn" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>Plex</alliance>
+            <score relScore="0.703" score="1626614717" relScoreChangePerDay="-0.005985755" scoreChangePerDay="1695662.5" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>62</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Spectator Satani" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>1UP</alliance>
+            <score relScore="0.303" score="781825740" relScoreChangePerDay="-0.0019952464" scoreChangePerDay="221978.02" updated="2016-07-04T08:50:03.429+02:00"/>
+            <activityRatio>31</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Splitted_Spark" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="2825" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>44</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="ssss" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>HANSE</alliance>
+            <score relScore="0.502" score="1285878344" relScoreChangePerDay="-0.0019953707" scoreChangePerDay="7504532.0" updated="2016-07-04T08:50:01.104+02:00"/>
             <activityRatio>50</activityRatio>
             <status>Legal</status>
         </user>
-        <user id="yochlol" updated="2016-06-28T21:55:03.961+02:00">
-            <alliance>HEAD</alliance>
-            <score updated="2016-06-28T21:55:03.961+02:00">
-                <relScore>1.11</relScore>
-                <score>2263658669</score>
-            </score>
-            <activityRatio>88</activityRatio>
+        <user id="Standort" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="654" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>30</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Styl" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>m00n</alliance>
+            <score relScore="0.328" score="842654904" relScoreChangePerDay="-0.0019952464" scoreChangePerDay="5053603.5" updated="2016-07-04T08:50:03.428+02:00"/>
+            <activityRatio>33</activityRatio>
             <status>Legal</status>
+        </user>
+        <user id="Suvidu" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>Plex</alliance>
+            <score relScore="0.128" score="445369475" relScoreChangePerDay="0.003990553" scoreChangePerDay="7738941.0" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>31</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Swarm0815247" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>HEAD</alliance>
+            <score relScore="0.667" score="1676291902" relScoreChangePerDay="-0.005985874" scoreChangePerDay="6442637.0" updated="2016-07-04T08:50:01.103+02:00"/>
+            <activityRatio>64</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="SynCoCoop" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>BIER</alliance>
+            <score relScore="0.53" score="1355775772" relScoreChangePerDay="-0.0019953707" scoreChangePerDay="8117427.0" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>52</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="syndro" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>CDA</alliance>
+            <score relScore="0.5" score="1350365015" relScoreChangePerDay="0.0059858146" scoreChangePerDay="2.985605E7" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>52</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="teddy" active="true" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>GILDE</alliance>
+            <score relScore="0.219" score="570346206" relScoreChangePerDay="-0.005985829" scoreChangePerDay="-7429125.0" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>24</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Tekwa" active="true" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>CDA</alliance>
+            <score relScore="0.199" score="731191446" relScoreChangePerDay="0.0" scoreChangePerDay="7539207.5" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>29</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="terror" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>FIFA</alliance>
+            <score relScore="0.281" score="720280536" relScoreChangePerDay="-0.001995306" scoreChangePerDay="4839658.5" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>56</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="TheDome" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.0" score="784032" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>14</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Thib" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.028" score="71480593" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="thomsen" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>m00n</alliance>
+            <score relScore="0.319" score="817922929" relScoreChangePerDay="0.0" scoreChangePerDay="5195136.0" updated="2016-07-04T08:50:03.429+02:00"/>
+            <activityRatio>32</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Thromlor" updated="2016-07-04T08:50:07.143+02:00">
+            <score relScore="0.0" score="120825" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.143+02:00"/>
+            <activityRatio>14</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="tiger_015" updated="2016-07-04T08:50:04.945+02:00">
+            <score relScore="0.007" score="17235444" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>11</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Tnelis" active="true" updated="2016-07-04T08:50:04.944+02:00">
+            <alliance></alliance>
+            <score relScore="0.029" score="73359642" relScoreChangePerDay="0.0019952578" scoreChangePerDay="1720080.8" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>30</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Toadie" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>HEAD</alliance>
+            <score relScore="0.802" score="1952230163" relScoreChangePerDay="-0.033919755" scoreChangePerDay="-5.1270564E7" updated="2016-07-04T08:50:01.102+02:00"/>
+            <activityRatio>80</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="ToM84" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.018" score="46678236" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>15</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Tribun" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="5619" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>18</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Triple X" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>BASIS</alliance>
+            <score relScore="0.638" score="1632706309" relScoreChangePerDay="-0.007981125" scoreChangePerDay="-1117730.4" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>64</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="trunkenloro" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>Plex</alliance>
+            <score relScore="0.209" score="611711631" relScoreChangePerDay="-0.0019952464" scoreChangePerDay="-1698617.1" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>26</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Tuberkel" updated="2016-07-04T08:50:07.143+02:00">
+            <score relScore="0.0" score="25406" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.143+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Typhus" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>HANSE</alliance>
+            <score relScore="0.344" score="883188064" relScoreChangePerDay="0.0" scoreChangePerDay="7447870.5" updated="2016-07-04T08:50:03.427+02:00"/>
+            <activityRatio>35</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Tzunami" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>HEAD</alliance>
+            <score relScore="0.218" score="752360321" relScoreChangePerDay="0.0039905226" scoreChangePerDay="1.6157492E7" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>61</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="ulthima" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>HANSE</alliance>
+            <score relScore="0.381" score="979362184" relScoreChangePerDay="-0.0039905035" scoreChangePerDay="2723320.2" updated="2016-07-04T08:50:01.105+02:00"/>
+            <activityRatio>38</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Urak" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>HANSE</alliance>
+            <score relScore="0.162" score="422687627" relScoreChangePerDay="-0.0019952764" scoreChangePerDay="62344.277" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>67</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="ute123" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="432" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="uwe123280" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="432" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="vallek" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.071" score="183149307" relScoreChangePerDay="-0.0019952503" scoreChangePerDay="436828.53" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>14</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Vatailla" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.029" score="73777485" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>16</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="ven90" updated="2016-07-04T08:50:07.143+02:00">
+            <score relScore="0.0" score="113574" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.143+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Verleihnix" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>1UP</alliance>
+            <score relScore="0.551" score="1411737362" relScoreChangePerDay="0.015962252" scoreChangePerDay="5.1023664E7" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>54</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="vitra" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.089" score="229579667" relScoreChangePerDay="-0.001995265" scoreChangePerDay="6045.6406" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>15</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Vlad Dracul" updated="2016-07-04T08:50:04.945+02:00">
+            <alliance>FIFA</alliance>
+            <score relScore="0.0" score="13472469" relScoreChangePerDay="0.0" scoreChangePerDay="110435.72" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>82</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Waldemarsrache" updated="2016-07-04T16:35:59.834+02:00">
+            <alliance>DNA</alliance>
+            <score relScore="0.016" score="269926599" relScoreChangePerDay="0.0" scoreChangePerDay="4649579.0" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>17</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="webbi" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>CDA</alliance>
+            <score relScore="0.493" score="1334389981" relScoreChangePerDay="-0.003990563" scoreChangePerDay="6012752.5" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>54</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="WEST" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="2497" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="whiskey" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>HANSE</alliance>
+            <score relScore="0.218" score="564632070" relScoreChangePerDay="0.0" scoreChangePerDay="7936239.5" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>24</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Wink" updated="2016-07-04T08:50:04.943+02:00">
+            <alliance>BIER</alliance>
+            <score relScore="0.1" score="263523147" relScoreChangePerDay="-0.001995265" scoreChangePerDay="-4615910.5" updated="2016-07-04T08:50:04.943+02:00"/>
+            <activityRatio>42</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="WoF" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>CDA</alliance>
+            <score relScore="0.465" score="1277835512" relScoreChangePerDay="0.043896135" scoreChangePerDay="1.04493416E8" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>49</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="wutani" active="true" updated="2016-07-04T08:50:04.945+02:00">
+            <alliance></alliance>
+            <score relScore="0.0" score="755891" relScoreChangePerDay="0.0" scoreChangePerDay="68984.164" updated="2016-07-04T08:50:04.945+02:00"/>
+            <activityRatio>43</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="xBanZaix" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="3776" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>39</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="xLucky" updated="2016-07-04T08:50:04.944+02:00">
+            <alliance>ASGW</alliance>
+            <score relScore="0.042" score="148161640" relScoreChangePerDay="0.0" scoreChangePerDay="737432.6" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>33</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="xxandros" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="463" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>44</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="yana2112" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="628" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="Yanabit" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>m00n</alliance>
+            <score relScore="0.242" score="621855429" relScoreChangePerDay="0.0" scoreChangePerDay="5615925.0" updated="2016-07-04T08:50:03.430+02:00"/>
+            <activityRatio>26</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="yaso" updated="2016-07-04T08:50:04.943+02:00">
+            <score relScore="0.096" score="247692873" relScoreChangePerDay="-0.001995265" scoreChangePerDay="-223193.88" updated="2016-07-04T08:50:04.943+02:00"/>
+            <activityRatio>19</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Yellowjacket" updated="2016-07-04T17:31:44.739+02:00">
+            <alliance>BIER</alliance>
+            <score relScore="0.46" score="1178130127" relScoreChangePerDay="0.0" scoreChangePerDay="1.2411326E7" updated="2016-07-04T08:50:01.104+02:00"/>
+            <activityRatio>45</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="yochlol" updated="2016-07-04T17:31:44.738+02:00">
+            <alliance>HEAD</alliance>
+            <score relScore="1.12" score="2597155923" relScoreChangePerDay="0.019952755" scoreChangePerDay="3.3247526E7" updated="2016-07-04T08:50:01.101+02:00"/>
+            <activityRatio>89</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="yolo" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="432" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Geschützt</status>
+        </user>
+        <user id="yoshimi" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.052" score="134658311" relScoreChangePerDay="-0.0019952578" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Zedicus" updated="2016-07-04T16:35:59.833+02:00">
+            <score relScore="0.155" score="399130453" relScoreChangePerDay="-0.0019952764" scoreChangePerDay="3418679.5" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>22</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="ZeVoX" updated="2016-07-04T08:50:04.944+02:00">
+            <score relScore="0.04" score="102930937" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:04.944+02:00"/>
+            <activityRatio>13</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Zippy" updated="2016-07-04T17:31:44.738+02:00">
+            <score relScore="0.743" score="1907668005" relScoreChangePerDay="-0.009976497" scoreChangePerDay="-4599074.5" updated="2016-07-04T08:50:01.102+02:00"/>
+            <activityRatio>72</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="zuschau" updated="2016-07-04T16:35:59.833+02:00">
+            <alliance>CDA</alliance>
+            <score relScore="0.079" score="485740979" relScoreChangePerDay="0.0" scoreChangePerDay="6900734.5" updated="2016-07-04T08:50:03.431+02:00"/>
+            <activityRatio>49</activityRatio>
+            <status>Legal</status>
+        </user>
+        <user id="Zwo" updated="2016-07-04T08:50:07.144+02:00">
+            <score relScore="0.0" score="443" relScoreChangePerDay="0.0" scoreChangePerDay="0.0" updated="2016-07-04T08:50:07.144+02:00"/>
+            <activityRatio>14</activityRatio>
+            <status>Geschützt</status>
         </user>
     </users>
 </userMap>

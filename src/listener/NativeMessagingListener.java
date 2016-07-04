@@ -5,8 +5,10 @@ import java.io.DataInputStream;
 import java.io.EOFException;
 import java.nio.charset.StandardCharsets;
 
+import javax.swing.UIManager;
+
 import horiversumObjects.Universe;
-import listener.gui.LogScreen;
+import listener.gui.MainFrame;
 import listener.htmlListeners.BeschaffungsreportListener;
 import listener.htmlListeners.GalaxyListener;
 import listener.htmlListeners.HighscoreListener;
@@ -21,9 +23,11 @@ public class NativeMessagingListener {
 	
 	public static void main(String[] args){
 		try {
-			GlobalObjects.logger = new LogScreen();
+			GlobalObjects.logger = new MainFrame();
 			
 			DataInputStream dataInputStream = new DataInputStream(new BufferedInputStream(System.in));
+			
+			 UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
 			
 			// Start log GUI
 			GlobalObjects.logger.addLog("Start des Loggers");
