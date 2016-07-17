@@ -16,7 +16,7 @@ public class SystemMapListener extends HtmlListener {
 			String title = titleElements.first().text();
 			// FILTER
 			if (title.equalsIgnoreCase("Horizon - Galaxie")){				
-				Elements tmp = htmlSource.select(".GalaxySystemLink, .GalaxySystemLinkColonized");
+				Elements tmp = htmlSource.select(".GalaxySystemLink, .GalaxySystemLinkColonized, .GalaxySystemLinkUnexplored");
 				if(!tmp.isEmpty()){
 					GlobalObjects.logger.addLog("Identified Galaxy View");
 				}

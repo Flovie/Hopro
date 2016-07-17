@@ -140,6 +140,7 @@ public class GalaxyListener extends HtmlListener {
 									}
 									GlobalObjects.logger.addSubLog("Found planet " + p, 1);
 								}else{
+									Universe.getPlanetMap().removePlanet(p.uniqueId);
 									GlobalObjects.logger.addSubLog("Ignored Tunier at " + c, 1);
 								}								
 							}else{
