@@ -12,10 +12,8 @@ import xml.loader.XmlSettingsLoader;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Settings {
 	
-	@XmlElement(name="planetsFile")
-	private String planetsXmlFile = "./planets.xml";
-	@XmlElement(name="usersFile")
-	private String usersXmlFile = "./users.xml";
+	@XmlElement(name="hoproDataFile")
+	private String hoproDataFile = "./hoproData.xml";
 	@XmlElement
 	private int saveIntervall = 300; // seconds
 	@XmlElement
@@ -29,20 +27,12 @@ public class Settings {
 	@XmlTransient
 	public static boolean loaded = false;
 	
-	public static String getPlanetsFile(){		
+	public static String getHoproDataFile(){		
 		if(!Settings.loaded){
 			Settings.loadSettings();
 			Settings.waitForLoading();
 		};
-		return Settings.settings.planetsXmlFile;
-	}
-	
-	public static String getUsersFile(){
-		if(!Settings.loaded){
-			Settings.loadSettings();
-			Settings.waitForLoading();
-		};
-		return Settings.settings.usersXmlFile;
+		return Settings.settings.hoproDataFile;
 	}
 	
 	public static int getSaveIntervall(){

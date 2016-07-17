@@ -11,8 +11,8 @@ import listener.htmlListeners.GalaxyListener;
 
 public class GalaxyListenerTester {
 	
-	public static void main(String[] args) throws IOException{
-		Universe.loadAll();
+	public static void main(String[] args) throws IOException, InterruptedException{
+		Universe.load();
 		BufferedReader br = new BufferedReader(new FileReader(new File("./input/galaxy.html")));
 		String line = br.readLine();
 		StringBuffer sb = new StringBuffer();		
@@ -23,8 +23,9 @@ public class GalaxyListenerTester {
 		br.close();
 		HtmlReader htmlReader = new HtmlReader(sb.toString());
     	htmlReader.addListener(new GalaxyListener());
-    	htmlReader.run();  
-    	Universe.saveAll();
+    	htmlReader.run();
+    	Thread.sleep(1000);
+    	Universe.save();
 	}
 
 }

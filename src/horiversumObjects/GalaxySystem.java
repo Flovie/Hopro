@@ -72,7 +72,12 @@ public class GalaxySystem implements Comparable<GalaxySystem>{
 	}
 
 	public float getPositionX() {
-		return positionX;
+		if(positionX==null){
+			return Integer.MIN_VALUE;
+		}else{
+			return positionX;
+		}
+		
 	}
 
 	public void setPositionX(float positionX) {
@@ -80,7 +85,11 @@ public class GalaxySystem implements Comparable<GalaxySystem>{
 	}
 
 	public float getPositionY() {
-		return positionY;
+		if(positionY==null){
+			return Integer.MIN_VALUE;
+		}else{
+			return positionY;
+		}
 	}
 
 	public void setPositionY(float positionY) {
@@ -118,13 +127,13 @@ public class GalaxySystem implements Comparable<GalaxySystem>{
 	
 	public static GalaxySystem getInstance(int galaxy, int system){
 		GalaxySystem s;
-		if (Universe.getPlanetMap().systemExists(galaxy, system)){
-			s = Universe.getPlanetMap().getSystem(galaxy, system);
+		if (Universe.getHoproDataSet().systemExists(galaxy, system)){
+			s = Universe.getHoproDataSet().getSystem(galaxy, system);
 		}else{
 			s = new GalaxySystem();
 			s.galaxy = galaxy;
 			s.system = system;
-			Universe.getPlanetMap().addSystem(s);
+			Universe.getHoproDataSet().addSystem(s);
 		}
 		return s;
 	}

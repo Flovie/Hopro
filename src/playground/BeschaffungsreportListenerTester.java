@@ -12,7 +12,7 @@ import listener.htmlListeners.BeschaffungsreportListener;
 public class BeschaffungsreportListenerTester {
 	
 	public static void main(String[] args) throws IOException{
-		Universe.loadAll();
+		Universe.load();
 		BufferedReader br = new BufferedReader(new FileReader(new File("./input/beschaffungsreport.html")));
 		String line = br.readLine();
 		StringBuffer sb = new StringBuffer();		
@@ -24,7 +24,7 @@ public class BeschaffungsreportListenerTester {
 		HtmlReader htmlReader = new HtmlReader(sb.toString());
     	htmlReader.addListener(new BeschaffungsreportListener());
     	htmlReader.run();  
-    	Universe.saveAll();
+    	Universe.save();
 	}
 
 }

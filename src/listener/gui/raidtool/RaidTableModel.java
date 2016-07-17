@@ -49,7 +49,7 @@ public class RaidTableModel extends AbstractTableModel{
 	
 	public void update(){
 		this.data.clear();
-		List<Planet> planets = Universe.getPlanetMap().getHabitedPlanets();		
+		List<Planet> planets = Universe.getHoproDataSet().getHabitedPlanets();		
 		for(Planet p:planets){
 			this.data.add(new RaidToolRow(p,startPoint));
 		}

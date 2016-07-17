@@ -62,7 +62,7 @@ public class LogScreen extends JPanel implements ActionListener{
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
 		if (arg0.getSource()==this.saveButton){
-			Universe.saveAll();			
+			Universe.save();			
 		}
 	}
 

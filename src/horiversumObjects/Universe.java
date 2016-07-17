@@ -1,83 +1,59 @@
 package horiversumObjects;
 
 import misc.Settings;
-import xml.loader.XmlPlanetMapLoader;
-import xml.loader.XmlUserMapLoader;
-import xml.saver.XmlPlanetMapSaver;
-import xml.saver.XmlUserMapSaver;
+import xml.loader.XmlHoproDataLoader;
+import xml.saver.XmlHoproDataSaver;
 
 public class Universe {
 	
-	private static UserMap umap = new UserMap();
-	private static PlanetMap pmap = new PlanetMap();
+	private static HoproData hoproDataSet = null;
 	
-	private static boolean userMapFileLocked = false;
-	private static boolean planetMapFileLocked = false;
+	private static boolean hoproFileIsAccessed = false;	
 	
-	public static PlanetMap getPlanetMap(){
-		return Universe.pmap;
+	public static HoproData getHoproDataSet(){
+		while (hoproDataSet==null){
+			try {
+				Thread.sleep(100);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+		return Universe.hoproDataSet;
 	}
 	
-	public static UserMap getUserMap(){
-		return Universe.umap;
-	}
 	
-	public static void savePlanetMap(String filename){
-		Universe.pmap.updateLastSaved();
-		Thread planetSaverThread = new Thread(new XmlPlanetMapSaver(filename, Universe.pmap),filename);		
+	public static void saveHoproDataSet(String filename){
+		Universe.hoproDataSet.updateLastSaved();
+		Thread planetSaverThread = new Thread(new XmlHoproDataSaver(filename, Universe.hoproDataSet),filename);		
 		planetSaverThread.start();
 	}
 	
-	public static void saveUserMap(String filename){	
-		Universe.umap.updateLastSaved();
-		Thread userSaverThread = new Thread(new XmlUserMapSaver(filename, Universe.umap),filename);
-		userSaverThread.start();		
-	}
 	
-	public static void loadPlanetMap(String filename){
-		Thread planetLoaderThread = new Thread(new XmlPlanetMapLoader(filename),filename);
+	public static void loadHoproDataSet(String filename){
+		Thread planetLoaderThread = new Thread(new XmlHoproDataLoader(filename),filename);
 		planetLoaderThread.start();
 	}
 	
-	public static void loadUserMap(String filename){
-		Thread userLoaderThread = new Thread(new XmlUserMapLoader(filename),filename);
-		userLoaderThread.start();
-	}	
-	
-	public static void saveAll(){
-		Universe.savePlanetMap(Settings.getPlanetsFile());
-		Universe.saveUserMap(Settings.getUsersFile());
+	public static void save(){
+		Universe.saveHoproDataSet(Settings.getHoproDataFile());
 	}
 	
-	public static void loadAll(){
-		Universe.loadPlanetMap(Settings.getPlanetsFile());
-		Universe.loadUserMap(Settings.getUsersFile());
+	public static void load(){
+		Universe.loadHoproDataSet(Settings.getHoproDataFile());
 	}
 
-	public static void planetMapCallback(PlanetMap pmap2) {
-		// This overwrite the earlier pmap. This may potentially lead to inconsistencies!
-		Universe.pmap = pmap2;		
+	public static void hoproDataLoadingCallback(HoproData pmap2) {
+		// This overwrite the earlier hoproDataSet. This may potentially lead to inconsistencies!
+		Universe.hoproDataSet = pmap2;		
 	}
 	
-	public static void userMapCallback(UserMap umap2) {
-		// This overwrite the earlier umap. This may potentially lead to inconsistencies!
-		Universe.umap = umap2;		
+	
+	public static void setHoproDataFileLocked(boolean hoproFileIsAccessed){
+		Universe.hoproFileIsAccessed = hoproFileIsAccessed;
 	}
 	
-	public static void setUserMapFileLocked(boolean userMapFileIsAccessed){
-		Universe.userMapFileLocked = userMapFileIsAccessed;
-	}
-	
-	public static void setPlanetMapFileLocked(boolean planetMapFileIsAccessed){
-		Universe.planetMapFileLocked = planetMapFileIsAccessed;
-	}
-	
-	public static boolean isUserMapFileLocked(){
-		return Universe.userMapFileLocked;
-	}
-	
-	public static boolean isPlanetMapFileLocked(){
-		return Universe.planetMapFileLocked;
+	public static boolean isHoproDataFileLocked(){
+		return Universe.hoproFileIsAccessed;
 	}
 	
 

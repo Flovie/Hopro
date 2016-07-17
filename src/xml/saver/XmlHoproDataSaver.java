@@ -6,16 +6,16 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 
-import horiversumObjects.PlanetMap;
+import horiversumObjects.HoproData;
 import horiversumObjects.Universe;
 import misc.GlobalObjects;
 
-public class XmlPlanetMapSaver implements Runnable{	
+public class XmlHoproDataSaver implements Runnable{	
 	
 	private String filename;
-	private PlanetMap pmap;
+	private HoproData pmap;
 	
-	public XmlPlanetMapSaver(String filename, PlanetMap pmap){
+	public XmlHoproDataSaver(String filename, HoproData pmap){
 		this.filename = filename;
 		this.pmap = pmap;
 	}
@@ -23,19 +23,19 @@ public class XmlPlanetMapSaver implements Runnable{
 	@Override
 	public void run() {		
 		try {
-			while(Universe.isPlanetMapFileLocked()){
+			while(Universe.isHoproDataFileLocked()){
 				// wait
 				Thread.sleep(500);
 			}
-			Universe.setPlanetMapFileLocked(true);
-			JAXBContext jc = JAXBContext.newInstance(PlanetMap.class);
+			Universe.setHoproDataFileLocked(true);
+			JAXBContext jc = JAXBContext.newInstance(HoproData.class);
 			Marshaller marshaller = jc.createMarshaller();
 			marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);			
 			marshaller.marshal(this.pmap, new File(filename));
-			GlobalObjects.logger.addLog("Planets successfully saved to " + filename);
-			Universe.setPlanetMapFileLocked(false);
+			GlobalObjects.logger.addLog("Data successfully saved to " + filename);
+			Universe.setHoproDataFileLocked(false);
 		} catch (JAXBException | InterruptedException e) {
-			Universe.setPlanetMapFileLocked(false);
+			Universe.setHoproDataFileLocked(false);
 			GlobalObjects.errorLogger.logError(e);		
 		}				
 	}

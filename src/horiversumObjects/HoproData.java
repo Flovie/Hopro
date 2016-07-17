@@ -13,21 +13,54 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 import xml.adapters.PlanetMapAdapter;
 import xml.adapters.SystemMapAdapter;
+import xml.adapters.UserMapAdapter;
 
-@XmlRootElement(name="planetMap")
-public class PlanetMap {
+@XmlRootElement(name="hoproData")
+public class HoproData {
 	
 	@XmlAttribute(name="created", required=false)
 	Calendar lastSaved;
+	
+	@XmlElement(name="users")
+	@XmlJavaTypeAdapter(UserMapAdapter.class)	
+	private Map<String,User> us = new HashMap<String,User>();
 	
 	@XmlElement(name="planets")
 	@XmlJavaTypeAdapter(PlanetMapAdapter.class)
 	private Map<String,Planet> ps = new HashMap<String,Planet>();	
 	
-	@XmlElement(name="galaxies")
+	@XmlElement(name="systems")
 	@XmlJavaTypeAdapter(SystemMapAdapter.class)
 	private Map<String,GalaxySystem> galaxies = new HashMap<String,GalaxySystem>();
+		
 	
+	public void updateLastSaved(){
+		this.lastSaved = Calendar.getInstance();
+	}
+	
+	public String toString(){
+		return this.ps.values().toString();
+	}
+	
+	// ################# SYSTEM FUNCTIONS ####################
+	
+	public boolean systemExists(int galaxy, int system){
+		return galaxies.containsKey(galaxy + ":" + system);
+	}
+	
+	public GalaxySystem getSystem(int galaxy, int system){
+		if (systemExists(galaxy, system)){
+			return this.galaxies.get(galaxy + ":" + system);
+		}else{
+			return null;
+		}
+	}
+	
+	public void addSystem(GalaxySystem s){
+		this.galaxies.put(s.getGalaxy() + ":" + s.getSystem(), s);
+	}	
+	
+	// ################# PLANET FUNCTIONS ####################	
 	public void addPlanet(Planet p){
 		ps.put(p.uniqueId, p);
 		if (!(galaxies.containsKey(p.getPosition().getGalaxy() + ":" + p.getPosition().getSystem()))){
@@ -61,30 +94,6 @@ public class PlanetMap {
 		this.ps.remove(id);
 	}
 	
-	public void updateLastSaved(){
-		this.lastSaved = Calendar.getInstance();
-	}
-	
-	public String toString(){
-		return this.ps.values().toString();
-	}
-	
-	public boolean systemExists(int galaxy, int system){
-		return galaxies.containsKey(galaxy + ":" + system);
-	}
-	
-	public GalaxySystem getSystem(int galaxy, int system){
-		if (systemExists(galaxy, system)){
-			return this.galaxies.get(galaxy + ":" + system);
-		}else{
-			return null;
-		}
-	}
-	
-	public void addSystem(GalaxySystem s){
-		this.galaxies.put(s.getGalaxy() + ":" + s.getSystem(), s);
-	}	
-	
 	public List<Planet> getAllPlanetsOfUser(User u){
 		List<Planet> results = new ArrayList<Planet>();
 		for(Planet p: this.getHabitedPlanets()){
@@ -109,6 +118,63 @@ public class PlanetMap {
 			}
 		}
 		return planetList;
+	}
+	
+	// ################# USER FUNCTIONS ####################
+	public void addUser(User u){
+		this.us.put(u.getName(), u);
+	}
+	
+	public boolean userExists(String id){
+		String wildcard = "*";
+		if (id.contains(wildcard)){
+			id = id.substring(0, id.indexOf("*"));
+			boolean found = false;
+			for (String key: this.us.keySet()){
+				if(key.contains(id)){
+					found = true;
+				}
+			}
+			if(found){
+				return true;
+			}else{
+				return false;
+			}
+		}else{
+			return this.us.containsKey(id);
+		}		
+	}
+	
+	public User getUser(String id){
+		id = id.replace("...", "*");
+		if (userExists(id)){
+			if(id.contains("*")){
+				id = id.substring(0, id.indexOf("*"));
+				boolean foundCorrectName = false;
+				String oldId = id + "*";
+				for(String key: us.keySet()){
+					if((key.contains(id)) && !(key.contains("*"))){
+						id = key;
+						foundCorrectName=true;
+						break;
+					}
+				}
+				if (foundCorrectName){
+					this.removeUser(oldId);
+				}else{
+					id = oldId;
+				}
+			}						
+			return this.us.get(id);
+		}else{
+			return User.getInstance(id);
+		}		
+	}
+	
+	public void removeUser(String id){
+		if (us.containsKey(id)){
+			this.us.remove(id);	
+		}		
 	}
 
 }

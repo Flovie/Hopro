@@ -33,7 +33,7 @@ public class NativeMessagingListener {
 			GlobalObjects.logger.addLog("Start des Loggers");
 			
 			// Load
-			Universe.loadAll();			
+			Universe.load();			
 			
 			long lastSaved = System.currentTimeMillis();
 		    
@@ -75,13 +75,13 @@ public class NativeMessagingListener {
 		        
 		        // Saving every $saveIntervall$ seconds		        
 		        if ((System.currentTimeMillis()-lastSaved)/1000 >=  Settings.getSaveIntervall()){
-		        	Universe.saveAll();
+		        	Universe.save();
 		        	lastSaved = System.currentTimeMillis();		        	
 		        }
 
 		    }
 		    // Save the planet map a last time before ending
-		    Universe.saveAll();
+		    Universe.save();
 		} catch (Exception e) {
 			GlobalObjects.errorLogger.logError(e);    
 		}

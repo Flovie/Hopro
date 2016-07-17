@@ -13,9 +13,9 @@ public class Test {
 
 	public static void main(String[] args) throws JAXBException, FileNotFoundException, InterruptedException {		
 		GlobalObjects.logger = new MainFrame();
-		Universe.loadAll();
+		Universe.load();
 //		Thread.sleep(2000);
-		System.out.println(Universe.getPlanetMap().getAllPlanetsOfUser(User.getInstance("Flovie")));
+		System.out.println(Universe.getHoproDataSet().getAllPlanetsOfUser(User.getInstance("Flovie")));
 //		Universe.saveAll();	
 	}
 

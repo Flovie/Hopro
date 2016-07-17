@@ -27,7 +27,7 @@ public class Planet implements Comparable<Planet> {
 	private Ressources orbitRessources = null;
 	
 	// Ownership
-	private User owner = null;
+	private String owner = null;
 	
 	// stolen ressources
 	private Map<Calendar,Ressources> stolenRessources = null;
@@ -50,7 +50,7 @@ public class Planet implements Comparable<Planet> {
 		p.name = xml.name;
 		p.type = xml.type;
 		if(xml.owner != null){
-			p.owner = User.getInstance(xml.owner);
+			p.owner = xml.owner;
 		}		
 		p.updated = xml.updated;
 		p.orbitRessources = xml.orbitalRessources;
@@ -77,7 +77,7 @@ public class Planet implements Comparable<Planet> {
 	
 	public void setOwner(User owner){
 		this.removeOwner();
-		this.owner = owner;
+		this.owner = owner.getName();
 		this.update();
 	}
 	
@@ -160,7 +160,12 @@ public class Planet implements Comparable<Planet> {
 	// GETTERS
 	
 	public User getOwner(){
-		return this.owner;
+		if (this.owner!=null){
+			return User.getInstance(this.owner);
+		}else{
+			return null;
+		}
+		
 	}
 	
 	public String getName(){
@@ -200,11 +205,11 @@ public class Planet implements Comparable<Planet> {
 	}
 	
 	public static Planet getInstance(String id) {
-		if (Universe.getPlanetMap().planetExists(id)){
-			return Universe.getPlanetMap().getPlanet(id);
+		if (Universe.getHoproDataSet().planetExists(id)){
+			return Universe.getHoproDataSet().getPlanet(id);
 		}else{
 			Planet p = new Planet(id);
-			Universe.getPlanetMap().addPlanet(p);
+			Universe.getHoproDataSet().addPlanet(p);
 			return p;
 		}
 		

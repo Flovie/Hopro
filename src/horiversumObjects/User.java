@@ -119,12 +119,12 @@ public class User implements Comparable<User>{
 
 	public static User getInstance(String id) {
 		id = id.replace("...", "*");		
-		if (Universe.getUserMap().userExists(id)){
-			Universe.getUserMap().getUser(id);
-			return Universe.getUserMap().getUser(id);
+		if (Universe.getHoproDataSet().userExists(id)){
+			Universe.getHoproDataSet().getUser(id);
+			return Universe.getHoproDataSet().getUser(id);
 		}else{
 			User u = new User(id);
-			Universe.getUserMap().addUser(u);
+			Universe.getHoproDataSet().addUser(u);
 			return u;
 		}		
 	}

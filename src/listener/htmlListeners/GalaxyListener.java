@@ -140,12 +140,12 @@ public class GalaxyListener extends HtmlListener {
 									}
 									GlobalObjects.logger.addSubLog("Found planet " + p, 1);
 								}else{
-									Universe.getPlanetMap().removePlanet(p.uniqueId);
+									Universe.getHoproDataSet().removePlanet(p.uniqueId);
 									GlobalObjects.logger.addSubLog("Ignored Tunier at " + c, 1);
 								}								
 							}else{
-								if (Universe.getPlanetMap().planetExists(c.toString())){
-									Universe.getPlanetMap().removePlanet(c.toString());
+								if (Universe.getHoproDataSet().planetExists(c.toString())){
+									Universe.getHoproDataSet().removePlanet(c.toString());
 									GlobalObjects.logger.addSubLog("Removed Planet at " + c.toString(), 1);
 								}
 							}
