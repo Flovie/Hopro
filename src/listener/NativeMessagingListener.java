@@ -12,6 +12,7 @@ import listener.gui.MainFrame;
 import listener.htmlListeners.BeschaffungsreportListener;
 import listener.htmlListeners.GalaxyListener;
 import listener.htmlListeners.HighscoreListener;
+import listener.htmlListeners.StatusListener;
 import listener.htmlListeners.SystemMapListener;
 import misc.GlobalObjects;
 import misc.Settings;
@@ -65,6 +66,7 @@ public class NativeMessagingListener {
 		        	}
 //		        	System.err.println(in);
 		        	HtmlReader htmlReader = new HtmlReader(in);
+		        	htmlReader.addListener(new StatusListener());
 		        	htmlReader.addListener(new GalaxyListener());
 		        	htmlReader.addListener(new SystemMapListener());
 		        	htmlReader.addListener(new BeschaffungsreportListener());

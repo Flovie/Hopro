@@ -17,7 +17,7 @@ public class RaidTableModel extends AbstractTableModel{
 	private static final long serialVersionUID = 1L;
 	
 	
-	private String[] columnNames = {"","Name","Entfernung","Typ","Spieler","Allianz","Aktiv","Status","rel. Score","d(relScore)/dt [1/d]"};
+	private String[] columnNames = {"","Name","Entfernung","Typ","Spieler","Allianz","Aktiv","Status","rel. Score","d(relScore)/dt [1/d]","d(totScore)/dt [1/d]"};
 	
 	private List<RaidToolRow> data = new ArrayList<RaidToolRow>();	
 	
@@ -89,6 +89,8 @@ public class RaidTableModel extends AbstractTableModel{
 			return r.relScore;
 		case 9:
 			return r.relScoreChange;
+		case 10:
+			return r.scoreChange;
 		default:
 			return null;			
 		}

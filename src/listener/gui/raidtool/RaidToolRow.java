@@ -14,6 +14,7 @@ public class RaidToolRow {
 	public String alliance="";
 	public float relScore = 0;
 	public float relScoreChange = 0;
+	public float scoreChange = 0;
 	public String activityStatus = "";
 	public String status ="";
 	
@@ -42,6 +43,9 @@ public class RaidToolRow {
 			}			
 			if(this.owner.getScore().getRelScoreChangePerDay() != null){
 				this.relScoreChange = this.owner.getScore().getRelScoreChangePerDay();
+			}
+			if(this.owner.getScore().getScoreChange()!=null){
+				this.scoreChange = this.owner.getScore().getScoreChange();
 			}
 		}				
 	}

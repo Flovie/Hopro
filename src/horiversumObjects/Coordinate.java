@@ -48,6 +48,14 @@ public class Coordinate implements Comparable<Coordinate>{
 		}		
 	}
 	
+	public boolean equals(Coordinate c){
+		if(c.getGalaxy() == this.galaxy && c.getOrbit() == this.getOrbit() && c.getSystem() == this.getSystem()){
+			return true;
+		}else{
+			return false;
+		}
+	}
+	
 	public double calculateDistance(Coordinate c){
 		double distance;
 		if(Universe.getHoproDataSet().systemExists(this.galaxy, this.system) && Universe.getHoproDataSet().systemExists(c.galaxy, c.system)){

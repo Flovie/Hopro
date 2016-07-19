@@ -13,6 +13,7 @@ import javax.swing.SortOrder;
 import javax.swing.table.TableRowSorter;
 
 import horiversumObjects.Coordinate;
+import misc.GlobalObjects;
 
 public class RaidTool extends JFrame{
 	
@@ -34,7 +35,7 @@ public class RaidTool extends JFrame{
 	
 	private void addTable(){		
 		this.tableData = new RaidTableModel();
-		this.tableData.setOriginCoordinate(new Coordinate("1:805:6"));
+		this.tableData.setOriginCoordinate(GlobalObjects.currentPosition);
 		this.raidToolTable = new JTable(this.tableData);
 		this.raidToolTable.setFillsViewportHeight(true);
 		TableRowSorter<RaidTableModel> sorter = new TableRowSorter<RaidTableModel>(this.tableData);
