@@ -12,7 +12,6 @@ import javax.swing.RowSorter;
 import javax.swing.SortOrder;
 import javax.swing.table.TableRowSorter;
 
-import horiversumObjects.Coordinate;
 import misc.GlobalObjects;
 
 public class RaidTool extends JFrame{

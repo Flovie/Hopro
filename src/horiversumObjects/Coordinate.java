@@ -56,8 +56,8 @@ public class Coordinate implements Comparable<Coordinate>{
 		}
 	}
 	
-	public double calculateDistance(Coordinate c){
-		double distance;
+	public Double calculateDistance(Coordinate c){
+		Double distance;
 		if(Universe.getHoproDataSet().systemExists(this.galaxy, this.system) && Universe.getHoproDataSet().systemExists(c.galaxy, c.system)){
 			GalaxySystem system1 = Universe.getHoproDataSet().getSystem(this.galaxy, this.system);
 			GalaxySystem system2 = Universe.getHoproDataSet().getSystem(c.galaxy, c.system);

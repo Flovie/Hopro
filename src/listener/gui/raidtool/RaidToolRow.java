@@ -9,7 +9,7 @@ public class RaidToolRow {
 	public String coordinate;
 	public String planetName;
 	public String typ;
-	public double distance;
+	public Double distance;
 	public User owner;
 	public String alliance="";
 	public float relScore = 0;

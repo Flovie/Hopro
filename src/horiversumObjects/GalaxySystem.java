@@ -153,7 +153,7 @@ public class GalaxySystem implements Comparable<GalaxySystem>{
 			distance = Math.sqrt(Math.pow((this.getPositionX() - s.getPositionX()), 2) + Math.pow((this.getPositionY() - s.getPositionY()), 2));						
 		}else{
 			// not yet implemented
-			distance = Integer.MAX_VALUE;
+			distance = Double.MAX_VALUE;
 		}
 		return distance;
 	}

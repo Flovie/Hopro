@@ -74,7 +74,7 @@ public class RaidTableModel extends AbstractTableModel{
 		case 1:
 			return r.planetName;
 		case 2:
-			return Math.round(r.distance*100)/100.0;
+			return Math.round(r.distance*100)/100.0;		
 		case 3:
 			return r.typ;			
 		case 4:
